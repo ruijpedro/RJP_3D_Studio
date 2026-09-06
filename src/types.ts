@@ -1,0 +1,8 @@
+export type V=string|number|boolean|null
+export interface StudioMaterial{id:string;name:string;family:string;properties?:Record<string,V>;texture?:string}
+export interface StudioElement{id:string;name:string;type:string;category:string;level?:string;position:{x:number;y:number;z:number};rotation:{x:number;y:number;z:number};size:{x:number;y:number;z:number};material:StudioMaterial;source:string;properties:Record<string,V>;results?:Record<string,V>}
+export interface StudioProject{id:string;name:string;location:string;solution:'traditional'|'lsf'|'timber';elements:StudioElement[];createdAt:string;updatedAt:string}
+export interface RJPStudioStructurePackage{schema:'RJP-STUDIO-STRUCTURE/1.0';source:{app:string;version:string;exportedAt:string};project:Record<string,V>;nodes:Array<{id:number;x:number;y:number;z?:number}>;members:Array<{id:string;kind:string;a?:number;b?:number;geometry:Record<string,V>;material?:StudioMaterial;results?:Record<string,V>;reinforcement?:string|null}>;foundations:Array<{id:string;node:number;kind:string;geometry:Record<string,V>;actions:Record<string,V>;results:Record<string,V>;reinforcement?:string|null}>;steelSchedule:any[];notes:string[]}
+export interface WorkItem{id:string;code:string;chapter:string;description:string;unit:string;qty:number;unitPrice:number;duration:number;start:number;source:string}
+export interface Measurement{id:string;workId:string;autoNo:number;previous:number;current:number;date:string;note:string}
+export interface SourceDrawing{id:string;name:string;kind:'pdf'|'dwg'|'dwf'|'dwfx'|'image'|'other';size:number;info:string;url?:string}

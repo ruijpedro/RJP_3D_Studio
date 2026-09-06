@@ -1,0 +1,17 @@
+{
+  "schema":"RJP-STUDIO-STRUCTURE/1.0",
+  "source":{"app":"SmartStruct RJP","version":"116.1.2","exportedAt":"2026-09-05T12:00:00.000Z"},
+  "project":{"name":"Exemplo SmartStruct → RJP_3D Studio","location":"Portugal","fck":30,"fyk":500},
+  "nodes":[{"id":1,"x":0,"y":0},{"id":2,"x":5,"y":0},{"id":3,"x":0,"y":3},{"id":4,"x":5,"y":3}],
+  "members":[
+    {"id":"E1","kind":"column","a":1,"b":3,"geometry":{"length":3},"material":{"id":"C30","name":"Betão C30/37","family":"Betão","properties":{"fck_MPa":30}},"results":{"N_kN":280,"M_kNm":18},"reinforcement":"4Ø16"},
+    {"id":"E2","kind":"column","a":2,"b":4,"geometry":{"length":3},"material":{"id":"C30","name":"Betão C30/37","family":"Betão","properties":{"fck_MPa":30}},"results":{"N_kN":260,"M_kNm":15},"reinforcement":"4Ø16"},
+    {"id":"E3","kind":"beam","a":3,"b":4,"geometry":{"length":5},"material":{"id":"C30","name":"Betão C30/37","family":"Betão","properties":{"fck_MPa":30}},"results":{"M_kNm":72,"V_kN":55},"reinforcement":"4Ø16 + 2Ø12"}
+  ],
+  "foundations":[
+    {"id":"F1","node":1,"kind":"isolated_footing","geometry":{"B_m":1.8,"L_m":1.8,"h_m":0.5},"actions":{"N_kN":280},"results":{"qmax_kPa":110,"utilizacao":0.44,"ok":true},"reinforcement":"Ø12//150"},
+    {"id":"F2","node":2,"kind":"isolated_footing","geometry":{"B_m":1.8,"L_m":1.8,"h_m":0.5},"actions":{"N_kN":260},"results":{"qmax_kPa":103,"utilizacao":0.41,"ok":true},"reinforcement":"Ø12//150"}
+  ],
+  "steelSchedule":[],
+  "notes":["Ficheiro de demonstração para testar o importador do RJP_3D Studio."]
+}
