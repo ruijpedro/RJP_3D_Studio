@@ -67,3 +67,6 @@ export function smartModelFromCad(d:SourceDrawing,scale=1,height=2.8,defaultThic
  for(const e of extras){if(e.type==='window'){let host:StudioElement|undefined,dist=Infinity;for(const w of out){const dx=e.position.x-w.position.x,dy=e.position.y-w.position.y,dd=Math.hypot(dx,dy);if(dd<dist){dist=dd;host=w}}if(host&&dist<Math.max(1.5,host.size.x*.55))e.properties={...e.properties,hostWallId:host.id,hostDistance:+dist.toFixed(3)}}out.push(e)}
  return out
 }
+
+export function inferLayerRole(name:string):CadLayerRole{const n=name.toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g,'');if(/porta|door|janela|window|vao|opening|caixilho/.test(n))return 'Vão';if(/pilar|column|coluna/.test(n))return 'Pilar';if(/parede|wall|alven|muro|partition|fachada/.test(n))return 'Parede';if(/eixo|axis|grid/.test(n))return 'Eixo';if(/cota|dim|texto|text|hatch|trama|mobil|furniture|sanit|equip/.test(n))return 'Ignorar';return 'Referência'}
+export function autoClassifyCadLayers(d:SourceDrawing):SourceDrawing{return{...d,layers:(d.layers||[]).map(l=>{const role=inferLayerRole(l.name);return{...l,role,visible:role!=='Ignorar'}})}}
