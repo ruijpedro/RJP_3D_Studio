@@ -16,7 +16,10 @@ function entitySegments(o:any,out:CadSegment[]){
 function walk(o:any,out:CadSegment[],seen:Set<any>,depth=0){if(!o||typeof o!=='object'||seen.has(o)||depth>12)return;seen.add(o);if(entitySegments(o,out))return;if(Array.isArray(o)){for(const x of o)walk(x,out,seen,depth+1);return}for(const [k,v] of Object.entries(o)){if(['parent','owner','database'].includes(k))continue;walk(v,out,seen,depth+1)}}
 export async function parseDwgBrowser(file:File):Promise<{segments:CadSegment[];version?:string;warning?:string}>{
  const {LibreDwg,Dwg_File_Type}=await import('@mlightcad/libredwg-web') as any
- const wasmPath=new URL('./cad-wasm/',document.baseURI).href
+ const wasmPath=new URL('cad-wasm/',document.baseURI).href
+ const wasmUrl=new URL('libredwg-web.wasm',wasmPath).href
+ const wasmCheck=await fetch(wasmUrl,{method:'HEAD'}).catch(()=>null)
+ if(!wasmCheck?.ok) throw new Error(`Motor DWG indisponível: ${wasmUrl} não foi publicado no build.`)
  const libredwg=await LibreDwg.create(wasmPath)
  const bytes=await file.arrayBuffer();let dwg:any
  try{dwg=libredwg.dwg_read_data(bytes,Dwg_File_Type.DWG);const version=libredwg.dwg_get_version_type?.(dwg);const result=libredwg.convertEx?libredwg.convertEx(dwg):{database:libredwg.convert(dwg)};const segments:CadSegment[]=[];walk(result.database,segments,new Set());return{segments,version:String(version?.hdr??version??''),warning:segments.length?'':'DWG aberto, mas não foram encontradas LINE/POLYLINE convertíveis.'}}
