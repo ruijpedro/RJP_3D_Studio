@@ -1,15 +1,16 @@
 {
   "name": "rjp-3d-studio",
   "private": true,
-  "version": "1.5.0",
+  "version": "2.6.0",
   "type": "module",
   "scripts": {
-    "dev": "vite",
-    "build": "tsc -p tsconfig.json && vite build",
+    "dev": "npm run prepare:cad && vite",
+    "build": "npm run prepare:cad && tsc -p tsconfig.json && vite build",
     "preview": "vite preview",
     "typecheck": "tsc -p tsconfig.json --noEmit",
     "cap:sync": "npx cap sync android",
-    "android:add": "npx cap add android"
+    "android:add": "npx cap add android",
+    "prepare:cad": "node scripts/copy-cad-wasm.mjs"
   },
   "dependencies": {
     "@capacitor/android": "7.4.3",
@@ -17,7 +18,8 @@
     "lucide-react": "0.468.0",
     "react": "18.3.1",
     "react-dom": "18.3.1",
-    "three": "0.179.1"
+    "three": "0.179.1",
+    "@mlightcad/libredwg-web": "0.7.10"
   },
   "devDependencies": {
     "@capacitor/cli": "7.4.3",
