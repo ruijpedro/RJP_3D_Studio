@@ -1,0 +1,2 @@
+RJP 3D Studio 3.2.2 CLEAN BUILD
+ThreeViewport syntax fix present: if(fitToken)fitAll();const tc=
