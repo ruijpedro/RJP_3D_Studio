@@ -10,7 +10,8 @@ export interface Measurement{id:string;workId:string;autoNo:number;previous:numb
 export interface CadSegment{x1:number;y1:number;x2:number;y2:number;layer:string;entity?:string}
 export type CadLayerRole='Parede'|'Vão'|'Pilar'|'Eixo'|'Referência'|'Ignorar'
 export interface CadLayer{name:string;count:number;visible:boolean;role:CadLayerRole}
-export interface SourceDrawing{id:string;name:string;kind:'pdf'|'dwg'|'dxf'|'dwf'|'dwfx'|'image'|'other';size:number;info:string;url?:string;cadSegments?:CadSegment[];cadBounds?:{minX:number;minY:number;maxX:number;maxY:number};layers?:CadLayer[];dwgVersion?:string;parseStatus?:'ready'|'parsing'|'error'|'reference';parseError?:string}
+export interface PlanAnalysis{engine:'pdf-vector'|'pdf-raster'|'cad';page:number;confidence:number;vectorSegments:number;rasterSegments:number;scaleCalibrated?:boolean;knownDistance?:number;warnings:string[]}
+export interface SourceDrawing{id:string;name:string;kind:'pdf'|'dwg'|'dxf'|'dwf'|'dwfx'|'image'|'other';size:number;info:string;url?:string;cadSegments?:CadSegment[];cadBounds?:{minX:number;minY:number;maxX:number;maxY:number};layers?:CadLayer[];dwgVersion?:string;parseStatus?:'ready'|'parsing'|'error'|'reference';parseError?:string;planAnalysis?:PlanAnalysis}
 
 export interface SiteEntry{id:string;date:string;title:string;kind:'Diário'|'Ocorrência'|'Inspeção'|'Entrega'|'Reunião';note:string;status:'Aberto'|'Resolvido'}
 export interface RoomZone{id:string;name:string;level:string;area:number;perimeter:number;source:'CAD'|'Manual';cadLayer?:string;polygon?:Array<{x:number;y:number}>}

@@ -60,3 +60,19 @@ Ver `README_V2_8_TWO_POINT_ALIGNMENT.md`.
 
 ## V2.8.2
 Ver `README_V2_8_2_DWG_WASM_FIX.md`.
+
+
+## V2.9
+Ver `README_V2_9_PAN_UX.md`.
+
+
+## V3.0
+Ver `README_V3_0_CAD_BIM_3D_UI.md`.
+
+
+## V3.1
+Ver `README_V3_1_PRO_VIEWPORT.md`.
+
+
+## V3.2
+Ver `README_V3_2_PLAN_ENGINE.md`.

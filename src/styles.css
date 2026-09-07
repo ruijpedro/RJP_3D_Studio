@@ -44,3 +44,41 @@ button.primary{background:#16776f;border-color:#4bd6c8;color:#fff;font-weight:70
 .cad-align-box{display:grid;gap:9px;padding:14px;margin:10px 0;border:1px solid #64748b;border-radius:10px;background:#f8fafc}
 .cad-align-box>span{font-size:12px;color:#475569}.cad-align-grid{display:grid;grid-template-columns:minmax(180px,1.4fr) repeat(4,minmax(80px,.6fr));gap:7px;align-items:end}
 .cad-align-grid label{display:grid;gap:3px;font-size:10px}.cad-align-grid input,.cad-align-grid select{min-width:0}
+
+/* V2.9 Navigation & UX */
+.cad-ribbon{position:sticky;top:0;z-index:20;box-shadow:0 3px 12px #0002}
+.cad-ribbon button{transition:transform .12s ease,background .12s ease,border-color .12s ease}
+.cad-ribbon button:hover,.viewer-tools button:hover{transform:translateY(-1px)}
+.cad-status{display:flex;align-items:center;gap:3px;min-height:30px;padding:4px 9px;border-radius:7px;background:#071b2e}
+.cad-status b{color:#5eead4}
+.viewer-head{position:sticky;top:0;z-index:4;background:inherit}
+.viewer-tools{display:flex;gap:5px;flex-wrap:wrap}
+.props{transition:width .18s ease,min-width .18s ease}
+.props-title{display:flex;align-items:center;justify-content:space-between;gap:8px}
+.props-title h3{margin:0}.props-title button{min-width:30px}
+.props-collapsed{width:48px!important;min-width:48px!important;padding:8px!important;overflow:hidden}
+.props-collapsed .props-title h3{display:none}
+.three-host{min-height:560px}
+@media(max-width:1100px){.model-layout{grid-template-columns:1fr!important}.props{width:auto!important}.props-collapsed{min-height:45px}.cad-ribbon{position:relative}.three-host{min-height:480px}}
+
+/* V3.0 CAD/BIM/3D professional workspace */
+.workspace-commandbar{display:flex;align-items:stretch;justify-content:space-between;gap:12px;padding:7px 10px;background:#0a2035;border-bottom:1px solid #244b69;position:sticky;top:0;z-index:18}
+.workspace-tabs,.quick-view{display:flex;align-items:center;gap:5px}.workspace-tabs button{display:grid;gap:0;padding:6px 18px;text-align:left;border-radius:5px}.workspace-tabs button small{font-size:9px;opacity:.65}.workspace-tabs button.active{background:#087f78;border-color:#2dd4bf}.quick-view button{padding:7px 10px}.workspace-sep,.tool-separator{display:inline-block;width:1px;height:24px;background:#36536b;margin:0 3px}
+.model-layout{display:grid!important;grid-template-columns:220px minmax(0,1fr) 290px!important;gap:0!important;min-height:calc(100vh - 220px);background:#07192a}.model-layout.no-left{grid-template-columns:minmax(0,1fr) 290px!important}.model-layout.no-props{grid-template-columns:220px minmax(0,1fr)!important}.model-layout.no-left.no-props{grid-template-columns:minmax(0,1fr)!important}
+.project-browser{background:#0b2237;border-right:1px solid #284861;min-width:0;overflow:auto;color:#d8e6f2}.panel-head{display:flex;justify-content:space-between;align-items:center;padding:9px 10px;border-bottom:1px solid #29465d;font-size:11px}.panel-head button{padding:2px 7px}.browser-search{padding:7px}.browser-search input{width:100%;box-sizing:border-box;background:#071a2b;border:1px solid #36546b;color:white;padding:7px;border-radius:4px}.project-browser details{border-top:1px solid #1d3b52}.project-browser summary{padding:8px 10px;font-size:11px;font-weight:700;cursor:pointer}.project-browser details button{display:flex;width:100%;justify-content:space-between;gap:8px;padding:7px 14px;border:0;border-radius:0;background:transparent;text-align:left;color:#c9d9e6}.project-browser details button:hover,.project-browser details button.active{background:#123b58;color:#fff}.project-browser details button small{opacity:.6}
+.viewer{min-width:0;border-right:1px solid #29465d}.viewer-head{border-bottom:1px solid #29465d!important;padding:6px 9px!important}.viewer-tools button{padding:6px 9px!important}.visual-select{background:#0b2942;color:#dbeafe;border:1px solid #315977;border-radius:4px;padding:5px 8px}
+.viewport-stage{position:relative;min-height:560px;background:#132231}.viewport-stage>.three-host{height:100%}.viewport-empty{position:absolute;left:50%;top:50%;transform:translate(-50%,-50%);display:grid;justify-items:center;gap:8px;padding:25px 34px;background:#071b2ed9;border:1px solid #365b76;border-radius:10px;color:#dceaf5;box-shadow:0 16px 50px #0005}.viewport-empty .empty-icon{font-size:38px}.viewport-empty span{font-size:12px;color:#9fb5c5}.viewport-empty div:last-child{display:flex;gap:7px}
+.props{background:#0b2237!important;border-left:0!important;color:#d9e8f3}.props-title{padding-bottom:7px;border-bottom:1px solid #29465d}.props label{font-size:10px!important;text-transform:uppercase;letter-spacing:.03em;color:#9fb8cb}.props input,.props select{background:#071b2e!important;color:#edf6fc!important;border:1px solid #34536a!important;border-radius:4px!important}
+.cad-status{position:sticky;bottom:0;z-index:25;border-radius:0!important;border-top:1px solid #294b64;white-space:nowrap;overflow:auto}.status-hidden{display:none!important}
+@media(max-width:1250px){.model-layout,.model-layout.no-left,.model-layout.no-props{grid-template-columns:minmax(0,1fr)!important}.project-browser,.props{position:absolute;z-index:30;height:70vh;box-shadow:10px 10px 30px #0008}.project-browser{width:240px}.props{right:0;width:290px!important}.workspace-commandbar{overflow-x:auto}}
+
+/* V3.1 professional viewport */
+.viewcube{position:absolute;right:16px;top:16px;z-index:12;display:grid;gap:3px;justify-items:center;padding:6px;background:#071b2ecc;border:1px solid #47657b;border-radius:7px;box-shadow:0 5px 16px #0005}.viewcube button{font-size:9px;padding:5px 7px;min-width:42px}.viewcube>div{display:flex;gap:3px}.viewcube button.active{background:#0d9488}.ucs-indicator{position:absolute;left:16px;bottom:18px;z-index:12;width:54px;height:54px;color:#cfe3ef;font-size:10px}.ucs-indicator:before{content:"";position:absolute;left:15px;bottom:12px;width:32px;border-top:2px solid currentColor;transform:rotate(-18deg);transform-origin:left}.ucs-indicator:after{content:"";position:absolute;left:15px;bottom:12px;height:34px;border-left:2px solid currentColor}.ucs-indicator b{position:absolute;left:10px;top:0}.ucs-indicator span{position:absolute;right:0;bottom:4px}.ucs-indicator i{position:absolute;left:0;bottom:0;font-style:normal}.grid-size{width:80px}.viewport-fullscreen{position:fixed!important;inset:0!important;z-index:999!important;grid-template-columns:1fr!important;background:#07192a!important}.viewport-fullscreen .viewer{height:100vh}.viewport-fullscreen .viewport-stage,.viewport-fullscreen .three-host{height:calc(100vh - 90px)!important;min-height:0!important}
+
+/* V3.2 Plan Recognition Engine */
+.plan-engine-box{display:grid;gap:10px;padding:14px;margin:10px 0;border:1px solid #2b6e7a;border-radius:10px;background:linear-gradient(135deg,#071b2e,#0c2d3f);color:#dff8f5}
+.plan-engine-head{display:flex;justify-content:space-between;gap:12px;align-items:center}.plan-engine-head>div{display:grid;gap:3px}.plan-engine-head span{font-size:11px;color:#9fc5cc}.engine-badge{padding:4px 8px;border:1px solid #2dd4bf;border-radius:999px;color:#5eead4!important}
+.plan-engine-steps{display:flex;align-items:center;gap:8px;flex-wrap:wrap}.plan-engine-steps span{padding:5px 8px;border-radius:5px;background:#0d3b4f;color:#d5f5f2;font-size:11px}.plan-engine-steps b{color:#5eead4}
+.pdf-analysis{display:grid;grid-template-columns:80px minmax(180px,1fr) minmax(260px,1.2fr);gap:12px;align-items:center;margin-top:9px;padding:10px;border:1px solid #8ab4c0;border-radius:8px;background:#eef7f8}
+.pdf-analysis>div{display:grid;gap:3px}.pdf-analysis span,.pdf-analysis small{font-size:11px;color:#49646c}.pdf-confidence{justify-items:center}.pdf-confidence b{font-size:24px;color:#087f78}.pdf-calibrate{grid-template-columns:1fr 1fr auto!important;display:grid!important;gap:6px!important;align-items:end}.pdf-calibrate label{display:grid;gap:3px;font-size:10px}.pdf-calibrate input{min-width:0}
+@media(max-width:1000px){.pdf-analysis{grid-template-columns:1fr}.pdf-calibrate{grid-template-columns:1fr!important}}
