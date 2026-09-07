@@ -17,3 +17,6 @@ O importador legado `*.rjp3d.json` da V1.0 continua disponível apenas para tran
 
 ## RJP Eng Hub
 Esta versão aceita `?rjpProject=<id>&projectName=<nome>` no URL como base para integração pelo Hub. A persistência remota no Drive será acrescentada quando a pasta raiz RJP_ENG estiver configurada.
+
+## GitHub Pages
+Workflow único: Build WebApp -> Deploy WebApp + Build Android APK. Em Settings > Pages, usar Source: GitHub Actions.
