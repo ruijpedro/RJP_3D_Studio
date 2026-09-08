@@ -104,3 +104,11 @@ Ver `README_V3_5_LIBRARY_EXPERIENCE.md`.
 
 ## V3.6
 Ver `README_V3_6_LIBRARY_NAVIGATOR.md`.
+
+
+## V3.7
+Ver `README_V3_7_CAD_COMMAND_LINE.md`.
+
+
+## V3.7.1
+Correção da biblioteca e do erro sintático residual da V3.7.

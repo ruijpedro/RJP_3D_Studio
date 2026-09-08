@@ -161,3 +161,8 @@ button.primary{background:#16776f;border-color:#4bd6c8;color:#fff;font-weight:70
 
 /* V3.6 library navigator */
 .library-quickcats{display:flex;gap:7px;flex-wrap:wrap;margin:0 0 14px}.library-quickcats button{padding:7px 11px;border-radius:999px;font-size:11px;background:#0b2a40;border:1px solid #315b72;color:#cde5ef}.library-quickcats button.active{background:#0f766e;border-color:#2dd4bf;color:white}.library-card-v2{transition:transform .14s ease,box-shadow .14s ease,border-color .14s ease}.library-card-v2:hover{transform:translateY(-3px);box-shadow:0 12px 28px #0004;border-color:#38b2ac}.library-preview-wrap{min-height:145px}.library-card-body b{font-size:14px;line-height:1.2}
+
+/* V3.7 CAD command line */
+.cad-commandline{display:flex;align-items:center;gap:6px;min-width:0;width:100%;padding:6px 8px;background:#041522;border-top:1px solid #23465e;border-bottom:1px solid #23465e;color:#bcd4e3}
+.cad-commandline>b{font:700 18px/1 monospace;color:#5eead4}.cad-commandline input{flex:1;min-width:180px;background:#071c2c;border:1px solid #31566d;border-radius:4px;color:#f1f7fa;padding:7px 9px;font:12px/1.2 Consolas,'Courier New',monospace;outline:none}.cad-commandline input:focus{border-color:#2dd4bf;box-shadow:0 0 0 2px #2dd4bf22}.cad-commandline>span{max-width:42%;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;font:11px/1.2 Consolas,'Courier New',monospace;color:#84a9bd}.cad-commandline button{padding:5px 9px}
+@media(max-width:900px){.cad-commandline>span{display:none}.cad-commandline input{min-width:100px}}
