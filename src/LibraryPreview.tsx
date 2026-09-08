@@ -2,7 +2,7 @@ import React from 'react'
 import type {LibraryItem} from './library'
 
 export default function LibraryPreview({item}:{item:LibraryItem}){
- const t=item.type,n=item.name.toLowerCase(),c=item.material.texture||'default'
+ const t=item.type,n=item.name.toLowerCase(),c=item.material?.texture||'default'
  const common={stroke:'currentColor',strokeWidth:2,fill:'none'} as const
  let body:React.ReactNode
  if(t==='window')body=<><rect x="24" y="18" width="72" height="74" rx="2" {...common}/><line x1="60" y1="18" x2="60" y2="92" {...common}/><line x1="24" y1="55" x2="96" y2="55" {...common}/><rect x="30" y="24" width="24" height="25" className="preview-glass"/><rect x="66" y="24" width="24" height="25" className="preview-glass"/></>

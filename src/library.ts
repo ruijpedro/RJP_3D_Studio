@@ -49,8 +49,9 @@ export const materials:StudioMaterial[]=[
 {id:'epoxy',name:'Resina epóxi',family:'Revestimento',texture:'paint'},
 {id:'polycarbonate',name:'Policarbonato',family:'Plásticos',texture:'glass'},
 {id:'fabric',name:'Tecido',family:'Mobiliário',texture:'fabric'},
-{id:'firesteel',name:'Aço corta-fogo',family:'Proteção contra incêndio',texture:'steel'}]
-const m=(id:string)=>materials.find(x=>x.id===id)!
+{id:'firesteel',name:'Aço corta-fogo',family:'Proteção contra incêndio',texture:'steel'},
+{id:'plastic',name:'Plástico técnico',family:'Plásticos',texture:'plastic'}]
+const m=(id:string)=>materials.find(x=>x.id===id)??materials[0]
 export interface LibraryItem{id:string;name:string;category:string;type:string;size:{x:number;y:number;z:number};material:StudioMaterial}
 export const library:LibraryItem[]=[
 {id:'column30',name:'Pilar 30×30',category:'Estrutura',type:'column',size:{x:.3,y:.3,z:3},material:m('conc-c30')},
