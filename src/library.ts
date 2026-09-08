@@ -311,6 +311,27 @@ export const library:LibraryItem[]=[
 ,{id:'bigbag',name:'Big bag agregado',category:'Equipamento de obra',type:'equipment',size:{x:.9,y:.9,z:1.1},material:m('fabric')}
 ,{id:'skip',name:'Contentor entulho',category:'Equipamento de obra',type:'equipment',size:{x:3.5,y:1.8,z:1.4},material:m('steel-s275')}
 
+,{id:'door-double-glass',name:'Porta dupla envidraçada',category:'Portas e janelas',type:'door',size:{x:1.8,y:.12,z:2.1},material:m('glass')}
+,{id:'window-3leaf',name:'Janela 3 folhas',category:'Portas e janelas',type:'window',size:{x:2.4,y:.12,z:1.35},material:m('aluminium')}
+,{id:'window-bath',name:'Janela WC basculante',category:'Portas e janelas',type:'window',size:{x:.8,y:.12,z:.6},material:m('aluminium')}
+,{id:'kitchen-island',name:'Ilha de cozinha',category:'Cozinha',type:'furniture',size:{x:2.2,y:.9,z:.92},material:m('mdf')}
+,{id:'kitchen-tall-unit',name:'Módulo coluna cozinha',category:'Cozinha',type:'furniture',size:{x:.6,y:.62,z:2.2},material:m('mdf')}
+,{id:'fridge-combi',name:'Frigorífico combinado',category:'Cozinha',type:'equipment',size:{x:.6,y:.68,z:2},material:m('stainless')}
+,{id:'washer',name:'Máquina de lavar roupa',category:'Equipamento',type:'equipment',size:{x:.6,y:.62,z:.85},material:m('stainless')}
+,{id:'dryer',name:'Máquina de secar roupa',category:'Equipamento',type:'equipment',size:{x:.6,y:.62,z:.85},material:m('stainless')}
+,{id:'sofa-corner',name:'Sofá de canto',category:'Mobiliário',type:'furniture',size:{x:2.8,y:1.8,z:.82},material:m('fabric')}
+,{id:'dining-table-6',name:'Mesa jantar 6 lugares',category:'Mobiliário',type:'furniture',size:{x:1.8,y:.9,z:.76},material:m('timber-c24')}
+,{id:'office-desk-l',name:'Secretária em L',category:'Mobiliário',type:'furniture',size:{x:1.8,y:1.5,z:.75},material:m('mdf')}
+,{id:'wardrobe-sliding',name:'Roupeiro portas correr',category:'Mobiliário',type:'furniture',size:{x:2.4,y:.65,z:2.4},material:m('mdf')}
+,{id:'shower-walkin',name:'Duche walk-in',category:'Sanitários',type:'fixture',size:{x:1.4,y:.9,z:2.1},material:m('glass')}
+,{id:'vanity-double',name:'Móvel lavatório duplo',category:'Sanitários',type:'fixture',size:{x:1.4,y:.55,z:.9},material:m('ceramic')}
+,{id:'heatpump-outdoor',name:'Unidade exterior bomba calor',category:'AVAC',type:'equipment',size:{x:1.05,y:.42,z:.85},material:m('steel-s275')}
+,{id:'fan-coil',name:'Ventiloconvector',category:'AVAC',type:'equipment',size:{x:1,y:.25,z:.55},material:m('steel-s275')}
+,{id:'ev-charger',name:'Carregador veículo elétrico',category:'Eletricidade',type:'equipment',size:{x:.3,y:.18,z:.5},material:m('plastic')}
+,{id:'switchboard-home',name:'Quadro elétrico habitação',category:'Eletricidade',type:'equipment',size:{x:.5,y:.16,z:.7},material:m('plastic')}
+,{id:'bollard-light',name:'Balizador exterior',category:'Exterior',type:'equipment',size:{x:.16,y:.16,z:.8},material:m('steel-s275')}
+,{id:'bench-park',name:'Banco exterior',category:'Exterior',type:'furniture',size:{x:1.8,y:.6,z:.85},material:m('timber-c24')}
+
 
 ]
 export function createFromLibrary(item:LibraryItem,index:number):StudioElement{return{id:`LIB-${item.id}-${index}`,name:item.name,type:item.type,category:item.category,level:'Piso 0',position:{x:0,y:0,z:item.size.z/2},rotation:{x:0,y:0,z:0},size:{...item.size},material:item.material,source:'Biblioteca RJP_3D Studio',properties:{libraryId:item.id},results:undefined}}
