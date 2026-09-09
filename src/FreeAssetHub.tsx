@@ -39,7 +39,7 @@ export default function FreeAssetHub({onInsert}:Props){
    const r=await fetch(`${API}/assets?type=models`)
    if(!r.ok)throw new Error(`API ${r.status}`)
    const data=await r.json()
-   const list:FreeAssetRecord[]=Object.entries(data).map(([id,v]:any)=>({id,name:v.name||id,description:v.description||'',category:v.category||'',thumbnail:v.thumbnail_url||'',downloads:Number(v.download_count)||0,authors:Object.keys(v.authors||{}),source:'Poly Haven',license:'CC0',dimensions:Array.isArray(v.dimensions)?v.dimensions:undefined,polycount:Number(v.polycount)||undefined,lods:Boolean(v.lods),tags:Array.isArray(v.tags)?v.tags:[]})).sort((a,b)=>(b.downloads||0)-(a.downloads||0))
+   const list:FreeAssetRecord[]=Object.entries(data).map(([id,v]:any):FreeAssetRecord=>({id:String(id),name:String(v.name||id),description:String(v.description||''),category:String(v.category||''),thumbnail:String(v.thumbnail_url||''),downloads:Number(v.download_count)||0,authors:Object.keys(v.authors||{}),source:'Poly Haven',license:'CC0',dimensions:Array.isArray(v.dimensions)?v.dimensions.map((x:any)=>Number(x)).filter(Number.isFinite):undefined,polycount:Number(v.polycount)||undefined,lods:Boolean(v.lods),tags:Array.isArray(v.tags)?v.tags.map((x:any)=>String(x)):[]})).sort((a,b)=>(b.downloads||0)-(a.downloads||0))
    if(live)setAssets(list)
   }catch(e){if(live)setError(e instanceof Error?e.message:String(e))}finally{if(live)setLoading(false)}})();return()=>{live=false}},[])
  const categories=useMemo(()=>['Todos',...Array.from(new Set(assets.map(a=>(a.category||'Outros').split('/')[0]))).sort()],[assets])
