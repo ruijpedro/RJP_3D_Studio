@@ -1,2 +1,7 @@
-RJP 3D Studio 3.2.2 CLEAN BUILD
-ThreeViewport syntax fix present: if(fitToken)fitAll();const tc=
+RJP 3D Studio 3.9.2
+FIX: explicit independent React state declarations for:
+- libraryDockOpen
+- placingLibraryId
+- libraryPreviewId
+- dragLibraryId
+- placingRotation

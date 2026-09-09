@@ -1,12 +1,15 @@
 import * as THREE from 'three'
 import type {StudioElement} from './types'
+const texLoader=new THREE.TextureLoader()
+const texCache=new Map<string,THREE.Texture>()
+function loadTex(url:string,color=false){if(!url)return undefined;let t=texCache.get(url);if(!t){t=texLoader.load(url);t.wrapS=t.wrapT=THREE.RepeatWrapping;t.repeat.set(2,2);if(color)t.colorSpace=THREE.SRGBColorSpace;texCache.set(url,t)}return t}
 
 const col=(t?:string)=>({concrete:0xb8c0c8,steel:0x8a9aa8,wood:0xa47747,galvanized:0xb7c4cf,brick:0xb15c43,block:0x9ca3a8,glass:0x76c5e8,tile:0xb65a42,sandwich:0x8da3b3,plaster:0xe7e1d5,ceramic:0xe8e8e8,insulation:0xe9d87a,stone:0x8d8173,gypsum:0xe7e4dc,pvc:0xd8d8d8,aluminium:0xaeb9c2,soil:0x6b5b43,fabric:0x73889c,rubber:0x42484d,paint:0xd8dde4}[t||'']||0x7aa8d6)
 
 function mat(e:StudioElement,visualMode:'Shaded'|'Edges'|'XRay',override?:number){
  const phase=String(e.properties.phase||'Novo'),hosted=Boolean(e.properties.hostWallId)
  const alpha=visualMode==='XRay' ? .28 : ((e.type==='window'||e.type==='pool') ? .55 : (phase==='Existente' ? .72 : 1))
- const m=new THREE.MeshStandardMaterial({color:override??(phase==='Demolir'?0xcf6b6b:phase==='Existente'?0xa3acb5:col(e.material.texture)),roughness:.58,metalness:e.material.family.includes('Aço') ? .35 : .04,transparent:alpha<1,opacity:alpha,emissive:hosted?0x123b36:0,emissiveIntensity:hosted ? .3 : 0})
+ const props=e.material?.properties||{},pbrColor=String(props.pbrColor||e.properties?.pbrColor||''),pbrNormal=String(props.pbrNormal||e.properties?.pbrNormal||''),pbrRough=String(props.pbrRoughness||e.properties?.pbrRoughness||'');const m=new THREE.MeshStandardMaterial({color:override??(phase==='Demolir'?0xcf6b6b:phase==='Existente'?0xa3acb5:col(e.material?.texture)),roughness:.58,metalness:e.material?.family?.includes('Aço') ? .35 : .04,transparent:alpha<1,opacity:alpha,emissive:hosted?0x123b36:0,emissiveIntensity:hosted ? .3 : 0,map:override?undefined:loadTex(pbrColor,true),normalMap:override?undefined:loadTex(pbrNormal),roughnessMap:override?undefined:loadTex(pbrRough)})
  if(visualMode==='Edges')m.wireframe=true
  return m
 }
@@ -24,18 +27,33 @@ export function createElementObject(e:StudioElement,visualMode:'Shaded'|'Edges'|
  switch(e.type){
   case 'column': add(box(w,d,h,M)); if(name.includes('hea')||name.includes('ipe')){add(box(w*1.15,d*.22,h,dark));add(box(w*1.15,d*.22,h,dark,0,d*.38,0))} break
   case 'beam': add(box(w,d,h,M)); if(name.includes('ipe')||name.includes('hea')){add(box(w,d,h*.18,dark,0,0,h*.41));add(box(w,d,h*.18,dark,0,0,-h*.41))} break
-  case 'wall': add(box(w,d,h,M)); break
+  case 'wall': {
+   if(/multicamada|multilayer/.test(name)){const layers=[{t:d*.18,c:white},{t:d*.48,c:M},{t:d*.16,c:mat(e,visualMode,0xe8d66b)},{t:d*.18,c:white}];let y=-d/2;for(const L of layers){add(box(w,L.t,h,L.c,0,y+L.t/2,0));y+=L.t}}
+   else if(/lsf/.test(name)){add(box(w,d*.12,h,white));for(let x=-w/2+w*.06;x<w/2;x+=Math.max(.4,w/10))add(box(.035,d*.75,h*.96,dark,x,0,0));add(box(w,d*.18,h*.98,mat(e,visualMode,0xe8d66b),0,0,0))}
+   else add(box(w,d,h,M)); break
+  }
   case 'slab': case 'floor': add(box(w,d,h,M)); break
   case 'footing': add(box(w,d,h,M)); add(box(w*.45,d*.45,h*.8,M,0,0,h*.65)); break
-  case 'window': {const f=Math.max(.035,Math.min(w,h)*.07);add(box(w,f,h,dark));add(box(w-f*2,d*.7,h-f*2,glass));add(box(f,d*.78,h,dark,-w/2+f/2));add(box(f,d*.78,h,dark,w/2-f/2));add(box(w,d*.78,f,dark,0,0,h/2-f/2));add(box(w,d*.78,f,dark,0,0,-h/2+f/2));if(w>1.3)add(box(f,d*.8,h,dark))} break
-  case 'door': {const f=Math.max(.035,w*.045);add(box(w,d,h,M));add(box(f,d*1.3,h,dark,-w/2+f/2));add(box(f,d*1.3,h,dark,w/2-f/2));add(box(w,d*1.3,f,dark,0,0,h/2-f/2));add(cyl(Math.max(.018,w*.025),d*1.6,dark,w*.32,-d*.2,0,Math.PI/2))} break
+  case 'window': {const f=Math.max(.025,Math.min(w,h)*.045);add(box(w,f,h,dark));add(box(w-f*2,d*.6,h-f*2,glass));add(box(f,d*.78,h,dark,-w/2+f/2));add(box(f,d*.78,h,dark,w/2-f/2));add(box(w,d*.78,f,dark,0,0,h/2-f/2));add(box(w,d*.78,f,dark,0,0,-h/2+f/2));if(/fachada cortina|curtain/.test(name)){for(let x=-w/2+w/3;x<w/2;x+=w/3)add(box(f,d*.82,h,dark,x,0,0));for(let z=-h/2+h/2;z<h/2;z+=h/2)add(box(w,d*.82,f,dark,0,0,z))}
+   else if(/3 folhas/.test(name)){add(box(f,d*.82,h,dark,-w/6,0,0));add(box(f,d*.82,h,dark,w/6,0,0))}
+   else if(/2 folhas|correr 2/.test(name)){add(box(f,d*.82,h,dark,0,0,0));if(/correr/.test(name)){const g2=box(w*.47,d*.22,h*.86,glass,w*.22,-d*.16,0);add(g2)}}
+   else if(/claraboia/.test(name)){g.rotation.x=Math.PI/2}
+   else if(w>1.3)add(box(f,d*.8,h,dark))} break
+  case 'door': {const f=Math.max(.025,w*.04);const leaf=box(w*.94,d*.55,h*.94,/envidraçada|glass/.test(name)?glass:M);add(leaf);add(box(f,d*1.2,h,dark,-w/2+f/2));add(box(f,d*1.2,h,dark,w/2-f/2));add(box(w,d*1.2,f,dark,0,0,h/2-f/2));if(/correr/.test(name)){leaf.position.x=w*.12;add(box(w*.95,d*.08,h*.03,dark,0,0,h*.48))}if(/pivot/.test(name)){leaf.position.x=w*.08;add(cyl(Math.max(.012,w*.018),d*1.2,dark,-w*.32,0,0,Math.PI/2))}add(cyl(Math.max(.014,w*.02),d*1.3,dark,w*.32,-d*.18,0,Math.PI/2))} break
   case 'pipe': case 'gutter': {const r=Math.max(.02,Math.min(w,d,h)*.42);const L=Math.max(w,d,h);const o=cyl(r,L,M);if(L===w)o.rotation.z=Math.PI/2;else if(L===d)o.rotation.x=Math.PI/2;add(o)} break
   case 'duct': add(box(w,d,h,M));add(box(w*.9,d*.9,Math.max(.018,h*.08),dark,0,0,h*.5)); break
-  case 'stair': {const n=Math.max(4,Math.min(14,Math.round(w/.28)));for(let i=0;i<n;i++){const sx=w/n,sh=h*(i+1)/n;add(box(sx,d,sh,M,-w/2+sx*(i+.5),0,-h/2+sh/2))}} break
-  case 'railing': {add(cyl(.025,h,dark,-w/2,0,0));add(cyl(.025,h,dark,w/2,0,0));add(box(w,.035,.04,dark,0,0,h/2));for(let x=-w*.35;x<=w*.35;x+=Math.max(.25,w/5))add(cyl(.018,h*.8,dark,x,0,-h*.1))} break
-  case 'roof': {const shape=new THREE.BufferGeometry();const verts=new Float32Array([-w/2,-d/2,-h/2,w/2,-d/2,-h/2,-w/2,d/2,-h/2,w/2,d/2,-h/2,0,-d/2,h/2,0,d/2,h/2]);shape.setAttribute('position',new THREE.BufferAttribute(verts,3));shape.setIndex([0,1,4,2,5,3,2,0,4,2,4,5,1,3,5,1,5,4,0,2,3,0,3,1]);shape.computeVertexNormals();add(mesh(shape,M))} break
+  case 'stair': {const n=Math.max(6,Math.min(16,Math.round(w/.28)));if(/em l/.test(name)){const n1=Math.floor(n/2);for(let i=0;i<n1;i++){const sx=w*.55/n1,sh=h*.5*(i+1)/n1;add(box(sx,d*.45,sh,M,-w*.45+sx*(i+.5),-d*.26,-h/2+sh/2))}for(let i=0;i<n-n1;i++){const sy=d*.55/(n-n1),sh=h*.5+h*.5*(i+1)/(n-n1);add(box(w*.45,sy,sh,M,w*.25,-d*.1+sy*(i+.5),-h/2+sh/2))}}
+   else if(/em u/.test(name)){const half=Math.floor(n/2);for(let side=-1;side<=1;side+=2)for(let i=0;i<half;i++){const sx=w*.48/half,sh=(side<0?h*.5*(i+1)/half:h*.5+h*.5*(i+1)/half);add(box(sx,d*.42,sh,M,-w*.24+sx*(i+.5),side*d*.25,-h/2+sh/2))}}
+   else for(let i=0;i<n;i++){const sx=w/n,sh=h*(i+1)/n;add(box(sx,d,sh,M,-w/2+sx*(i+.5),0,-h/2+sh/2))}} break
+  case 'railing': {if(/vidro|glass/.test(name)){add(box(w,.025,h*.82,glass,0,0,-h*.04));add(box(w,.04,.045,dark,0,0,h*.46));for(const x of [-w/2,0,w/2])add(cyl(.018,h*.92,dark,x,0,-h*.04))}
+   else{add(cyl(.025,h,dark,-w/2,0,0));add(cyl(.025,h,dark,w/2,0,0));add(box(w,.035,.04,dark,0,0,h/2));for(let x=-w*.35;x<=w*.35;x+=Math.max(.18,w/10))add(cyl(.018,h*.8,dark,x,0,-h*.1))}} break
+  case 'roof': {if(/quatro águas|quatro aguas|hip/.test(name)){const geom=new THREE.BufferGeometry();const v=new Float32Array([-w/2,-d/2,-h/2,w/2,-d/2,-h/2,w/2,d/2,-h/2,-w/2,d/2,-h/2,0,0,h/2]);geom.setAttribute('position',new THREE.BufferAttribute(v,3));geom.setIndex([0,1,4,1,2,4,2,3,4,3,0,4,0,3,2,0,2,1]);geom.computeVertexNormals();add(mesh(geom,M))}
+   else{const shape=new THREE.BufferGeometry();const verts=new Float32Array([-w/2,-d/2,-h/2,w/2,-d/2,-h/2,-w/2,d/2,-h/2,w/2,d/2,-h/2,0,-d/2,h/2,0,d/2,h/2]);shape.setAttribute('position',new THREE.BufferAttribute(verts,3));shape.setIndex([0,1,4,2,5,3,2,0,4,2,4,5,1,3,5,1,5,4,0,2,3,0,3,1]);shape.computeVertexNormals();add(mesh(shape,M))}} break
   case 'pool': add(box(w,d,h,M));add(box(w*.9,d*.9,h*.18,glass,0,0,h*.42)); break
-  case 'landscape': {if(name.includes('árvore')||name.includes('arvore')||name.includes('tree')){add(cyl(Math.max(.04,w*.1),h*.45,brown,0,0,-h*.27));const crown=mesh(new THREE.SphereGeometry(Math.max(w,d)*.42,18,12),green,0,0,h*.12);crown.scale.z=1.25;add(crown)}else add(box(w,d,h,M))} break
+  case 'landscape': {if(/oliveira/.test(name)){add(cyl(Math.max(.05,w*.09),h*.48,brown,0,0,-h*.25));for(const [x,y,z,r] of [[-.22,0,.12,.28],[.18,.08,.15,.25],[0,-.18,.25,.23]] as any)add(sphere(Math.max(w,d)*r,green,x*w,y*d,z*h))}
+   else if(/pinheiro/.test(name)){add(cyl(Math.max(.05,w*.07),h*.55,brown,0,0,-h*.24));for(let i=0;i<4;i++){const r=Math.max(w,d)*(.38-i*.06),c=mesh(new THREE.ConeGeometry(r,h*.28,18),green,0,0,-h*.02+i*h*.16);add(c)}}
+   else if(/arbusto/.test(name)){for(const x of [-.22,.1,.28])add(sphere(Math.max(w,d)*.28,green,x*w,0,(x+.25)*h))}
+   else if(name.includes('árvore')||name.includes('arvore')||name.includes('tree')){add(cyl(Math.max(.04,w*.1),h*.45,brown,0,0,-h*.27));const crown=mesh(new THREE.SphereGeometry(Math.max(w,d)*.42,18,12),green,0,0,h*.12);crown.scale.z=1.25;add(crown)}else add(box(w,d,h,M))} break
   case 'fixture': {
    if(/sanita|toilet|wc/.test(name)){add(box(w*.72,d*.42,h*.32,white,0,d*.22,-h*.28));add(torus(w*.25,w*.055,white,0,-d*.10,-h*.05,Math.PI/2));add(box(w*.60,d*.20,h*.40,white,0,d*.36,h*.15))}
    else if(/bid[eé]/.test(name)){add(torus(w*.25,w*.055,white,0,0,-h*.12,Math.PI/2));add(cyl(.025,h*.35,dark,0,d*.15,h*.14))}
@@ -53,7 +71,12 @@ export function createElementObject(e:StudioElement,visualMode:'Shaded'|'Edges'|
    else add(box(w,d,h,M)); break
   }
   case 'furniture': {
-   if(/cadeira|chair/.test(name)){add(box(w*.80,d*.78,h*.09,M,0,0,-h*.12));add(box(w*.80,d*.08,h*.56,M,0,d*.35,h*.20));for(const x of [-1,1])for(const y of [-1,1])add(cyl(.022,h*.40,dark,x*w*.30,y*d*.30,-h*.31))}
+   if(/ilha de cozinha/.test(name)){add(box(w,d,h*.72,M,0,0,-h*.08));add(box(w*1.04,d*1.04,h*.07,mat(e,visualMode,0xb9a58b),0,0,h*.40));for(const x of [-.32,.32])add(box(w*.24,d*.70,h*.55,white,x*w,0,-h*.10))}
+   else if(/módulo cozinha canto|modulo cozinha canto/.test(name)){add(box(w,d*.48,h*.78,M,0,d*.25,-h*.08));add(box(w*.48,d,h*.78,M,-w*.25,0,-h*.08));add(box(w*1.02,d*1.02,h*.07,mat(e,visualMode,0xb9a58b),0,0,h*.40))}
+   else if(/bancada cozinha/.test(name)){add(box(w,d,h,M));}
+   else if(/carport/.test(name)){for(const x of [-1,1])for(const y of [-1,1])add(box(w*.035,d*.035,h*.92,dark,x*w*.43,y*d*.40,-h*.04));add(box(w*.94,d*.94,h*.05,M,0,0,h*.45))}
+   else if(/pérgola solar|pergola solar/.test(name)){for(const x of [-1,1])for(const y of [-1,1])add(box(w*.04,d*.04,h*.92,dark,x*w*.43,y*d*.40,-h*.04));for(let x=-w*.38;x<=w*.38;x+=Math.max(.35,w/8))add(box(w*.11,d*.92,h*.04,mat(e,visualMode,0x294a61),x,0,h*.45))}
+   else if(/cadeira|chair/.test(name)){add(box(w*.80,d*.78,h*.09,M,0,0,-h*.12));add(box(w*.80,d*.08,h*.56,M,0,d*.35,h*.20));for(const x of [-1,1])for(const y of [-1,1])add(cyl(.022,h*.40,dark,x*w*.30,y*d*.30,-h*.31))}
    else if(/mesa|table|secretária|secretaria|desk/.test(name)){add(box(w,d,h*.11,M,0,0,h*.34));for(const x of [-1,1])for(const y of [-1,1])add(cyl(.032,h*.70,dark,x*w*.40,y*d*.40,-h*.07));if(/secret/.test(name))add(box(w*.32,d*.22,h*.20,dark,w*.28,0,h*.18))}
    else if(/sofá|sofa/.test(name)){add(box(w,d*.72,h*.34,M,0,0,-h*.20));add(box(w,d*.16,h*.56,M,0,d*.38,h*.08));add(box(w*.12,d*.72,h*.43,M,-w*.44,0,-h*.04));add(box(w*.12,d*.72,h*.43,M,w*.44,0,-h*.04));for(let x=-w*.28;x<=w*.28;x+=Math.max(.35,w*.38))add(box(w*.30,d*.52,h*.09,white,x,-d*.02,-h*.04))}
    else if(/cama|bed/.test(name)){add(box(w,d,h*.18,M,0,0,-h*.28));add(box(w,d*.07,h*.62,M,0,d*.46,h*.05));add(box(w*.42,d*.30,h*.08,white,-w*.24,d*.28,-h*.10));add(box(w*.42,d*.30,h*.08,white,w*.24,d*.28,-h*.10));add(box(w*.92,d*.55,h*.08,mat(e,visualMode,0xd6dde3),0,-d*.12,-h*.12))}

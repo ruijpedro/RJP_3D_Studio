@@ -333,6 +333,75 @@ export const library:LibraryItem[]=[
 ,{id:'bollard-light',name:'Balizador exterior',category:'Exterior',type:'equipment',size:{x:.16,y:.16,z:.8},material:m('steel-s275')}
 ,{id:'bench-park',name:'Banco exterior',category:'Exterior',type:'furniture',size:{x:1.8,y:.6,z:.85},material:m('timber-c24')}
 
+,{id:'wall-multilayer-200',name:'Parede multicamada 20 cm',category:'Arquitetura',type:'wall',size:{x:4,y:.20,z:2.8},material:m('brick')}
+,{id:'wall-multilayer-300',name:'Parede exterior multicamada 30 cm',category:'Arquitetura',type:'wall',size:{x:4,y:.30,z:2.8},material:m('brick')}
+,{id:'wall-lsf-insulated',name:'Parede LSF isolada',category:'Arquitetura',type:'wall',size:{x:4,y:.15,z:2.8},material:m('lsf-z275')}
+,{id:'door-pocket',name:'Porta de correr embutida',category:'Portas e janelas',type:'door',size:{x:.90,y:.10,z:2.10},material:m('timber-c24')}
+,{id:'door-sliding-glass',name:'Porta de correr envidraçada',category:'Portas e janelas',type:'door',size:{x:2.20,y:.12,z:2.20},material:m('glass')}
+,{id:'door-pivot',name:'Porta pivotante',category:'Portas e janelas',type:'door',size:{x:1.20,y:.12,z:2.40},material:m('timber-c24')}
+,{id:'window-casement-double',name:'Janela batente 2 folhas',category:'Portas e janelas',type:'window',size:{x:1.40,y:.12,z:1.20},material:m('aluminium')}
+,{id:'window-sliding-2',name:'Janela correr 2 folhas',category:'Portas e janelas',type:'window',size:{x:1.80,y:.12,z:1.20},material:m('aluminium')}
+,{id:'window-fixed-pano',name:'Pano fixo envidraçado',category:'Portas e janelas',type:'window',size:{x:2.40,y:.12,z:2.20},material:m('glass')}
+,{id:'curtain-wall-panel',name:'Fachada cortina modular',category:'Portas e janelas',type:'window',size:{x:3.00,y:.18,z:2.80},material:m('glass')}
+,{id:'stair-straight-modern',name:'Escada reta moderna',category:'Circulação',type:'stair',size:{x:4.2,y:1.0,z:2.8},material:m('timber-c24')}
+,{id:'stair-l-shape',name:'Escada em L',category:'Circulação',type:'stair',size:{x:3.2,y:2.6,z:2.8},material:m('conc-c30')}
+,{id:'stair-u-shape',name:'Escada em U',category:'Circulação',type:'stair',size:{x:3.2,y:2.2,z:2.8},material:m('conc-c30')}
+,{id:'railing-glass',name:'Guarda em vidro',category:'Circulação',type:'railing',size:{x:3.0,y:.08,z:1.05},material:m('glass')}
+,{id:'railing-steel-vertical',name:'Guarda metálica vertical',category:'Circulação',type:'railing',size:{x:3.0,y:.08,z:1.05},material:m('steel-s275')}
+,{id:'kitchen-base-600',name:'Módulo cozinha base 600',category:'Cozinha',type:'furniture',size:{x:.60,y:.60,z:.90},material:m('mdf')}
+,{id:'kitchen-wall-800',name:'Módulo cozinha suspenso 800',category:'Cozinha',type:'furniture',size:{x:.80,y:.35,z:.72},material:m('mdf')}
+,{id:'kitchen-corner',name:'Módulo cozinha canto',category:'Cozinha',type:'furniture',size:{x:.95,y:.95,z:.90},material:m('mdf')}
+,{id:'kitchen-countertop',name:'Bancada cozinha pedra',category:'Cozinha',type:'furniture',size:{x:2.40,y:.65,z:.04},material:m('granite')}
+,{id:'sink-double',name:'Lava-louça duplo',category:'Cozinha',type:'fixture',size:{x:.90,y:.50,z:.22},material:m('stainless')}
+,{id:'hob-induction',name:'Placa indução',category:'Cozinha',type:'equipment',size:{x:.60,y:.52,z:.05},material:m('glass')}
+,{id:'toilet-wallhung',name:'Sanita suspensa',category:'Sanitários',type:'fixture',size:{x:.38,y:.55,z:.40},material:m('ceramic')}
+,{id:'bidet-wallhung',name:'Bidé suspenso',category:'Sanitários',type:'fixture',size:{x:.38,y:.55,z:.38},material:m('ceramic')}
+,{id:'basin-countertop',name:'Lavatório de pousar',category:'Sanitários',type:'fixture',size:{x:.55,y:.42,z:.18},material:m('ceramic')}
+,{id:'shower-linear',name:'Duche resina com resguardo',category:'Sanitários',type:'fixture',size:{x:1.60,y:.90,z:2.10},material:m('glass')}
+,{id:'roof-gable',name:'Cobertura duas águas',category:'Coberturas',type:'roof',size:{x:8.0,y:6.0,z:2.2},material:m('tile')}
+,{id:'roof-hip',name:'Cobertura quatro águas',category:'Coberturas',type:'roof',size:{x:8.0,y:6.0,z:2.0},material:m('tile')}
+,{id:'roof-flat-inverted',name:'Cobertura plana invertida',category:'Coberturas',type:'slab',size:{x:8.0,y:6.0,z:.35},material:m('membrane')}
+,{id:'skylight-flat',name:'Claraboia plana',category:'Coberturas',type:'window',size:{x:1.2,y:1.2,z:.18},material:m('glass')}
+,{id:'solar-pergola',name:'Pérgola solar',category:'Exterior',type:'furniture',size:{x:5.0,y:3.0,z:2.6},material:m('steel-s275')}
+,{id:'parking-carport',name:'Carport metálico',category:'Exterior',type:'furniture',size:{x:5.5,y:3.0,z:2.6},material:m('steel-s275')}
+,{id:'tree-olive',name:'Oliveira',category:'Exterior',type:'landscape',size:{x:3.5,y:3.5,z:4.0},material:m('grass')}
+,{id:'tree-pine',name:'Pinheiro',category:'Exterior',type:'landscape',size:{x:4.0,y:4.0,z:7.0},material:m('grass')}
+,{id:'plant-shrub',name:'Arbusto ornamental',category:'Exterior',type:'landscape',size:{x:1.2,y:1.2,z:1.0},material:m('grass')}
+
+,{id:'column-round-concrete',name:'Pilar circular betão Ø40',category:'Estrutura',type:'column',size:{x:.40,y:.40,z:3.0},material:m('conc-c30')}
+,{id:'column-steel-hea200',name:'Pilar HEA 200',category:'Estrutura',type:'column',size:{x:.20,y:.19,z:3.0},material:m('steel-s275')}
+,{id:'beam-ipe300',name:'Viga IPE 300',category:'Estrutura',type:'beam',size:{x:5.0,y:.15,z:.30},material:m('steel-s275')}
+,{id:'beam-timber-200x400',name:'Viga madeira 200×400',category:'Estrutura',type:'beam',size:{x:5.0,y:.20,z:.40},material:m('timber-c24')}
+,{id:'slab-crosslam',name:'Laje CLT 160 mm',category:'Estrutura',type:'slab',size:{x:5.0,y:5.0,z:.16},material:m('timber-c24')}
+,{id:'sofa-2seat',name:'Sofá 2 lugares',category:'Mobiliário',type:'furniture',size:{x:1.70,y:.90,z:.82},material:m('fabric')}
+,{id:'sofa-3seat',name:'Sofá 3 lugares',category:'Mobiliário',type:'furniture',size:{x:2.20,y:.95,z:.82},material:m('fabric')}
+,{id:'armchair',name:'Poltrona',category:'Mobiliário',type:'furniture',size:{x:.85,y:.85,z:.90},material:m('fabric')}
+,{id:'coffee-table-round',name:'Mesa centro redonda',category:'Mobiliário',type:'furniture',size:{x:.90,y:.90,z:.42},material:m('timber-c24')}
+,{id:'dining-chair-modern',name:'Cadeira jantar moderna',category:'Mobiliário',type:'furniture',size:{x:.48,y:.52,z:.86},material:m('timber-c24')}
+,{id:'office-chair',name:'Cadeira escritório',category:'Mobiliário',type:'furniture',size:{x:.62,y:.62,z:1.05},material:m('fabric')}
+,{id:'bookshelf-wide',name:'Estante larga',category:'Mobiliário',type:'furniture',size:{x:1.80,y:.35,z:2.10},material:m('mdf')}
+,{id:'tv-unit',name:'Móvel TV',category:'Mobiliário',type:'furniture',size:{x:2.00,y:.45,z:.55},material:m('mdf')}
+,{id:'bed-single',name:'Cama individual',category:'Mobiliário',type:'furniture',size:{x:1.00,y:2.00,z:.65},material:m('fabric')}
+,{id:'bed-double',name:'Cama casal 160',category:'Mobiliário',type:'furniture',size:{x:1.60,y:2.00,z:.70},material:m('fabric')}
+,{id:'mirror-bath',name:'Espelho WC',category:'Sanitários',type:'fixture',size:{x:.80,y:.04,z:.90},material:m('glass')}
+,{id:'towel-radiator',name:'Toalheiro aquecido',category:'Sanitários',type:'equipment',size:{x:.55,y:.10,z:1.20},material:m('stainless')}
+,{id:'extractor-hood',name:'Exaustor cozinha',category:'Cozinha',type:'equipment',size:{x:.90,y:.50,z:.70},material:m('stainless')}
+,{id:'oven-built-in',name:'Forno encastre',category:'Cozinha',type:'equipment',size:{x:.60,y:.60,z:.60},material:m('stainless')}
+,{id:'microwave-built-in',name:'Micro-ondas encastre',category:'Cozinha',type:'equipment',size:{x:.60,y:.45,z:.40},material:m('stainless')}
+,{id:'dishwasher-built-in',name:'Máquina lavar loiça',category:'Cozinha',type:'equipment',size:{x:.60,y:.60,z:.85},material:m('stainless')}
+,{id:'light-pendant',name:'Candeeiro suspenso',category:'Iluminação',type:'fixture',size:{x:.35,y:.35,z:.60},material:m('aluminium')}
+,{id:'light-linear',name:'Luminária linear LED',category:'Iluminação',type:'fixture',size:{x:1.20,y:.08,z:.06},material:m('aluminium')}
+,{id:'light-spot',name:'Projetor de teto',category:'Iluminação',type:'fixture',size:{x:.12,y:.12,z:.12},material:m('aluminium')}
+,{id:'ac-wall-unit',name:'Unidade interior AC mural',category:'AVAC',type:'equipment',size:{x:.90,y:.22,z:.30},material:m('plastic')}
+,{id:'vent-round',name:'Difusor circular',category:'AVAC',type:'fixture',size:{x:.30,y:.30,z:.06},material:m('aluminium')}
+,{id:'vent-linear',name:'Difusor linear',category:'AVAC',type:'fixture',size:{x:1.00,y:.12,z:.05},material:m('aluminium')}
+,{id:'switch-double',name:'Interruptor duplo',category:'Eletricidade',type:'fixture',size:{x:.08,y:.04,z:.08},material:m('plastic')}
+,{id:'socket-schuko',name:'Tomada Schuko',category:'Eletricidade',type:'fixture',size:{x:.08,y:.04,z:.08},material:m('plastic')}
+,{id:'data-socket',name:'Tomada RJ45',category:'Eletricidade',type:'fixture',size:{x:.08,y:.04,z:.08},material:m('plastic')}
+,{id:'garden-table',name:'Mesa exterior',category:'Exterior',type:'furniture',size:{x:1.60,y:.90,z:.75},material:m('timber-c24')}
+,{id:'sun-lounger',name:'Espreguiçadeira',category:'Exterior',type:'furniture',size:{x:.75,y:2.00,z:.65},material:m('timber-c24')}
+,{id:'umbrella-patio',name:'Guarda-sol exterior',category:'Exterior',type:'equipment',size:{x:2.50,y:2.50,z:2.40},material:m('fabric')}
+
 
 ]
 export function createFromLibrary(item:LibraryItem,index:number):StudioElement{return{id:`LIB-${item.id}-${index}`,name:item.name,type:item.type,category:item.category,level:'Piso 0',position:{x:0,y:0,z:item.size.z/2},rotation:{x:0,y:0,z:0},size:{...item.size},material:item.material,source:'Biblioteca RJP_3D Studio',properties:{libraryId:item.id},results:undefined}}
