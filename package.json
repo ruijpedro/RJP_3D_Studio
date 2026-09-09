@@ -1,7 +1,7 @@
 {
   "name": "rjp-3d-studio",
   "private": true,
-  "version": "3.9.0",
+  "version": "3.9.1",
   "type": "module",
   "scripts": {
     "dev": "npm run prepare:cad && vite",
