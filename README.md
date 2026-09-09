@@ -112,3 +112,15 @@ Ver `README_V3_7_CAD_COMMAND_LINE.md`.
 
 ## V3.7.1
 Correção da biblioteca e do erro sintático residual da V3.7.
+
+
+## V3.7.3
+Ver `README_V3_7_3_STARTUP_RECOVERY.md`.
+
+
+## V3.8
+Ver `README_V3_8_LIBRARY_3D_WORKFLOW.md`.
+
+
+## V3.9
+Ver `README_V3_9_LIBRARY_DRAG_DROP.md`.
