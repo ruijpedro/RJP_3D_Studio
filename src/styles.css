@@ -181,3 +181,15 @@ button.primary{background:#16776f;border-color:#4bd6c8;color:#fff;font-weight:70
 
 /* V4.3 BIM HQ library */
 .library-quality{display:flex;gap:4px;flex-wrap:wrap}.library-quality i{font-style:normal;font-size:8px;letter-spacing:.05em;padding:2px 5px;border-radius:999px;background:#0e4a54;color:#8ff4e9;border:1px solid #1f7079}.library-card-v2 .library-preview-wrap{background:radial-gradient(circle at 50% 35%,#143b55,#081d30 72%)}.library-card-v2:hover .library-preview-wrap{background:radial-gradient(circle at 50% 35%,#1a4b67,#082238 72%)}
+/* V4.4 Visual Library Pro — sem cubos genéricos */
+.library-card-v2{grid-template-rows:176px auto auto!important;min-height:0!important;background:#091f32!important}
+.library-preview-wrap{min-height:176px!important;height:176px!important;background:linear-gradient(180deg,#0d2b42,#081c2d)!important;border-bottom:1px solid #294e66!important}
+.library-preview{height:176px!important;min-height:176px!important;background:radial-gradient(circle at 50% 43%,#183b54 0,#0d2b42 52%,#081c2d 100%)!important;border-bottom:0!important}
+.library-preview:before{display:none!important}
+.library-preview svg{width:150px!important;height:132px!important;filter:drop-shadow(0 6px 7px #0004)!important}
+.library-card-body{position:relative!important;padding:13px 14px 12px!important;gap:5px!important;min-height:112px!important;background:#091f32!important}
+.library-card-body>b{font-size:15px!important;line-height:1.25!important;white-space:normal!important;overflow:visible!important}
+.library-card-actions{padding:0 12px 12px!important}
+.library-card-actions button{min-height:42px!important}
+.preview-swatch{fill:#7898aa;stroke:#cde1eb;stroke-width:1.5}.preview-edge{stroke:#5eead4;stroke-width:2}.preview-frame{fill:#29475c;stroke:#c9dfeb;stroke-width:2}.preview-wall-shell{fill:#263f51;stroke:#c7dce7;stroke-width:1.5}.preview-layer-a{fill:#d9e3e9}.preview-layer-b{fill:#b45f47}.preview-layer-c{fill:#dfcc65}.preview-metal{fill:#8ca8b9}.preview-insulation{fill:#d8cb69;fill-opacity:.8}.preview-stair{fill:#607f93;stroke:#c8dce7;stroke-width:2}.preview-roof{fill:#8c695c;stroke:#dce6eb;stroke-width:1.8}.preview-surface{fill:#dfe8ed;fill-opacity:.78;stroke:#b7ced9;stroke-width:1.2}.preview-solar{fill:#294d66;stroke:#bcd9e7;stroke-width:1.7}.preview-pipe{fill:none;stroke:#a8c5d4;stroke-width:15;stroke-linecap:round}.preview-generic-ring{fill:#102f45;stroke:#5d869d;stroke-width:2}.preview-generic-mark{fill:#55768a;stroke:#bed4df;stroke-width:1.5}
+.library-dock-item .library-preview{height:102px!important;min-height:102px!important}.library-dock-item .library-preview svg{width:94px!important;height:88px!important}
