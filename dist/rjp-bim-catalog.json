@@ -1,0 +1,7089 @@
+{
+  "library": "RJP BIM Library",
+  "version": "1.0",
+  "families": [
+    {
+      "id": "caacf0556234",
+      "name": "Bathroom cabinet sink",
+      "category": "Architecture",
+      "formats": [
+        "FCSTD"
+      ],
+      "files": [
+        {
+          "format": "FCSTD",
+          "path": "Architecture/Architectural Parts/Bathroom/Bathroom_cabinet_sink.FCStd"
+        }
+      ],
+      "tags": [
+        "bathroom",
+        "cabinet",
+        "sink"
+      ]
+    },
+    {
+      "id": "11ebeb0b5f2f",
+      "name": "Bathroom cabinet sink image 01",
+      "category": "Architecture",
+      "formats": [
+        "JPG"
+      ],
+      "files": [
+        {
+          "format": "JPG",
+          "path": "Architecture/Architectural Parts/Bathroom/Images/Bathroom_cabinet_sink_image_01.jpg"
+        }
+      ],
+      "tags": [
+        "01",
+        "bathroom",
+        "cabinet",
+        "image",
+        "sink"
+      ]
+    },
+    {
+      "id": "865b31512f20",
+      "name": "Beams",
+      "category": "Architecture",
+      "formats": [
+        "PNG"
+      ],
+      "files": [
+        {
+          "format": "PNG",
+          "path": "Architecture/Architectural Parts/Beams/Beams.png"
+        }
+      ],
+      "tags": [
+        "beams"
+      ]
+    },
+    {
+      "id": "aaa43b94c730",
+      "name": "Precast Beam for Slabs BIM Parametric",
+      "category": "Architecture",
+      "formats": [
+        "FCSTD"
+      ],
+      "files": [
+        {
+          "format": "FCSTD",
+          "path": "Architecture/Architectural Parts/Beams/Precast Concrete/Precast_Beam_for_Slabs_BIM_Parametric.FCStd"
+        }
+      ],
+      "tags": [
+        "beam",
+        "bim",
+        "for",
+        "parametric",
+        "precast",
+        "slabs"
+      ]
+    },
+    {
+      "id": "8d2a5407c30b",
+      "name": "Profile HEA",
+      "category": "Architecture",
+      "formats": [
+        "FCSTD"
+      ],
+      "files": [
+        {
+          "format": "FCSTD",
+          "path": "Architecture/Architectural Parts/Beams/Profile HEA.FCStd"
+        }
+      ],
+      "tags": [
+        "hea",
+        "profile"
+      ]
+    },
+    {
+      "id": "c5f6e3403f85",
+      "name": "Profile HEB",
+      "category": "Architecture",
+      "formats": [
+        "FCSTD"
+      ],
+      "files": [
+        {
+          "format": "FCSTD",
+          "path": "Architecture/Architectural Parts/Beams/Profile HEB.FCStd"
+        }
+      ],
+      "tags": [
+        "heb",
+        "profile"
+      ]
+    },
+    {
+      "id": "c176ed314141",
+      "name": "Bedroom closet",
+      "category": "Architecture",
+      "formats": [
+        "FCSTD"
+      ],
+      "files": [
+        {
+          "format": "FCSTD",
+          "path": "Architecture/Architectural Parts/Bedroom/Bedroom_closet.FCStd"
+        }
+      ],
+      "tags": [
+        "bedroom",
+        "closet"
+      ]
+    },
+    {
+      "id": "d332c6157112",
+      "name": "Beds",
+      "category": "Architecture",
+      "formats": [
+        "FCSTD"
+      ],
+      "files": [
+        {
+          "format": "FCSTD",
+          "path": "Architecture/Architectural Parts/Bedroom/Beds.FCStd"
+        }
+      ],
+      "tags": [
+        "beds"
+      ]
+    },
+    {
+      "id": "ab430c32aad0",
+      "name": "FCBL bed double",
+      "category": "Architecture",
+      "formats": [
+        "FCSTD",
+        "PNG"
+      ],
+      "files": [
+        {
+          "format": "FCSTD",
+          "path": "Architecture/Architectural Parts/Bedroom/FCBL_bed_double.FCStd"
+        },
+        {
+          "format": "PNG",
+          "path": "Architecture/Architectural Parts/Bedroom/Images/FCBL_bed_double.png"
+        }
+      ],
+      "tags": [
+        "bed",
+        "double",
+        "fcbl"
+      ]
+    },
+    {
+      "id": "38fdfd8904c7",
+      "name": "FCBL nightstand wall hung",
+      "category": "Architecture",
+      "formats": [
+        "FCSTD",
+        "PNG"
+      ],
+      "files": [
+        {
+          "format": "FCSTD",
+          "path": "Architecture/Architectural Parts/Bedroom/FCBL_nightstand_wall_hung.FCStd"
+        },
+        {
+          "format": "PNG",
+          "path": "Architecture/Architectural Parts/Bedroom/Images/FCBL_nightstand_wall_hung.png"
+        }
+      ],
+      "tags": [
+        "fcbl",
+        "hung",
+        "nightstand",
+        "wall"
+      ]
+    },
+    {
+      "id": "849378b2b911",
+      "name": "Bedroom closet model 01 image 01",
+      "category": "Architecture",
+      "formats": [
+        "JPG"
+      ],
+      "files": [
+        {
+          "format": "JPG",
+          "path": "Architecture/Architectural Parts/Bedroom/Images/Bedroom_closet_model_01_image_01.jpg"
+        }
+      ],
+      "tags": [
+        "01",
+        "bedroom",
+        "closet",
+        "image",
+        "model"
+      ]
+    },
+    {
+      "id": "3636d6e14b6e",
+      "name": "Bedroom closet model 02 image 01",
+      "category": "Architecture",
+      "formats": [
+        "JPG"
+      ],
+      "files": [
+        {
+          "format": "JPG",
+          "path": "Architecture/Architectural Parts/Bedroom/Images/Bedroom_closet_model_02_image_01.jpg"
+        }
+      ],
+      "tags": [
+        "01",
+        "02",
+        "bedroom",
+        "closet",
+        "image",
+        "model"
+      ]
+    },
+    {
+      "id": "c4d7d1ec56e0",
+      "name": "Bedroom closet model 03 image 01",
+      "category": "Architecture",
+      "formats": [
+        "JPG"
+      ],
+      "files": [
+        {
+          "format": "JPG",
+          "path": "Architecture/Architectural Parts/Bedroom/Images/Bedroom_closet_model_03_image_01.jpg"
+        }
+      ],
+      "tags": [
+        "01",
+        "03",
+        "bedroom",
+        "closet",
+        "image",
+        "model"
+      ]
+    },
+    {
+      "id": "35a6eacae569",
+      "name": "Bedroom closet model 03 image 02",
+      "category": "Architecture",
+      "formats": [
+        "JPG"
+      ],
+      "files": [
+        {
+          "format": "JPG",
+          "path": "Architecture/Architectural Parts/Bedroom/Images/Bedroom_closet_model_03_image_02.jpg"
+        }
+      ],
+      "tags": [
+        "02",
+        "03",
+        "bedroom",
+        "closet",
+        "image",
+        "model"
+      ]
+    },
+    {
+      "id": "93040e4e4450",
+      "name": "Bed double image 01",
+      "category": "Architecture",
+      "formats": [
+        "JPG"
+      ],
+      "files": [
+        {
+          "format": "JPG",
+          "path": "Architecture/Architectural Parts/Bedroom/Images/Bed_double_image_01.jpg"
+        }
+      ],
+      "tags": [
+        "01",
+        "bed",
+        "double",
+        "image"
+      ]
+    },
+    {
+      "id": "d119cecc50aa",
+      "name": "Bed single image 01",
+      "category": "Architecture",
+      "formats": [
+        "JPG"
+      ],
+      "files": [
+        {
+          "format": "JPG",
+          "path": "Architecture/Architectural Parts/Bedroom/Images/Bed_single_image_01.jpg"
+        }
+      ],
+      "tags": [
+        "01",
+        "bed",
+        "image",
+        "single"
+      ]
+    },
+    {
+      "id": "ec44d0582677",
+      "name": "Slab adjustable scaffolder",
+      "category": "Architecture",
+      "formats": [
+        "BREP",
+        "FCSTD",
+        "PNG",
+        "STEP",
+        "STL"
+      ],
+      "files": [
+        {
+          "format": "BREP",
+          "path": "Architecture/Architectural Parts/Building Construction/Slab adjustable scaffolder.brep"
+        },
+        {
+          "format": "FCSTD",
+          "path": "Architecture/Architectural Parts/Building Construction/Slab adjustable scaffolder.FCStd"
+        },
+        {
+          "format": "PNG",
+          "path": "Architecture/Architectural Parts/Building Construction/Slab adjustable scaffolder.png"
+        },
+        {
+          "format": "STEP",
+          "path": "Architecture/Architectural Parts/Building Construction/Slab adjustable scaffolder.step"
+        },
+        {
+          "format": "STL",
+          "path": "Architecture/Architectural Parts/Building Construction/Slab adjustable scaffolder.stl"
+        }
+      ],
+      "tags": [
+        "adjustable",
+        "scaffolder",
+        "slab"
+      ]
+    },
+    {
+      "id": "4302a650bfe7",
+      "name": "Canal block",
+      "category": "Architecture",
+      "formats": [
+        "FCSTD"
+      ],
+      "files": [
+        {
+          "format": "FCSTD",
+          "path": "Architecture/Architectural Parts/Construction blocks/Canal block.FCStd"
+        }
+      ],
+      "tags": [
+        "block",
+        "canal"
+      ]
+    },
+    {
+      "id": "43fe764f1988",
+      "name": "Concrete block 14x19x19",
+      "category": "Architecture",
+      "formats": [
+        "STEP",
+        "STL"
+      ],
+      "files": [
+        {
+          "format": "STEP",
+          "path": "Architecture/Architectural Parts/Construction blocks/Concrete block 14x19x19.step"
+        },
+        {
+          "format": "STL",
+          "path": "Architecture/Architectural Parts/Construction blocks/Concrete block 14x19x19.stl"
+        }
+      ],
+      "tags": [
+        "14x19x19",
+        "block",
+        "concrete"
+      ]
+    },
+    {
+      "id": "8b5f21bfa239",
+      "name": "Concrete block 14x39x19",
+      "category": "Architecture",
+      "formats": [
+        "STEP",
+        "STL"
+      ],
+      "files": [
+        {
+          "format": "STEP",
+          "path": "Architecture/Architectural Parts/Construction blocks/Concrete block 14x39x19.step"
+        },
+        {
+          "format": "STL",
+          "path": "Architecture/Architectural Parts/Construction blocks/Concrete block 14x39x19.stl"
+        }
+      ],
+      "tags": [
+        "14x39x19",
+        "block",
+        "concrete"
+      ]
+    },
+    {
+      "id": "afcd0291d86d",
+      "name": "Concrete block 19x19x19",
+      "category": "Architecture",
+      "formats": [
+        "STEP",
+        "STL"
+      ],
+      "files": [
+        {
+          "format": "STEP",
+          "path": "Architecture/Architectural Parts/Construction blocks/Concrete block 19x19x19.step"
+        },
+        {
+          "format": "STL",
+          "path": "Architecture/Architectural Parts/Construction blocks/Concrete block 19x19x19.stl"
+        }
+      ],
+      "tags": [
+        "19x19x19",
+        "block",
+        "concrete"
+      ]
+    },
+    {
+      "id": "dcb06c7919a0",
+      "name": "Concrete block 19x39x19",
+      "category": "Architecture",
+      "formats": [
+        "STEP",
+        "STL"
+      ],
+      "files": [
+        {
+          "format": "STEP",
+          "path": "Architecture/Architectural Parts/Construction blocks/Concrete block 19x39x19.step"
+        },
+        {
+          "format": "STL",
+          "path": "Architecture/Architectural Parts/Construction blocks/Concrete block 19x39x19.stl"
+        }
+      ],
+      "tags": [
+        "19x39x19",
+        "block",
+        "concrete"
+      ]
+    },
+    {
+      "id": "ab111c21ff0a",
+      "name": "Concrete block 9x19x19",
+      "category": "Architecture",
+      "formats": [
+        "STEP",
+        "STL"
+      ],
+      "files": [
+        {
+          "format": "STEP",
+          "path": "Architecture/Architectural Parts/Construction blocks/Concrete block 9x19x19.step"
+        },
+        {
+          "format": "STL",
+          "path": "Architecture/Architectural Parts/Construction blocks/Concrete block 9x19x19.stl"
+        }
+      ],
+      "tags": [
+        "9x19x19",
+        "block",
+        "concrete"
+      ]
+    },
+    {
+      "id": "9aec93def19b",
+      "name": "Concrete block 9x39x19",
+      "category": "Architecture",
+      "formats": [
+        "STEP",
+        "STL"
+      ],
+      "files": [
+        {
+          "format": "STEP",
+          "path": "Architecture/Architectural Parts/Construction blocks/Concrete block 9x39x19.step"
+        },
+        {
+          "format": "STL",
+          "path": "Architecture/Architectural Parts/Construction blocks/Concrete block 9x39x19.stl"
+        }
+      ],
+      "tags": [
+        "9x39x19",
+        "block",
+        "concrete"
+      ]
+    },
+    {
+      "id": "8876d2b4f459",
+      "name": "Concrete block",
+      "category": "Architecture",
+      "formats": [
+        "FCSTD"
+      ],
+      "files": [
+        {
+          "format": "FCSTD",
+          "path": "Architecture/Architectural Parts/Construction blocks/Concrete block.FCStd"
+        }
+      ],
+      "tags": [
+        "block",
+        "concrete"
+      ]
+    },
+    {
+      "id": "235fc03becdf",
+      "name": "Concrete canal block 14x39x19",
+      "category": "Architecture",
+      "formats": [
+        "STEP",
+        "STL"
+      ],
+      "files": [
+        {
+          "format": "STEP",
+          "path": "Architecture/Architectural Parts/Construction blocks/Concrete canal block 14x39x19.step"
+        },
+        {
+          "format": "STL",
+          "path": "Architecture/Architectural Parts/Construction blocks/Concrete canal block 14x39x19.stl"
+        }
+      ],
+      "tags": [
+        "14x39x19",
+        "block",
+        "canal",
+        "concrete"
+      ]
+    },
+    {
+      "id": "b4cb3f62a272",
+      "name": "Concrete canal block 19x39x19",
+      "category": "Architecture",
+      "formats": [
+        "STEP",
+        "STL"
+      ],
+      "files": [
+        {
+          "format": "STEP",
+          "path": "Architecture/Architectural Parts/Construction blocks/Concrete canal block 19x39x19.step"
+        },
+        {
+          "format": "STL",
+          "path": "Architecture/Architectural Parts/Construction blocks/Concrete canal block 19x39x19.stl"
+        }
+      ],
+      "tags": [
+        "19x39x19",
+        "block",
+        "canal",
+        "concrete"
+      ]
+    },
+    {
+      "id": "df274a66183a",
+      "name": "Half concrete block",
+      "category": "Architecture",
+      "formats": [
+        "FCSTD"
+      ],
+      "files": [
+        {
+          "format": "FCSTD",
+          "path": "Architecture/Architectural Parts/Construction blocks/Half concrete block.FCStd"
+        }
+      ],
+      "tags": [
+        "block",
+        "concrete",
+        "half"
+      ]
+    },
+    {
+      "id": "801e2c6b3b31",
+      "name": "Simple door",
+      "category": "Architecture",
+      "formats": [
+        "FCSTD",
+        "STEP",
+        "STL"
+      ],
+      "files": [
+        {
+          "format": "FCSTD",
+          "path": "Architecture/Architectural Parts/Doors/Generic/Simple door.fcstd"
+        },
+        {
+          "format": "STEP",
+          "path": "Architecture/Architectural Parts/Doors/Generic/Simple door.step"
+        },
+        {
+          "format": "STL",
+          "path": "Architecture/Architectural Parts/Doors/Generic/Simple door.stl"
+        }
+      ],
+      "tags": [
+        "door",
+        "simple"
+      ]
+    },
+    {
+      "id": "36e8eeee329e",
+      "name": "Double glass doors with handles and transom",
+      "category": "Architecture",
+      "formats": [
+        "FCSTD",
+        "STEP",
+        "STL"
+      ],
+      "files": [
+        {
+          "format": "FCSTD",
+          "path": "Architecture/Architectural Parts/Doors/Glass/Double glass doors with handles and transom.FCStd"
+        },
+        {
+          "format": "STEP",
+          "path": "Architecture/Architectural Parts/Doors/Glass/Double glass doors with handles and transom.step"
+        },
+        {
+          "format": "STL",
+          "path": "Architecture/Architectural Parts/Doors/Glass/Double glass doors with handles and transom.stl"
+        }
+      ],
+      "tags": [
+        "and",
+        "doors",
+        "double",
+        "glass",
+        "handles",
+        "transom",
+        "with"
+      ]
+    },
+    {
+      "id": "d05fd7a45a0d",
+      "name": "Double glass doors with handles",
+      "category": "Architecture",
+      "formats": [
+        "FCSTD",
+        "STEP",
+        "STL"
+      ],
+      "files": [
+        {
+          "format": "FCSTD",
+          "path": "Architecture/Architectural Parts/Doors/Glass/Double glass doors with handles.FCStd"
+        },
+        {
+          "format": "STEP",
+          "path": "Architecture/Architectural Parts/Doors/Glass/Double glass doors with handles.step"
+        },
+        {
+          "format": "STL",
+          "path": "Architecture/Architectural Parts/Doors/Glass/Double glass doors with handles.stl"
+        }
+      ],
+      "tags": [
+        "doors",
+        "double",
+        "glass",
+        "handles",
+        "with"
+      ]
+    },
+    {
+      "id": "2142ce8e6df1",
+      "name": "Double glass doors with lintel and handles",
+      "category": "Architecture",
+      "formats": [
+        "FCSTD",
+        "STEP",
+        "STL"
+      ],
+      "files": [
+        {
+          "format": "FCSTD",
+          "path": "Architecture/Architectural Parts/Doors/Glass/Double glass doors with lintel and handles.FCStd"
+        },
+        {
+          "format": "STEP",
+          "path": "Architecture/Architectural Parts/Doors/Glass/Double glass doors with lintel and handles.step"
+        },
+        {
+          "format": "STL",
+          "path": "Architecture/Architectural Parts/Doors/Glass/Double glass doors with lintel and handles.stl"
+        }
+      ],
+      "tags": [
+        "and",
+        "doors",
+        "double",
+        "glass",
+        "handles",
+        "lintel",
+        "with"
+      ]
+    },
+    {
+      "id": "039af5ed2371",
+      "name": "Double glass doors with transom and handles",
+      "category": "Architecture",
+      "formats": [
+        "FCSTD",
+        "STEP",
+        "STL"
+      ],
+      "files": [
+        {
+          "format": "FCSTD",
+          "path": "Architecture/Architectural Parts/Doors/Glass/Double glass doors with transom and handles.FCStd"
+        },
+        {
+          "format": "STEP",
+          "path": "Architecture/Architectural Parts/Doors/Glass/Double glass doors with transom and handles.step"
+        },
+        {
+          "format": "STL",
+          "path": "Architecture/Architectural Parts/Doors/Glass/Double glass doors with transom and handles.stl"
+        }
+      ],
+      "tags": [
+        "and",
+        "doors",
+        "double",
+        "glass",
+        "handles",
+        "transom",
+        "with"
+      ]
+    },
+    {
+      "id": "befb51ffb1aa",
+      "name": "Double glass sliding doors and handles",
+      "category": "Architecture",
+      "formats": [
+        "FCSTD",
+        "STEP",
+        "STL"
+      ],
+      "files": [
+        {
+          "format": "FCSTD",
+          "path": "Architecture/Architectural Parts/Doors/Glass/Double glass sliding doors and handles.FCStd"
+        },
+        {
+          "format": "STEP",
+          "path": "Architecture/Architectural Parts/Doors/Glass/Double glass sliding doors and handles.step"
+        },
+        {
+          "format": "STL",
+          "path": "Architecture/Architectural Parts/Doors/Glass/Double glass sliding doors and handles.stl"
+        }
+      ],
+      "tags": [
+        "and",
+        "doors",
+        "double",
+        "glass",
+        "handles",
+        "sliding"
+      ]
+    },
+    {
+      "id": "c2625990bef6",
+      "name": "Simple glass door with handles and transom",
+      "category": "Architecture",
+      "formats": [
+        "FCSTD",
+        "STEP",
+        "STL"
+      ],
+      "files": [
+        {
+          "format": "FCSTD",
+          "path": "Architecture/Architectural Parts/Doors/Glass/Simple glass door with handles and transom.FCStd"
+        },
+        {
+          "format": "STEP",
+          "path": "Architecture/Architectural Parts/Doors/Glass/Simple glass door with handles and transom.step"
+        },
+        {
+          "format": "STL",
+          "path": "Architecture/Architectural Parts/Doors/Glass/Simple glass door with handles and transom.stl"
+        }
+      ],
+      "tags": [
+        "and",
+        "door",
+        "glass",
+        "handles",
+        "simple",
+        "transom",
+        "with"
+      ]
+    },
+    {
+      "id": "110624867819",
+      "name": "Simple glass door with handles",
+      "category": "Architecture",
+      "formats": [
+        "FCSTD",
+        "STEP",
+        "STL"
+      ],
+      "files": [
+        {
+          "format": "FCSTD",
+          "path": "Architecture/Architectural Parts/Doors/Glass/Simple glass door with handles.FCStd"
+        },
+        {
+          "format": "STEP",
+          "path": "Architecture/Architectural Parts/Doors/Glass/Simple glass door with handles.step"
+        },
+        {
+          "format": "STL",
+          "path": "Architecture/Architectural Parts/Doors/Glass/Simple glass door with handles.stl"
+        }
+      ],
+      "tags": [
+        "door",
+        "glass",
+        "handles",
+        "simple",
+        "with"
+      ]
+    },
+    {
+      "id": "d27d943b1e81",
+      "name": "Simple glass door with lintel and handles",
+      "category": "Architecture",
+      "formats": [
+        "FCSTD",
+        "STEP",
+        "STL"
+      ],
+      "files": [
+        {
+          "format": "FCSTD",
+          "path": "Architecture/Architectural Parts/Doors/Glass/Simple glass door with lintel and handles.FCStd"
+        },
+        {
+          "format": "STEP",
+          "path": "Architecture/Architectural Parts/Doors/Glass/Simple glass door with lintel and handles.step"
+        },
+        {
+          "format": "STL",
+          "path": "Architecture/Architectural Parts/Doors/Glass/Simple glass door with lintel and handles.stl"
+        }
+      ],
+      "tags": [
+        "and",
+        "door",
+        "glass",
+        "handles",
+        "lintel",
+        "simple",
+        "with"
+      ]
+    },
+    {
+      "id": "a1bed97a026d",
+      "name": "Double doors with glass and transom",
+      "category": "Architecture",
+      "formats": [
+        "FCSTD",
+        "STEP",
+        "STL"
+      ],
+      "files": [
+        {
+          "format": "FCSTD",
+          "path": "Architecture/Architectural Parts/Doors/Metal/Double doors with glass and transom.FCStd"
+        },
+        {
+          "format": "STEP",
+          "path": "Architecture/Architectural Parts/Doors/Metal/Double doors with glass and transom.step"
+        },
+        {
+          "format": "STL",
+          "path": "Architecture/Architectural Parts/Doors/Metal/Double doors with glass and transom.stl"
+        }
+      ],
+      "tags": [
+        "and",
+        "doors",
+        "double",
+        "glass",
+        "transom",
+        "with"
+      ]
+    },
+    {
+      "id": "3b6e5a75bc03",
+      "name": "Double doors with glass",
+      "category": "Architecture",
+      "formats": [
+        "FCSTD",
+        "STEP",
+        "STL"
+      ],
+      "files": [
+        {
+          "format": "FCSTD",
+          "path": "Architecture/Architectural Parts/Doors/Metal/Double doors with glass.FCStd"
+        },
+        {
+          "format": "STEP",
+          "path": "Architecture/Architectural Parts/Doors/Metal/Double doors with glass.step"
+        },
+        {
+          "format": "STL",
+          "path": "Architecture/Architectural Parts/Doors/Metal/Double doors with glass.stl"
+        }
+      ],
+      "tags": [
+        "doors",
+        "double",
+        "glass",
+        "with"
+      ]
+    },
+    {
+      "id": "af0adf454495",
+      "name": "Elevator doors with trims",
+      "category": "Architecture",
+      "formats": [
+        "FCSTD",
+        "STEP",
+        "STL"
+      ],
+      "files": [
+        {
+          "format": "FCSTD",
+          "path": "Architecture/Architectural Parts/Doors/Metal/Elevator doors with trims.FCStd"
+        },
+        {
+          "format": "STEP",
+          "path": "Architecture/Architectural Parts/Doors/Metal/Elevator doors with trims.step"
+        },
+        {
+          "format": "STL",
+          "path": "Architecture/Architectural Parts/Doors/Metal/Elevator doors with trims.stl"
+        }
+      ],
+      "tags": [
+        "doors",
+        "elevator",
+        "trims",
+        "with"
+      ]
+    },
+    {
+      "id": "edc44adaa052",
+      "name": "Elevator doors",
+      "category": "Architecture",
+      "formats": [
+        "FCSTD",
+        "STEP",
+        "STL"
+      ],
+      "files": [
+        {
+          "format": "FCSTD",
+          "path": "Architecture/Architectural Parts/Doors/Metal/Elevator doors.FCStd"
+        },
+        {
+          "format": "STEP",
+          "path": "Architecture/Architectural Parts/Doors/Metal/Elevator doors.step"
+        },
+        {
+          "format": "STL",
+          "path": "Architecture/Architectural Parts/Doors/Metal/Elevator doors.stl"
+        }
+      ],
+      "tags": [
+        "doors",
+        "elevator"
+      ]
+    },
+    {
+      "id": "831cba344c16",
+      "name": "Simple door with glass",
+      "category": "Architecture",
+      "formats": [
+        "FCSTD",
+        "STEP",
+        "STL"
+      ],
+      "files": [
+        {
+          "format": "FCSTD",
+          "path": "Architecture/Architectural Parts/Doors/Metal/Simple door with glass.FCStd"
+        },
+        {
+          "format": "STEP",
+          "path": "Architecture/Architectural Parts/Doors/Metal/Simple door with glass.step"
+        },
+        {
+          "format": "STL",
+          "path": "Architecture/Architectural Parts/Doors/Metal/Simple door with glass.stl"
+        }
+      ],
+      "tags": [
+        "door",
+        "glass",
+        "simple",
+        "with"
+      ]
+    },
+    {
+      "id": "a8221aeeb18d",
+      "name": "Single door with glass and transom",
+      "category": "Architecture",
+      "formats": [
+        "FCSTD",
+        "STEP",
+        "STL"
+      ],
+      "files": [
+        {
+          "format": "FCSTD",
+          "path": "Architecture/Architectural Parts/Doors/Metal/Single door with glass and transom.FCStd"
+        },
+        {
+          "format": "STEP",
+          "path": "Architecture/Architectural Parts/Doors/Metal/Single door with glass and transom.step"
+        },
+        {
+          "format": "STL",
+          "path": "Architecture/Architectural Parts/Doors/Metal/Single door with glass and transom.stl"
+        }
+      ],
+      "tags": [
+        "and",
+        "door",
+        "glass",
+        "single",
+        "transom",
+        "with"
+      ]
+    },
+    {
+      "id": "2adc05a4eb81",
+      "name": "Single elevated door with glass and transom",
+      "category": "Architecture",
+      "formats": [
+        "FCSTD",
+        "STEP",
+        "STL"
+      ],
+      "files": [
+        {
+          "format": "FCSTD",
+          "path": "Architecture/Architectural Parts/Doors/Metal/Single elevated door with glass and transom.FCStd"
+        },
+        {
+          "format": "STEP",
+          "path": "Architecture/Architectural Parts/Doors/Metal/Single elevated door with glass and transom.step"
+        },
+        {
+          "format": "STL",
+          "path": "Architecture/Architectural Parts/Doors/Metal/Single elevated door with glass and transom.stl"
+        }
+      ],
+      "tags": [
+        "and",
+        "door",
+        "elevated",
+        "glass",
+        "single",
+        "transom",
+        "with"
+      ]
+    },
+    {
+      "id": "c013d4f2def1",
+      "name": "Slinding door 2 sheets with glass",
+      "category": "Architecture",
+      "formats": [
+        "FCSTD",
+        "STEP",
+        "STL"
+      ],
+      "files": [
+        {
+          "format": "FCSTD",
+          "path": "Architecture/Architectural Parts/Doors/Metal/Slinding door 2 sheets with glass.FCStd"
+        },
+        {
+          "format": "STEP",
+          "path": "Architecture/Architectural Parts/Doors/Metal/Slinding door 2 sheets with glass.step"
+        },
+        {
+          "format": "STL",
+          "path": "Architecture/Architectural Parts/Doors/Metal/Slinding door 2 sheets with glass.stl"
+        }
+      ],
+      "tags": [
+        "2",
+        "door",
+        "glass",
+        "sheets",
+        "slinding",
+        "with"
+      ]
+    },
+    {
+      "id": "ea1d9ad6b9f8",
+      "name": "Slinding door 3 sheets with glass",
+      "category": "Architecture",
+      "formats": [
+        "FCSTD",
+        "STEP",
+        "STL"
+      ],
+      "files": [
+        {
+          "format": "FCSTD",
+          "path": "Architecture/Architectural Parts/Doors/Metal/Slinding door 3 sheets with glass.FCStd"
+        },
+        {
+          "format": "STEP",
+          "path": "Architecture/Architectural Parts/Doors/Metal/Slinding door 3 sheets with glass.step"
+        },
+        {
+          "format": "STL",
+          "path": "Architecture/Architectural Parts/Doors/Metal/Slinding door 3 sheets with glass.stl"
+        }
+      ],
+      "tags": [
+        "3",
+        "door",
+        "glass",
+        "sheets",
+        "slinding",
+        "with"
+      ]
+    },
+    {
+      "id": "53967d5f1c73",
+      "name": "Slinding door 4 sheets with glass and transom",
+      "category": "Architecture",
+      "formats": [
+        "FCSTD",
+        "STEP",
+        "STL"
+      ],
+      "files": [
+        {
+          "format": "FCSTD",
+          "path": "Architecture/Architectural Parts/Doors/Metal/Slinding door 4 sheets with glass and transom.FCStd"
+        },
+        {
+          "format": "STEP",
+          "path": "Architecture/Architectural Parts/Doors/Metal/Slinding door 4 sheets with glass and transom.step"
+        },
+        {
+          "format": "STL",
+          "path": "Architecture/Architectural Parts/Doors/Metal/Slinding door 4 sheets with glass and transom.stl"
+        }
+      ],
+      "tags": [
+        "4",
+        "and",
+        "door",
+        "glass",
+        "sheets",
+        "slinding",
+        "transom",
+        "with"
+      ]
+    },
+    {
+      "id": "73d2bd97b62b",
+      "name": "slinding double doors with glass and transom",
+      "category": "Architecture",
+      "formats": [
+        "FCSTD",
+        "STEP",
+        "STL"
+      ],
+      "files": [
+        {
+          "format": "FCSTD",
+          "path": "Architecture/Architectural Parts/Doors/Metal/slinding double doors with glass and transom.FCStd"
+        },
+        {
+          "format": "STEP",
+          "path": "Architecture/Architectural Parts/Doors/Metal/slinding double doors with glass and transom.step"
+        },
+        {
+          "format": "STL",
+          "path": "Architecture/Architectural Parts/Doors/Metal/slinding double doors with glass and transom.stl"
+        }
+      ],
+      "tags": [
+        "and",
+        "doors",
+        "double",
+        "glass",
+        "slinding",
+        "transom",
+        "with"
+      ]
+    },
+    {
+      "id": "c17787d0d440",
+      "name": "Double doors with shutters and trim",
+      "category": "Architecture",
+      "formats": [
+        "FCSTD",
+        "STEP",
+        "STL"
+      ],
+      "files": [
+        {
+          "format": "FCSTD",
+          "path": "Architecture/Architectural Parts/Doors/Shutter/Double doors with shutters and trim.FCStd"
+        },
+        {
+          "format": "STEP",
+          "path": "Architecture/Architectural Parts/Doors/Shutter/Double doors with shutters and trim.step"
+        },
+        {
+          "format": "STL",
+          "path": "Architecture/Architectural Parts/Doors/Shutter/Double doors with shutters and trim.stl"
+        }
+      ],
+      "tags": [
+        "and",
+        "doors",
+        "double",
+        "shutters",
+        "trim",
+        "with"
+      ]
+    },
+    {
+      "id": "802d40342e80",
+      "name": "Double doors with shutters, transom and trim",
+      "category": "Architecture",
+      "formats": [
+        "FCSTD",
+        "STEP",
+        "STL"
+      ],
+      "files": [
+        {
+          "format": "FCSTD",
+          "path": "Architecture/Architectural Parts/Doors/Shutter/Double doors with shutters, transom and trim.FCStd"
+        },
+        {
+          "format": "STEP",
+          "path": "Architecture/Architectural Parts/Doors/Shutter/Double doors with shutters, transom and trim.step"
+        },
+        {
+          "format": "STL",
+          "path": "Architecture/Architectural Parts/Doors/Shutter/Double doors with shutters, transom and trim.stl"
+        }
+      ],
+      "tags": [
+        "and",
+        "doors",
+        "double",
+        "shutters",
+        "transom",
+        "trim",
+        "with"
+      ]
+    },
+    {
+      "id": "914c97031fec",
+      "name": "Double elevated doors with shutters and trims",
+      "category": "Architecture",
+      "formats": [
+        "FCSTD",
+        "STEP",
+        "STL"
+      ],
+      "files": [
+        {
+          "format": "FCSTD",
+          "path": "Architecture/Architectural Parts/Doors/Shutter/Double elevated doors with shutters and trims.FCStd"
+        },
+        {
+          "format": "STEP",
+          "path": "Architecture/Architectural Parts/Doors/Shutter/Double elevated doors with shutters and trims.step"
+        },
+        {
+          "format": "STL",
+          "path": "Architecture/Architectural Parts/Doors/Shutter/Double elevated doors with shutters and trims.stl"
+        }
+      ],
+      "tags": [
+        "and",
+        "doors",
+        "double",
+        "elevated",
+        "shutters",
+        "trims",
+        "with"
+      ]
+    },
+    {
+      "id": "52b5e48e6370",
+      "name": "Single door with shutters and trims",
+      "category": "Architecture",
+      "formats": [
+        "FCSTD",
+        "STEP",
+        "STL"
+      ],
+      "files": [
+        {
+          "format": "FCSTD",
+          "path": "Architecture/Architectural Parts/Doors/Shutter/Single door with shutters and trims.FCStd"
+        },
+        {
+          "format": "STEP",
+          "path": "Architecture/Architectural Parts/Doors/Shutter/Single door with shutters and trims.step"
+        },
+        {
+          "format": "STL",
+          "path": "Architecture/Architectural Parts/Doors/Shutter/Single door with shutters and trims.stl"
+        }
+      ],
+      "tags": [
+        "and",
+        "door",
+        "shutters",
+        "single",
+        "trims",
+        "with"
+      ]
+    },
+    {
+      "id": "5c180acaa2eb",
+      "name": "Single door with shutters, transom and trim",
+      "category": "Architecture",
+      "formats": [
+        "FCSTD",
+        "STEP",
+        "STL"
+      ],
+      "files": [
+        {
+          "format": "FCSTD",
+          "path": "Architecture/Architectural Parts/Doors/Shutter/Single door with shutters, transom and trim.FCStd"
+        },
+        {
+          "format": "STEP",
+          "path": "Architecture/Architectural Parts/Doors/Shutter/Single door with shutters, transom and trim.step"
+        },
+        {
+          "format": "STL",
+          "path": "Architecture/Architectural Parts/Doors/Shutter/Single door with shutters, transom and trim.stl"
+        }
+      ],
+      "tags": [
+        "and",
+        "door",
+        "shutters",
+        "single",
+        "transom",
+        "trim",
+        "with"
+      ]
+    },
+    {
+      "id": "657b9c644ede",
+      "name": "Single elevated door with shutters and trims",
+      "category": "Architecture",
+      "formats": [
+        "FCSTD",
+        "STEP",
+        "STL"
+      ],
+      "files": [
+        {
+          "format": "FCSTD",
+          "path": "Architecture/Architectural Parts/Doors/Shutter/Single elevated door with shutters and trims.FCStd"
+        },
+        {
+          "format": "STEP",
+          "path": "Architecture/Architectural Parts/Doors/Shutter/Single elevated door with shutters and trims.step"
+        },
+        {
+          "format": "STL",
+          "path": "Architecture/Architectural Parts/Doors/Shutter/Single elevated door with shutters and trims.stl"
+        }
+      ],
+      "tags": [
+        "and",
+        "door",
+        "elevated",
+        "shutters",
+        "single",
+        "trims",
+        "with"
+      ]
+    },
+    {
+      "id": "b5608489db3f",
+      "name": "Double doors and trims",
+      "category": "Architecture",
+      "formats": [
+        "FCSTD",
+        "STEP",
+        "STL"
+      ],
+      "files": [
+        {
+          "format": "FCSTD",
+          "path": "Architecture/Architectural Parts/Doors/Wood/Double doors and trims.FCStd"
+        },
+        {
+          "format": "STEP",
+          "path": "Architecture/Architectural Parts/Doors/Wood/Double doors and trims.step"
+        },
+        {
+          "format": "STL",
+          "path": "Architecture/Architectural Parts/Doors/Wood/Double doors and trims.stl"
+        }
+      ],
+      "tags": [
+        "and",
+        "doors",
+        "double",
+        "trims"
+      ]
+    },
+    {
+      "id": "1d74ee16cda7",
+      "name": "Double doors with transom and trims",
+      "category": "Architecture",
+      "formats": [
+        "FCSTD",
+        "STEP",
+        "STL"
+      ],
+      "files": [
+        {
+          "format": "FCSTD",
+          "path": "Architecture/Architectural Parts/Doors/Wood/Double doors with transom and trims.FCStd"
+        },
+        {
+          "format": "STEP",
+          "path": "Architecture/Architectural Parts/Doors/Wood/Double doors with transom and trims.step"
+        },
+        {
+          "format": "STL",
+          "path": "Architecture/Architectural Parts/Doors/Wood/Double doors with transom and trims.stl"
+        }
+      ],
+      "tags": [
+        "and",
+        "doors",
+        "double",
+        "transom",
+        "trims",
+        "with"
+      ]
+    },
+    {
+      "id": "1cc835be7d00",
+      "name": "Double doors with windowand trims",
+      "category": "Architecture",
+      "formats": [
+        "FCSTD"
+      ],
+      "files": [
+        {
+          "format": "FCSTD",
+          "path": "Architecture/Architectural Parts/Doors/Wood/Double doors with windowand trims.FCStd"
+        }
+      ],
+      "tags": [
+        "doors",
+        "double",
+        "trims",
+        "windowand",
+        "with"
+      ]
+    },
+    {
+      "id": "5ddc1fbdfa88",
+      "name": "Double doors with windows and trims",
+      "category": "Architecture",
+      "formats": [
+        "STEP",
+        "STL"
+      ],
+      "files": [
+        {
+          "format": "STEP",
+          "path": "Architecture/Architectural Parts/Doors/Wood/Double doors with windows and trims.step"
+        },
+        {
+          "format": "STL",
+          "path": "Architecture/Architectural Parts/Doors/Wood/Double doors with windows and trims.stl"
+        }
+      ],
+      "tags": [
+        "and",
+        "doors",
+        "double",
+        "trims",
+        "windows",
+        "with"
+      ]
+    },
+    {
+      "id": "c1b927de3f8e",
+      "name": "Double sliding doors and trims",
+      "category": "Architecture",
+      "formats": [
+        "FCSTD",
+        "STEP",
+        "STL"
+      ],
+      "files": [
+        {
+          "format": "FCSTD",
+          "path": "Architecture/Architectural Parts/Doors/Wood/Double sliding doors and trims.FCStd"
+        },
+        {
+          "format": "STEP",
+          "path": "Architecture/Architectural Parts/Doors/Wood/Double sliding doors and trims.step"
+        },
+        {
+          "format": "STL",
+          "path": "Architecture/Architectural Parts/Doors/Wood/Double sliding doors and trims.stl"
+        }
+      ],
+      "tags": [
+        "and",
+        "doors",
+        "double",
+        "sliding",
+        "trims"
+      ]
+    },
+    {
+      "id": "2bf4bbee466c",
+      "name": "Double sliding doors with windows and trims",
+      "category": "Architecture",
+      "formats": [
+        "FCSTD",
+        "STEP",
+        "STL"
+      ],
+      "files": [
+        {
+          "format": "FCSTD",
+          "path": "Architecture/Architectural Parts/Doors/Wood/Double sliding doors with windows and trims.FCStd"
+        },
+        {
+          "format": "STEP",
+          "path": "Architecture/Architectural Parts/Doors/Wood/Double sliding doors with windows and trims.step"
+        },
+        {
+          "format": "STL",
+          "path": "Architecture/Architectural Parts/Doors/Wood/Double sliding doors with windows and trims.stl"
+        }
+      ],
+      "tags": [
+        "and",
+        "doors",
+        "double",
+        "sliding",
+        "trims",
+        "windows",
+        "with"
+      ]
+    },
+    {
+      "id": "a4254b332edf",
+      "name": "Single door with transom and trims",
+      "category": "Architecture",
+      "formats": [
+        "FCSTD",
+        "STEP",
+        "STL"
+      ],
+      "files": [
+        {
+          "format": "FCSTD",
+          "path": "Architecture/Architectural Parts/Doors/Wood/Single door with transom and trims.FCStd"
+        },
+        {
+          "format": "STEP",
+          "path": "Architecture/Architectural Parts/Doors/Wood/Single door with transom and trims.step"
+        },
+        {
+          "format": "STL",
+          "path": "Architecture/Architectural Parts/Doors/Wood/Single door with transom and trims.stl"
+        }
+      ],
+      "tags": [
+        "and",
+        "door",
+        "single",
+        "transom",
+        "trims",
+        "with"
+      ]
+    },
+    {
+      "id": "3667e5a25d71",
+      "name": "Single door with trims",
+      "category": "Architecture",
+      "formats": [
+        "FCSTD",
+        "STEP",
+        "STL"
+      ],
+      "files": [
+        {
+          "format": "FCSTD",
+          "path": "Architecture/Architectural Parts/Doors/Wood/Single door with trims.FCStd"
+        },
+        {
+          "format": "STEP",
+          "path": "Architecture/Architectural Parts/Doors/Wood/Single door with trims.step"
+        },
+        {
+          "format": "STL",
+          "path": "Architecture/Architectural Parts/Doors/Wood/Single door with trims.stl"
+        }
+      ],
+      "tags": [
+        "door",
+        "single",
+        "trims",
+        "with"
+      ]
+    },
+    {
+      "id": "712f66ed3c0e",
+      "name": "Single door with window and trims",
+      "category": "Architecture",
+      "formats": [
+        "FCSTD",
+        "STEP",
+        "STL"
+      ],
+      "files": [
+        {
+          "format": "FCSTD",
+          "path": "Architecture/Architectural Parts/Doors/Wood/Single door with window and trims.FCStd"
+        },
+        {
+          "format": "STEP",
+          "path": "Architecture/Architectural Parts/Doors/Wood/Single door with window and trims.step"
+        },
+        {
+          "format": "STL",
+          "path": "Architecture/Architectural Parts/Doors/Wood/Single door with window and trims.stl"
+        }
+      ],
+      "tags": [
+        "and",
+        "door",
+        "single",
+        "trims",
+        "window",
+        "with"
+      ]
+    },
+    {
+      "id": "f0f1c89542eb",
+      "name": "Sliding door",
+      "category": "Architecture",
+      "formats": [
+        "FCSTD",
+        "STEP",
+        "STL"
+      ],
+      "files": [
+        {
+          "format": "FCSTD",
+          "path": "Architecture/Architectural Parts/Doors/Wood/Sliding_door.fcstd"
+        },
+        {
+          "format": "STEP",
+          "path": "Architecture/Architectural Parts/Doors/Wood/Sliding_door.step"
+        },
+        {
+          "format": "STL",
+          "path": "Architecture/Architectural Parts/Doors/Wood/Sliding_door.stl"
+        }
+      ],
+      "tags": [
+        "door",
+        "sliding"
+      ]
+    },
+    {
+      "id": "e254a68dc4ea",
+      "name": "Doors windows",
+      "category": "Architecture",
+      "formats": [
+        "FCSTD"
+      ],
+      "files": [
+        {
+          "format": "FCSTD",
+          "path": "Architecture/Architectural Parts/Doors_Windows/Doors_windows.FCStd"
+        }
+      ],
+      "tags": [
+        "doors",
+        "windows"
+      ]
+    },
+    {
+      "id": "f3f0575d33e1",
+      "name": "Doors windows module 01",
+      "category": "Architecture",
+      "formats": [
+        "FCSTD"
+      ],
+      "files": [
+        {
+          "format": "FCSTD",
+          "path": "Architecture/Architectural Parts/Doors_Windows/Doors_windows_module_01.FCStd"
+        }
+      ],
+      "tags": [
+        "01",
+        "doors",
+        "module",
+        "windows"
+      ]
+    },
+    {
+      "id": "0360bb392c65",
+      "name": "Air conditionning",
+      "category": "Architecture",
+      "formats": [
+        "BREP",
+        "FCSTD",
+        "STL",
+        "STP"
+      ],
+      "files": [
+        {
+          "format": "BREP",
+          "path": "Architecture/Architectural Parts/Electric equipment/Air conditionning.brep"
+        },
+        {
+          "format": "FCSTD",
+          "path": "Architecture/Architectural Parts/Electric equipment/Air conditionning.FCStd"
+        },
+        {
+          "format": "STL",
+          "path": "Architecture/Architectural Parts/Electric equipment/Air conditionning.stl"
+        },
+        {
+          "format": "STP",
+          "path": "Architecture/Architectural Parts/Electric equipment/Air conditionning.stp"
+        }
+      ],
+      "tags": [
+        "air",
+        "conditionning"
+      ]
+    },
+    {
+      "id": "d701e32d1797",
+      "name": "FCBL tree entourage",
+      "category": "Architecture",
+      "formats": [
+        "FCSTD",
+        "PNG"
+      ],
+      "files": [
+        {
+          "format": "FCSTD",
+          "path": "Architecture/Architectural Parts/Garden/FCBL_tree_entourage.FCStd"
+        },
+        {
+          "format": "PNG",
+          "path": "Architecture/Architectural Parts/Garden/Images/FCBL_tree_entourage.png"
+        }
+      ],
+      "tags": [
+        "entourage",
+        "fcbl",
+        "tree"
+      ]
+    },
+    {
+      "id": "32f83f4cdb67",
+      "name": "Fountain",
+      "category": "Architecture",
+      "formats": [
+        "FCSTD",
+        "PNG"
+      ],
+      "files": [
+        {
+          "format": "FCSTD",
+          "path": "Architecture/Architectural Parts/Garden/Fountain.FCStd"
+        },
+        {
+          "format": "PNG",
+          "path": "Architecture/Architectural Parts/Garden/Images/Fountain.png"
+        }
+      ],
+      "tags": [
+        "fountain"
+      ]
+    },
+    {
+      "id": "8428cbd8354a",
+      "name": "80x80x8cm shower box",
+      "category": "Architecture",
+      "formats": [
+        "BREP",
+        "FCSTD",
+        "STL"
+      ],
+      "files": [
+        {
+          "format": "BREP",
+          "path": "Architecture/Architectural Parts/Hydro equipment/80x80x8cm shower box.brep"
+        },
+        {
+          "format": "FCSTD",
+          "path": "Architecture/Architectural Parts/Hydro equipment/80x80x8cm shower box.fcstd"
+        },
+        {
+          "format": "STL",
+          "path": "Architecture/Architectural Parts/Hydro equipment/80x80x8cm shower box.stl"
+        }
+      ],
+      "tags": [
+        "80x80x8cm",
+        "box",
+        "shower"
+      ]
+    },
+    {
+      "id": "6c65a544ef7b",
+      "name": "8cm floor drain",
+      "category": "Architecture",
+      "formats": [
+        "BREP",
+        "FCSTD",
+        "STL"
+      ],
+      "files": [
+        {
+          "format": "BREP",
+          "path": "Architecture/Architectural Parts/Hydro equipment/8cm floor drain.brep"
+        },
+        {
+          "format": "FCSTD",
+          "path": "Architecture/Architectural Parts/Hydro equipment/8cm floor drain.fcstd"
+        },
+        {
+          "format": "STL",
+          "path": "Architecture/Architectural Parts/Hydro equipment/8cm floor drain.stl"
+        }
+      ],
+      "tags": [
+        "8cm",
+        "drain",
+        "floor"
+      ]
+    },
+    {
+      "id": "ea4ef304a984",
+      "name": "Faucete bancada",
+      "category": "Architecture",
+      "formats": [
+        "FCSTD"
+      ],
+      "files": [
+        {
+          "format": "FCSTD",
+          "path": "Architecture/Architectural Parts/Hydro equipment/Faucets/Faucete_bancada/Faucete_bancada.FCStd"
+        }
+      ],
+      "tags": [
+        "bancada",
+        "faucete"
+      ]
+    },
+    {
+      "id": "489b46f34484",
+      "name": "Torneira",
+      "category": "Architecture",
+      "formats": [
+        "PNG"
+      ],
+      "files": [
+        {
+          "format": "PNG",
+          "path": "Architecture/Architectural Parts/Hydro equipment/Faucets/Faucete_bancada/Torneira.png"
+        }
+      ],
+      "tags": [
+        "torneira"
+      ]
+    },
+    {
+      "id": "d51497ba4102",
+      "name": "faucet gourmet cozinha",
+      "category": "Architecture",
+      "formats": [
+        "FCSTD"
+      ],
+      "files": [
+        {
+          "format": "FCSTD",
+          "path": "Architecture/Architectural Parts/Hydro equipment/Faucets/Faucet_gourmet_cozinha/faucet_gourmet_cozinha.FCStd"
+        }
+      ],
+      "tags": [
+        "cozinha",
+        "faucet",
+        "gourmet"
+      ]
+    },
+    {
+      "id": "ee088e89f395",
+      "name": "Torneita",
+      "category": "Architecture",
+      "formats": [
+        "JPG"
+      ],
+      "files": [
+        {
+          "format": "JPG",
+          "path": "Architecture/Architectural Parts/Hydro equipment/Faucets/Faucet_gourmet_cozinha/Torneita.JPG"
+        }
+      ],
+      "tags": [
+        "torneita"
+      ]
+    },
+    {
+      "id": "f1cff4e9b99e",
+      "name": "Faucet Lorenzetti Banheiro",
+      "category": "Architecture",
+      "formats": [
+        "FCSTD",
+        "JPG"
+      ],
+      "files": [
+        {
+          "format": "FCSTD",
+          "path": "Architecture/Architectural Parts/Hydro equipment/Faucets/Faucet_Lorenzetti/Faucet_Lorenzetti_Banheiro.FCStd"
+        },
+        {
+          "format": "JPG",
+          "path": "Architecture/Architectural Parts/Hydro equipment/Faucets/Faucet_Lorenzetti/Faucet_Lorenzetti_Banheiro.JPG"
+        }
+      ],
+      "tags": [
+        "banheiro",
+        "faucet",
+        "lorenzetti"
+      ]
+    },
+    {
+      "id": "21c7b91330c8",
+      "name": "Faucet Lorenzetti Cozinha",
+      "category": "Architecture",
+      "formats": [
+        "FCSTD",
+        "JPG"
+      ],
+      "files": [
+        {
+          "format": "FCSTD",
+          "path": "Architecture/Architectural Parts/Hydro equipment/Faucets/Faucet_Lorenzetti/Faucet_Lorenzetti_Cozinha.FCStd"
+        },
+        {
+          "format": "JPG",
+          "path": "Architecture/Architectural Parts/Hydro equipment/Faucets/Faucet_Lorenzetti/Faucet_Lorenzetti_Cozinha.JPG"
+        }
+      ],
+      "tags": [
+        "cozinha",
+        "faucet",
+        "lorenzetti"
+      ]
+    },
+    {
+      "id": "1c59cbfef3c2",
+      "name": "Faucet Solone LOP4 B043 21",
+      "category": "Architecture",
+      "formats": [
+        "FCSTD"
+      ],
+      "files": [
+        {
+          "format": "FCSTD",
+          "path": "Architecture/Architectural Parts/Hydro equipment/Faucets/Faucet_Solone LOP4-B043-21/Faucet_Solone LOP4-B043-21.FCStd"
+        }
+      ],
+      "tags": [
+        "21",
+        "b043",
+        "faucet",
+        "lop4",
+        "solone"
+      ]
+    },
+    {
+      "id": "e6ee78ea390a",
+      "name": "faucet img",
+      "category": "Architecture",
+      "formats": [
+        "JPEG"
+      ],
+      "files": [
+        {
+          "format": "JPEG",
+          "path": "Architecture/Architectural Parts/Hydro equipment/Faucets/Faucet_Unitas/faucet_img.jpeg"
+        }
+      ],
+      "tags": [
+        "faucet",
+        "img"
+      ]
+    },
+    {
+      "id": "dd80a3c2fa85",
+      "name": "Faucet Unitas",
+      "category": "Architecture",
+      "formats": [
+        "FCSTD"
+      ],
+      "files": [
+        {
+          "format": "FCSTD",
+          "path": "Architecture/Architectural Parts/Hydro equipment/Faucets/Faucet_Unitas/Faucet_Unitas.FCStd"
+        }
+      ],
+      "tags": [
+        "faucet",
+        "unitas"
+      ]
+    },
+    {
+      "id": "3f63e3e7f45a",
+      "name": "ShowerPad1x1m",
+      "category": "Architecture",
+      "formats": [
+        "FCSTD",
+        "STEP",
+        "STL"
+      ],
+      "files": [
+        {
+          "format": "FCSTD",
+          "path": "Architecture/Architectural Parts/Hydro equipment/ShowerPad1x1m.FCStd"
+        },
+        {
+          "format": "STEP",
+          "path": "Architecture/Architectural Parts/Hydro equipment/ShowerPad1x1m.step"
+        },
+        {
+          "format": "STL",
+          "path": "Architecture/Architectural Parts/Hydro equipment/ShowerPad1x1m.stl"
+        }
+      ],
+      "tags": [
+        "showerpad1x1m"
+      ]
+    },
+    {
+      "id": "89fedf558128",
+      "name": "ShowerPad2x1.2m",
+      "category": "Architecture",
+      "formats": [
+        "FCSTD",
+        "STEP",
+        "STL"
+      ],
+      "files": [
+        {
+          "format": "FCSTD",
+          "path": "Architecture/Architectural Parts/Hydro equipment/ShowerPad2x1.2m.FCStd"
+        },
+        {
+          "format": "STEP",
+          "path": "Architecture/Architectural Parts/Hydro equipment/ShowerPad2x1.2m.step"
+        },
+        {
+          "format": "STL",
+          "path": "Architecture/Architectural Parts/Hydro equipment/ShowerPad2x1.2m.stl"
+        }
+      ],
+      "tags": [
+        "2m",
+        "showerpad2x1"
+      ]
+    },
+    {
+      "id": "b8f311dd9b49",
+      "name": "Wall Hung Toilets",
+      "category": "Architecture",
+      "formats": [
+        "FCSTD",
+        "JPG",
+        "STEP",
+        "STL"
+      ],
+      "files": [
+        {
+          "format": "FCSTD",
+          "path": "Architecture/Architectural Parts/Hydro equipment/Wall-Hung-Toilets.FCStd"
+        },
+        {
+          "format": "JPG",
+          "path": "Architecture/Architectural Parts/Hydro equipment/Wall-Hung-Toilets.jpg"
+        },
+        {
+          "format": "STEP",
+          "path": "Architecture/Architectural Parts/Hydro equipment/Wall-Hung-Toilets.step"
+        },
+        {
+          "format": "STL",
+          "path": "Architecture/Architectural Parts/Hydro equipment/Wall-Hung-Toilets.stl"
+        }
+      ],
+      "tags": [
+        "hung",
+        "toilets",
+        "wall"
+      ]
+    },
+    {
+      "id": "67ee8e374b54",
+      "name": "WallHungBidet",
+      "category": "Architecture",
+      "formats": [
+        "FCSTD",
+        "STEP",
+        "STL"
+      ],
+      "files": [
+        {
+          "format": "FCSTD",
+          "path": "Architecture/Architectural Parts/Hydro equipment/WallHungBidet.FCStd"
+        },
+        {
+          "format": "STEP",
+          "path": "Architecture/Architectural Parts/Hydro equipment/WallHungBidet.step"
+        },
+        {
+          "format": "STL",
+          "path": "Architecture/Architectural Parts/Hydro equipment/WallHungBidet.stl"
+        }
+      ],
+      "tags": [
+        "wallhungbidet"
+      ]
+    },
+    {
+      "id": "e7890e98c554",
+      "name": "WallHungToilet",
+      "category": "Architecture",
+      "formats": [
+        "FCSTD",
+        "STEP",
+        "STL"
+      ],
+      "files": [
+        {
+          "format": "FCSTD",
+          "path": "Architecture/Architectural Parts/Hydro equipment/WallHungToilet.FCStd"
+        },
+        {
+          "format": "STEP",
+          "path": "Architecture/Architectural Parts/Hydro equipment/WallHungToilet.step"
+        },
+        {
+          "format": "STL",
+          "path": "Architecture/Architectural Parts/Hydro equipment/WallHungToilet.stl"
+        }
+      ],
+      "tags": [
+        "wallhungtoilet"
+      ]
+    },
+    {
+      "id": "3853a3f35fd7",
+      "name": "washbasin 48x43cm",
+      "category": "Architecture",
+      "formats": [
+        "BREP",
+        "FCSTD",
+        "STL"
+      ],
+      "files": [
+        {
+          "format": "BREP",
+          "path": "Architecture/Architectural Parts/Hydro equipment/washbasin 48x43cm.brep"
+        },
+        {
+          "format": "FCSTD",
+          "path": "Architecture/Architectural Parts/Hydro equipment/washbasin 48x43cm.fcstd"
+        },
+        {
+          "format": "STL",
+          "path": "Architecture/Architectural Parts/Hydro equipment/washbasin 48x43cm.stl"
+        }
+      ],
+      "tags": [
+        "48x43cm",
+        "washbasin"
+      ]
+    },
+    {
+      "id": "f30a15961b9f",
+      "name": "Kitchen cabinet base image 01",
+      "category": "Architecture",
+      "formats": [
+        "JPG"
+      ],
+      "files": [
+        {
+          "format": "JPG",
+          "path": "Architecture/Architectural Parts/Kitchen/Images/Kitchen_cabinet_base_image_01.jpg"
+        }
+      ],
+      "tags": [
+        "01",
+        "base",
+        "cabinet",
+        "image",
+        "kitchen"
+      ]
+    },
+    {
+      "id": "2ffee3541b88",
+      "name": "Kitchen cabinet sink image 01",
+      "category": "Architecture",
+      "formats": [
+        "JPG"
+      ],
+      "files": [
+        {
+          "format": "JPG",
+          "path": "Architecture/Architectural Parts/Kitchen/Images/Kitchen_cabinet_sink_image_01.jpg"
+        }
+      ],
+      "tags": [
+        "01",
+        "cabinet",
+        "image",
+        "kitchen",
+        "sink"
+      ]
+    },
+    {
+      "id": "b08ebf24f5f3",
+      "name": "Kitchen cabinet superior image 01",
+      "category": "Architecture",
+      "formats": [
+        "JPG"
+      ],
+      "files": [
+        {
+          "format": "JPG",
+          "path": "Architecture/Architectural Parts/Kitchen/Images/Kitchen_cabinet_superior_image_01.jpg"
+        }
+      ],
+      "tags": [
+        "01",
+        "cabinet",
+        "image",
+        "kitchen",
+        "superior"
+      ]
+    },
+    {
+      "id": "40c401417c78",
+      "name": "Kitchen cabinet superior image 02",
+      "category": "Architecture",
+      "formats": [
+        "JPG"
+      ],
+      "files": [
+        {
+          "format": "JPG",
+          "path": "Architecture/Architectural Parts/Kitchen/Images/Kitchen_cabinet_superior_image_02.jpg"
+        }
+      ],
+      "tags": [
+        "02",
+        "cabinet",
+        "image",
+        "kitchen",
+        "superior"
+      ]
+    },
+    {
+      "id": "f1b99b9f71cc",
+      "name": "Kitchen cabinet vertical model 02 image 01",
+      "category": "Architecture",
+      "formats": [
+        "JPG"
+      ],
+      "files": [
+        {
+          "format": "JPG",
+          "path": "Architecture/Architectural Parts/Kitchen/Images/Kitchen_cabinet_vertical_model_02_image_01.jpg"
+        }
+      ],
+      "tags": [
+        "01",
+        "02",
+        "cabinet",
+        "image",
+        "kitchen",
+        "model",
+        "vertical"
+      ]
+    },
+    {
+      "id": "1b45e79f2990",
+      "name": "Kitchen cabinet base",
+      "category": "Architecture",
+      "formats": [
+        "FCSTD"
+      ],
+      "files": [
+        {
+          "format": "FCSTD",
+          "path": "Architecture/Architectural Parts/Kitchen/Kitchen_cabinet_base.FCStd"
+        }
+      ],
+      "tags": [
+        "base",
+        "cabinet",
+        "kitchen"
+      ]
+    },
+    {
+      "id": "10a5c1b38b85",
+      "name": "Kitchen cabinet sink",
+      "category": "Architecture",
+      "formats": [
+        "FCSTD"
+      ],
+      "files": [
+        {
+          "format": "FCSTD",
+          "path": "Architecture/Architectural Parts/Kitchen/Kitchen_cabinet_sink.FCStd"
+        }
+      ],
+      "tags": [
+        "cabinet",
+        "kitchen",
+        "sink"
+      ]
+    },
+    {
+      "id": "c8abbfcfc37a",
+      "name": "Kitchen cabinet superior",
+      "category": "Architecture",
+      "formats": [
+        "FCSTD"
+      ],
+      "files": [
+        {
+          "format": "FCSTD",
+          "path": "Architecture/Architectural Parts/Kitchen/Kitchen_cabinet_superior.FCStd"
+        }
+      ],
+      "tags": [
+        "cabinet",
+        "kitchen",
+        "superior"
+      ]
+    },
+    {
+      "id": "0f7e30dbac1b",
+      "name": "Kitchen cabinet vertical",
+      "category": "Architecture",
+      "formats": [
+        "FCSTD"
+      ],
+      "files": [
+        {
+          "format": "FCSTD",
+          "path": "Architecture/Architectural Parts/Kitchen/Kitchen_cabinet_vertical.FCStd"
+        }
+      ],
+      "tags": [
+        "cabinet",
+        "kitchen",
+        "vertical"
+      ]
+    },
+    {
+      "id": "5b074b2478c6",
+      "name": "FCBL light pendant TM",
+      "category": "Architecture",
+      "formats": [
+        "FCSTD",
+        "PNG"
+      ],
+      "files": [
+        {
+          "format": "FCSTD",
+          "path": "Architecture/Architectural Parts/Lighting/FCBL_light_pendant_TM.FCStd"
+        },
+        {
+          "format": "PNG",
+          "path": "Architecture/Architectural Parts/Lighting/Images/FCBL_light_pendant_TM.png"
+        }
+      ],
+      "tags": [
+        "fcbl",
+        "light",
+        "pendant",
+        "tm"
+      ]
+    },
+    {
+      "id": "abc92a9bd4dd",
+      "name": "Chair",
+      "category": "Architecture",
+      "formats": [
+        "FCSTD"
+      ],
+      "files": [
+        {
+          "format": "FCSTD",
+          "path": "Architecture/Architectural Parts/Living room/Chair.FCStd"
+        }
+      ],
+      "tags": [
+        "chair"
+      ]
+    },
+    {
+      "id": "d92227a5c521",
+      "name": "FCBL chair",
+      "category": "Architecture",
+      "formats": [
+        "FCSTD",
+        "PNG"
+      ],
+      "files": [
+        {
+          "format": "FCSTD",
+          "path": "Architecture/Architectural Parts/Living room/FCBL_chair.FCStd"
+        },
+        {
+          "format": "PNG",
+          "path": "Architecture/Architectural Parts/Living room/FCBL_chair.png"
+        }
+      ],
+      "tags": [
+        "chair",
+        "fcbl"
+      ]
+    },
+    {
+      "id": "0ace74714ba2",
+      "name": "FCBL chair upholstered",
+      "category": "Architecture",
+      "formats": [
+        "FCSTD",
+        "PNG"
+      ],
+      "files": [
+        {
+          "format": "FCSTD",
+          "path": "Architecture/Architectural Parts/Living room/FCBL_chair_upholstered.FCStd"
+        },
+        {
+          "format": "PNG",
+          "path": "Architecture/Architectural Parts/Living room/FCBL_chair_upholstered.png"
+        }
+      ],
+      "tags": [
+        "chair",
+        "fcbl",
+        "upholstered"
+      ]
+    },
+    {
+      "id": "fd0a11418af4",
+      "name": "FCBL table parametric",
+      "category": "Architecture",
+      "formats": [
+        "FCSTD",
+        "PNG"
+      ],
+      "files": [
+        {
+          "format": "FCSTD",
+          "path": "Architecture/Architectural Parts/Living room/FCBL_table_parametric.FCStd"
+        },
+        {
+          "format": "PNG",
+          "path": "Architecture/Architectural Parts/Living room/FCBL_table_parametric.png"
+        }
+      ],
+      "tags": [
+        "fcbl",
+        "parametric",
+        "table"
+      ]
+    },
+    {
+      "id": "3ce072ad49b7",
+      "name": "Armchair model 03 image 01",
+      "category": "Architecture",
+      "formats": [
+        "JPG"
+      ],
+      "files": [
+        {
+          "format": "JPG",
+          "path": "Architecture/Architectural Parts/Living room/Images/Armchair_model_03_image_01.jpg"
+        }
+      ],
+      "tags": [
+        "01",
+        "03",
+        "armchair",
+        "image",
+        "model"
+      ]
+    },
+    {
+      "id": "112e34b985b9",
+      "name": "Bedside table image 01",
+      "category": "Architecture",
+      "formats": [
+        "JPG"
+      ],
+      "files": [
+        {
+          "format": "JPG",
+          "path": "Architecture/Architectural Parts/Living room/Images/Bedside_table_image_01.jpg"
+        }
+      ],
+      "tags": [
+        "01",
+        "bedside",
+        "image",
+        "table"
+      ]
+    },
+    {
+      "id": "ba3f8369e2e6",
+      "name": "Center table image 01",
+      "category": "Architecture",
+      "formats": [
+        "JPG"
+      ],
+      "files": [
+        {
+          "format": "JPG",
+          "path": "Architecture/Architectural Parts/Living room/Images/Center_table_image_01.jpg"
+        }
+      ],
+      "tags": [
+        "01",
+        "center",
+        "image",
+        "table"
+      ]
+    },
+    {
+      "id": "399fd1c61a13",
+      "name": "Chair image 01",
+      "category": "Architecture",
+      "formats": [
+        "JPG"
+      ],
+      "files": [
+        {
+          "format": "JPG",
+          "path": "Architecture/Architectural Parts/Living room/Images/Chair_image_01.jpg"
+        }
+      ],
+      "tags": [
+        "01",
+        "chair",
+        "image"
+      ]
+    },
+    {
+      "id": "2c6afb26dad1",
+      "name": "Living room cabinet model 01 image 01",
+      "category": "Architecture",
+      "formats": [
+        "JPG"
+      ],
+      "files": [
+        {
+          "format": "JPG",
+          "path": "Architecture/Architectural Parts/Living room/Images/Living_room_cabinet_model_01_image_01.jpg"
+        }
+      ],
+      "tags": [
+        "01",
+        "cabinet",
+        "image",
+        "living",
+        "model",
+        "room"
+      ]
+    },
+    {
+      "id": "b6af394752e9",
+      "name": "Living room cabinet model 01 image 02",
+      "category": "Architecture",
+      "formats": [
+        "JPG"
+      ],
+      "files": [
+        {
+          "format": "JPG",
+          "path": "Architecture/Architectural Parts/Living room/Images/Living_room_cabinet_model_01_image_02.jpg"
+        }
+      ],
+      "tags": [
+        "01",
+        "02",
+        "cabinet",
+        "image",
+        "living",
+        "model",
+        "room"
+      ]
+    },
+    {
+      "id": "3da21d57c0e2",
+      "name": "Living room cabinet model 02 image 01",
+      "category": "Architecture",
+      "formats": [
+        "JPG"
+      ],
+      "files": [
+        {
+          "format": "JPG",
+          "path": "Architecture/Architectural Parts/Living room/Images/Living_room_cabinet_model_02_image_01.jpg"
+        }
+      ],
+      "tags": [
+        "01",
+        "02",
+        "cabinet",
+        "image",
+        "living",
+        "model",
+        "room"
+      ]
+    },
+    {
+      "id": "ed07d6b3f41f",
+      "name": "Living room cabinet model 04 image 01",
+      "category": "Architecture",
+      "formats": [
+        "JPG"
+      ],
+      "files": [
+        {
+          "format": "JPG",
+          "path": "Architecture/Architectural Parts/Living room/Images/Living_room_cabinet_model_04_image_01.jpg"
+        }
+      ],
+      "tags": [
+        "01",
+        "04",
+        "cabinet",
+        "image",
+        "living",
+        "model",
+        "room"
+      ]
+    },
+    {
+      "id": "736d6555f632",
+      "name": "Sideboard model 04 image 01",
+      "category": "Architecture",
+      "formats": [
+        "JPG"
+      ],
+      "files": [
+        {
+          "format": "JPG",
+          "path": "Architecture/Architectural Parts/Living room/Images/Sideboard_model_04_image_01.jpg"
+        }
+      ],
+      "tags": [
+        "01",
+        "04",
+        "image",
+        "model",
+        "sideboard"
+      ]
+    },
+    {
+      "id": "e3d74a95a305",
+      "name": "Sofa armchair imag 01",
+      "category": "Architecture",
+      "formats": [
+        "JPG"
+      ],
+      "files": [
+        {
+          "format": "JPG",
+          "path": "Architecture/Architectural Parts/Living room/Images/Sofa_armchair_imag_01.jpg"
+        }
+      ],
+      "tags": [
+        "01",
+        "armchair",
+        "imag",
+        "sofa"
+      ]
+    },
+    {
+      "id": "a67f47badcfb",
+      "name": "Sofa armchair imag 02",
+      "category": "Architecture",
+      "formats": [
+        "JPG"
+      ],
+      "files": [
+        {
+          "format": "JPG",
+          "path": "Architecture/Architectural Parts/Living room/Images/Sofa_armchair_imag_02.jpg"
+        }
+      ],
+      "tags": [
+        "02",
+        "armchair",
+        "imag",
+        "sofa"
+      ]
+    },
+    {
+      "id": "7b4cf7689121",
+      "name": "Sofa model 01 image 01",
+      "category": "Architecture",
+      "formats": [
+        "JPG"
+      ],
+      "files": [
+        {
+          "format": "JPG",
+          "path": "Architecture/Architectural Parts/Living room/Images/Sofa_model_01_image_01.jpg"
+        }
+      ],
+      "tags": [
+        "01",
+        "image",
+        "model",
+        "sofa"
+      ]
+    },
+    {
+      "id": "426197ccd17d",
+      "name": "Sofa model 02 image 01",
+      "category": "Architecture",
+      "formats": [
+        "JPG"
+      ],
+      "files": [
+        {
+          "format": "JPG",
+          "path": "Architecture/Architectural Parts/Living room/Images/Sofa_model_02_image_01.jpg"
+        }
+      ],
+      "tags": [
+        "01",
+        "02",
+        "image",
+        "model",
+        "sofa"
+      ]
+    },
+    {
+      "id": "fac26eb0771f",
+      "name": "Table image 01",
+      "category": "Architecture",
+      "formats": [
+        "JPG"
+      ],
+      "files": [
+        {
+          "format": "JPG",
+          "path": "Architecture/Architectural Parts/Living room/Images/Table_image_01.jpg"
+        }
+      ],
+      "tags": [
+        "01",
+        "image",
+        "table"
+      ]
+    },
+    {
+      "id": "2807052db8e8",
+      "name": "Table image 02",
+      "category": "Architecture",
+      "formats": [
+        "JPG"
+      ],
+      "files": [
+        {
+          "format": "JPG",
+          "path": "Architecture/Architectural Parts/Living room/Images/Table_image_02.jpg"
+        }
+      ],
+      "tags": [
+        "02",
+        "image",
+        "table"
+      ]
+    },
+    {
+      "id": "cccffa062447",
+      "name": "Living room cabinet",
+      "category": "Architecture",
+      "formats": [
+        "FCSTD"
+      ],
+      "files": [
+        {
+          "format": "FCSTD",
+          "path": "Architecture/Architectural Parts/Living room/Living_room_cabinet.FCStd"
+        }
+      ],
+      "tags": [
+        "cabinet",
+        "living",
+        "room"
+      ]
+    },
+    {
+      "id": "aa264870bff5",
+      "name": "Rectangular center table",
+      "category": "Architecture",
+      "formats": [
+        "FCSTD"
+      ],
+      "files": [
+        {
+          "format": "FCSTD",
+          "path": "Architecture/Architectural Parts/Living room/Rectangular_center_table.FCStd"
+        }
+      ],
+      "tags": [
+        "center",
+        "rectangular",
+        "table"
+      ]
+    },
+    {
+      "id": "446eca04d56e",
+      "name": "Rectangular tables",
+      "category": "Architecture",
+      "formats": [
+        "FCSTD"
+      ],
+      "files": [
+        {
+          "format": "FCSTD",
+          "path": "Architecture/Architectural Parts/Living room/Rectangular_tables.FCStd"
+        }
+      ],
+      "tags": [
+        "rectangular",
+        "tables"
+      ]
+    },
+    {
+      "id": "e70de8f6e1ee",
+      "name": "Sideboard",
+      "category": "Architecture",
+      "formats": [
+        "FCSTD"
+      ],
+      "files": [
+        {
+          "format": "FCSTD",
+          "path": "Architecture/Architectural Parts/Living room/Sideboard.FCStd"
+        }
+      ],
+      "tags": [
+        "sideboard"
+      ]
+    },
+    {
+      "id": "ecbc260a2965",
+      "name": "Sofa Armchair",
+      "category": "Architecture",
+      "formats": [
+        "FCSTD"
+      ],
+      "files": [
+        {
+          "format": "FCSTD",
+          "path": "Architecture/Architectural Parts/Living room/Sofa_Armchair.FCStd"
+        }
+      ],
+      "tags": [
+        "armchair",
+        "sofa"
+      ]
+    },
+    {
+      "id": "d601a4de7104",
+      "name": "FCBL curtain",
+      "category": "Architecture",
+      "formats": [
+        "FCSTD",
+        "PNG"
+      ],
+      "files": [
+        {
+          "format": "FCSTD",
+          "path": "Architecture/Architectural Parts/Miscellaneous/FCBL_curtain.FCStd"
+        },
+        {
+          "format": "PNG",
+          "path": "Architecture/Architectural Parts/Miscellaneous/Images/FCBL_curtain.png"
+        }
+      ],
+      "tags": [
+        "curtain",
+        "fcbl"
+      ]
+    },
+    {
+      "id": "09cb0ad5f74c",
+      "name": "FCBL street lamp post",
+      "category": "Architecture",
+      "formats": [
+        "FCSTD",
+        "PNG"
+      ],
+      "files": [
+        {
+          "format": "FCSTD",
+          "path": "Architecture/Architectural Parts/Miscellaneous/FCBL_street_lamp_post.FCStd"
+        },
+        {
+          "format": "PNG",
+          "path": "Architecture/Architectural Parts/Miscellaneous/Images/FCBL_street_lamp_post.png"
+        }
+      ],
+      "tags": [
+        "fcbl",
+        "lamp",
+        "post",
+        "street"
+      ]
+    },
+    {
+      "id": "059f7f9d47ec",
+      "name": "steel sheets 2000mm",
+      "category": "Architecture",
+      "formats": [
+        "FCSTD",
+        "STEP",
+        "STL"
+      ],
+      "files": [
+        {
+          "format": "FCSTD",
+          "path": "Architecture/Architectural Parts/Roof/steel-sheets-2000mm.fcstd"
+        },
+        {
+          "format": "STEP",
+          "path": "Architecture/Architectural Parts/Roof/steel-sheets-2000mm.step"
+        },
+        {
+          "format": "STL",
+          "path": "Architecture/Architectural Parts/Roof/steel-sheets-2000mm.STL"
+        }
+      ],
+      "tags": [
+        "2000mm",
+        "sheets",
+        "steel"
+      ]
+    },
+    {
+      "id": "cdb1727af529",
+      "name": "steel sheets 3000mm",
+      "category": "Architecture",
+      "formats": [
+        "FCSTD",
+        "STEP",
+        "STL"
+      ],
+      "files": [
+        {
+          "format": "FCSTD",
+          "path": "Architecture/Architectural Parts/Roof/steel-sheets-3000mm.fcstd"
+        },
+        {
+          "format": "STEP",
+          "path": "Architecture/Architectural Parts/Roof/steel-sheets-3000mm.step"
+        },
+        {
+          "format": "STL",
+          "path": "Architecture/Architectural Parts/Roof/steel-sheets-3000mm.STL"
+        }
+      ],
+      "tags": [
+        "3000mm",
+        "sheets",
+        "steel"
+      ]
+    },
+    {
+      "id": "073b084e4bb4",
+      "name": "SolarTubes",
+      "category": "Architecture",
+      "formats": [
+        "FCSTD"
+      ],
+      "files": [
+        {
+          "format": "FCSTD",
+          "path": "Architecture/Architectural Parts/Solar/SolarTubes.FCStd"
+        }
+      ],
+      "tags": [
+        "solartubes"
+      ]
+    },
+    {
+      "id": "77b6cffde1fc",
+      "name": "Group01",
+      "category": "Architecture",
+      "formats": [
+        "FCSTD"
+      ],
+      "files": [
+        {
+          "format": "FCSTD",
+          "path": "Architecture/Architectural Parts/Symbols/People symbols/Group01.FCStd"
+        }
+      ],
+      "tags": [
+        "group01"
+      ]
+    },
+    {
+      "id": "c78265e48491",
+      "name": "Group02",
+      "category": "Architecture",
+      "formats": [
+        "FCSTD"
+      ],
+      "files": [
+        {
+          "format": "FCSTD",
+          "path": "Architecture/Architectural Parts/Symbols/People symbols/Group02.FCStd"
+        }
+      ],
+      "tags": [
+        "group02"
+      ]
+    },
+    {
+      "id": "caff25a7373d",
+      "name": "Group03",
+      "category": "Architecture",
+      "formats": [
+        "FCSTD"
+      ],
+      "files": [
+        {
+          "format": "FCSTD",
+          "path": "Architecture/Architectural Parts/Symbols/People symbols/Group03.FCStd"
+        }
+      ],
+      "tags": [
+        "group03"
+      ]
+    },
+    {
+      "id": "13f546f12910",
+      "name": "Man01",
+      "category": "Architecture",
+      "formats": [
+        "FCSTD"
+      ],
+      "files": [
+        {
+          "format": "FCSTD",
+          "path": "Architecture/Architectural Parts/Symbols/People symbols/Man01.FCStd"
+        }
+      ],
+      "tags": [
+        "man01"
+      ]
+    },
+    {
+      "id": "8d95ae0f1e99",
+      "name": "Man02",
+      "category": "Architecture",
+      "formats": [
+        "FCSTD"
+      ],
+      "files": [
+        {
+          "format": "FCSTD",
+          "path": "Architecture/Architectural Parts/Symbols/People symbols/Man02.FCStd"
+        }
+      ],
+      "tags": [
+        "man02"
+      ]
+    },
+    {
+      "id": "283fde737dd0",
+      "name": "Man03",
+      "category": "Architecture",
+      "formats": [
+        "FCSTD"
+      ],
+      "files": [
+        {
+          "format": "FCSTD",
+          "path": "Architecture/Architectural Parts/Symbols/People symbols/Man03.FCStd"
+        }
+      ],
+      "tags": [
+        "man03"
+      ]
+    },
+    {
+      "id": "126ec2909ef6",
+      "name": "Man04",
+      "category": "Architecture",
+      "formats": [
+        "FCSTD"
+      ],
+      "files": [
+        {
+          "format": "FCSTD",
+          "path": "Architecture/Architectural Parts/Symbols/People symbols/Man04.FCStd"
+        }
+      ],
+      "tags": [
+        "man04"
+      ]
+    },
+    {
+      "id": "25a15876bf3e",
+      "name": "Man06",
+      "category": "Architecture",
+      "formats": [
+        "FCSTD"
+      ],
+      "files": [
+        {
+          "format": "FCSTD",
+          "path": "Architecture/Architectural Parts/Symbols/People symbols/Man06.FCStd"
+        }
+      ],
+      "tags": [
+        "man06"
+      ]
+    },
+    {
+      "id": "84d4f99f4464",
+      "name": "Man07",
+      "category": "Architecture",
+      "formats": [
+        "FCSTD"
+      ],
+      "files": [
+        {
+          "format": "FCSTD",
+          "path": "Architecture/Architectural Parts/Symbols/People symbols/Man07.FCStd"
+        }
+      ],
+      "tags": [
+        "man07"
+      ]
+    },
+    {
+      "id": "410ff8dc8064",
+      "name": "Woman01",
+      "category": "Architecture",
+      "formats": [
+        "FCSTD"
+      ],
+      "files": [
+        {
+          "format": "FCSTD",
+          "path": "Architecture/Architectural Parts/Symbols/People symbols/Woman01.FCStd"
+        }
+      ],
+      "tags": [
+        "woman01"
+      ]
+    },
+    {
+      "id": "12aceb323e9b",
+      "name": "Woman02",
+      "category": "Architecture",
+      "formats": [
+        "FCSTD"
+      ],
+      "files": [
+        {
+          "format": "FCSTD",
+          "path": "Architecture/Architectural Parts/Symbols/People symbols/Woman02.FCStd"
+        }
+      ],
+      "tags": [
+        "woman02"
+      ]
+    },
+    {
+      "id": "52bd31ea2ae1",
+      "name": "Woman03",
+      "category": "Architecture",
+      "formats": [
+        "FCSTD"
+      ],
+      "files": [
+        {
+          "format": "FCSTD",
+          "path": "Architecture/Architectural Parts/Symbols/People symbols/Woman03.FCStd"
+        }
+      ],
+      "tags": [
+        "woman03"
+      ]
+    },
+    {
+      "id": "822205fac81a",
+      "name": "Woman04",
+      "category": "Architecture",
+      "formats": [
+        "FCSTD"
+      ],
+      "files": [
+        {
+          "format": "FCSTD",
+          "path": "Architecture/Architectural Parts/Symbols/People symbols/Woman04.FCStd"
+        }
+      ],
+      "tags": [
+        "woman04"
+      ]
+    },
+    {
+      "id": "41e3410a55c4",
+      "name": "Tree01 5mx8m",
+      "category": "Architecture",
+      "formats": [
+        "BREP"
+      ],
+      "files": [
+        {
+          "format": "BREP",
+          "path": "Architecture/Architectural Parts/Symbols/Vegetation symbols/Tree01 5mx8m.brep"
+        }
+      ],
+      "tags": [
+        "5mx8m",
+        "tree01"
+      ]
+    },
+    {
+      "id": "d635020685c3",
+      "name": "Tree02 4mx7m",
+      "category": "Architecture",
+      "formats": [
+        "BREP"
+      ],
+      "files": [
+        {
+          "format": "BREP",
+          "path": "Architecture/Architectural Parts/Symbols/Vegetation symbols/Tree02 4mx7m.brep"
+        }
+      ],
+      "tags": [
+        "4mx7m",
+        "tree02"
+      ]
+    },
+    {
+      "id": "48b03b0ae93b",
+      "name": "Tree03 5mx5m",
+      "category": "Architecture",
+      "formats": [
+        "BREP"
+      ],
+      "files": [
+        {
+          "format": "BREP",
+          "path": "Architecture/Architectural Parts/Symbols/Vegetation symbols/Tree03 5mx5m.brep"
+        }
+      ],
+      "tags": [
+        "5mx5m",
+        "tree03"
+      ]
+    },
+    {
+      "id": "acbe43211c3b",
+      "name": "Tree04 5mx8m",
+      "category": "Architecture",
+      "formats": [
+        "BREP"
+      ],
+      "files": [
+        {
+          "format": "BREP",
+          "path": "Architecture/Architectural Parts/Symbols/Vegetation symbols/Tree04 5mx8m.brep"
+        }
+      ],
+      "tags": [
+        "5mx8m",
+        "tree04"
+      ]
+    },
+    {
+      "id": "070af753643a",
+      "name": "Tree05 3mx4m",
+      "category": "Architecture",
+      "formats": [
+        "BREP"
+      ],
+      "files": [
+        {
+          "format": "BREP",
+          "path": "Architecture/Architectural Parts/Symbols/Vegetation symbols/Tree05 3mx4m.brep"
+        }
+      ],
+      "tags": [
+        "3mx4m",
+        "tree05"
+      ]
+    },
+    {
+      "id": "9231c43feefd",
+      "name": "Tree06 6mx6m",
+      "category": "Architecture",
+      "formats": [
+        "BREP"
+      ],
+      "files": [
+        {
+          "format": "BREP",
+          "path": "Architecture/Architectural Parts/Symbols/Vegetation symbols/Tree06 6mx6m.brep"
+        }
+      ],
+      "tags": [
+        "6mx6m",
+        "tree06"
+      ]
+    },
+    {
+      "id": "a0abd6f9566b",
+      "name": "Tree07 4mx4m",
+      "category": "Architecture",
+      "formats": [
+        "BREP"
+      ],
+      "files": [
+        {
+          "format": "BREP",
+          "path": "Architecture/Architectural Parts/Symbols/Vegetation symbols/Tree07 4mx4m.brep"
+        }
+      ],
+      "tags": [
+        "4mx4m",
+        "tree07"
+      ]
+    },
+    {
+      "id": "073e7544de12",
+      "name": "Tree08 2mx8m",
+      "category": "Architecture",
+      "formats": [
+        "BREP"
+      ],
+      "files": [
+        {
+          "format": "BREP",
+          "path": "Architecture/Architectural Parts/Symbols/Vegetation symbols/Tree08 2mx8m.brep"
+        }
+      ],
+      "tags": [
+        "2mx8m",
+        "tree08"
+      ]
+    },
+    {
+      "id": "315115ce7f67",
+      "name": "Tree09 5mx7m",
+      "category": "Architecture",
+      "formats": [
+        "BREP"
+      ],
+      "files": [
+        {
+          "format": "BREP",
+          "path": "Architecture/Architectural Parts/Symbols/Vegetation symbols/Tree09 5mx7m.brep"
+        }
+      ],
+      "tags": [
+        "5mx7m",
+        "tree09"
+      ]
+    },
+    {
+      "id": "b1e71956a19f",
+      "name": "Tree10 5mx6m",
+      "category": "Architecture",
+      "formats": [
+        "BREP"
+      ],
+      "files": [
+        {
+          "format": "BREP",
+          "path": "Architecture/Architectural Parts/Symbols/Vegetation symbols/Tree10 5mx6m.brep"
+        }
+      ],
+      "tags": [
+        "5mx6m",
+        "tree10"
+      ]
+    },
+    {
+      "id": "54a4b6ce4667",
+      "name": "Tree11 6mx6m",
+      "category": "Architecture",
+      "formats": [
+        "BREP"
+      ],
+      "files": [
+        {
+          "format": "BREP",
+          "path": "Architecture/Architectural Parts/Symbols/Vegetation symbols/Tree11 6mx6m.brep"
+        }
+      ],
+      "tags": [
+        "6mx6m",
+        "tree11"
+      ]
+    },
+    {
+      "id": "d7837c7eedc2",
+      "name": "Tree12 6mx7m",
+      "category": "Architecture",
+      "formats": [
+        "BREP"
+      ],
+      "files": [
+        {
+          "format": "BREP",
+          "path": "Architecture/Architectural Parts/Symbols/Vegetation symbols/Tree12 6mx7m.brep"
+        }
+      ],
+      "tags": [
+        "6mx7m",
+        "tree12"
+      ]
+    },
+    {
+      "id": "0d51399e9c8d",
+      "name": "Tree13 4mx6m",
+      "category": "Architecture",
+      "formats": [
+        "BREP"
+      ],
+      "files": [
+        {
+          "format": "BREP",
+          "path": "Architecture/Architectural Parts/Symbols/Vegetation symbols/Tree13 4mx6m.brep"
+        }
+      ],
+      "tags": [
+        "4mx6m",
+        "tree13"
+      ]
+    },
+    {
+      "id": "6d1a2e68590f",
+      "name": "Tree14 7mx8m",
+      "category": "Architecture",
+      "formats": [
+        "BREP"
+      ],
+      "files": [
+        {
+          "format": "BREP",
+          "path": "Architecture/Architectural Parts/Symbols/Vegetation symbols/Tree14 7mx8m.brep"
+        }
+      ],
+      "tags": [
+        "7mx8m",
+        "tree14"
+      ]
+    },
+    {
+      "id": "9308d5d95be3",
+      "name": "Tree15 4mx5m",
+      "category": "Architecture",
+      "formats": [
+        "BREP"
+      ],
+      "files": [
+        {
+          "format": "BREP",
+          "path": "Architecture/Architectural Parts/Symbols/Vegetation symbols/Tree15 4mx5m.brep"
+        }
+      ],
+      "tags": [
+        "4mx5m",
+        "tree15"
+      ]
+    },
+    {
+      "id": "1294812cf2d3",
+      "name": "Tree16 5mx7m",
+      "category": "Architecture",
+      "formats": [
+        "BREP"
+      ],
+      "files": [
+        {
+          "format": "BREP",
+          "path": "Architecture/Architectural Parts/Symbols/Vegetation symbols/Tree16 5mx7m.brep"
+        }
+      ],
+      "tags": [
+        "5mx7m",
+        "tree16"
+      ]
+    },
+    {
+      "id": "44664573eb77",
+      "name": "Tree17 6mx9m",
+      "category": "Architecture",
+      "formats": [
+        "BREP"
+      ],
+      "files": [
+        {
+          "format": "BREP",
+          "path": "Architecture/Architectural Parts/Symbols/Vegetation symbols/Tree17 6mx9m.brep"
+        }
+      ],
+      "tags": [
+        "6mx9m",
+        "tree17"
+      ]
+    },
+    {
+      "id": "fb38570a0ee4",
+      "name": "Tree18 6mx8m",
+      "category": "Architecture",
+      "formats": [
+        "BREP"
+      ],
+      "files": [
+        {
+          "format": "BREP",
+          "path": "Architecture/Architectural Parts/Symbols/Vegetation symbols/Tree18 6mx8m.brep"
+        }
+      ],
+      "tags": [
+        "6mx8m",
+        "tree18"
+      ]
+    },
+    {
+      "id": "544bab2e4116",
+      "name": "Tree19 5mx8m",
+      "category": "Architecture",
+      "formats": [
+        "BREP"
+      ],
+      "files": [
+        {
+          "format": "BREP",
+          "path": "Architecture/Architectural Parts/Symbols/Vegetation symbols/Tree19 5mx8m.brep"
+        }
+      ],
+      "tags": [
+        "5mx8m",
+        "tree19"
+      ]
+    },
+    {
+      "id": "a5a3b7e3d52a",
+      "name": "Tree20 7mx9m",
+      "category": "Architecture",
+      "formats": [
+        "BREP"
+      ],
+      "files": [
+        {
+          "format": "BREP",
+          "path": "Architecture/Architectural Parts/Symbols/Vegetation symbols/Tree20 7mx9m.brep"
+        }
+      ],
+      "tags": [
+        "7mx9m",
+        "tree20"
+      ]
+    },
+    {
+      "id": "edfbdeed6f0e",
+      "name": "Mallet",
+      "category": "Architecture",
+      "formats": [
+        "FCSTD",
+        "STEP",
+        "STL"
+      ],
+      "files": [
+        {
+          "format": "FCSTD",
+          "path": "Architecture/Architectural Parts/Wikihouse/Mallet.FCStd"
+        },
+        {
+          "format": "STEP",
+          "path": "Architecture/Architectural Parts/Wikihouse/Mallet.step"
+        },
+        {
+          "format": "STL",
+          "path": "Architecture/Architectural Parts/Wikihouse/Mallet.stl"
+        }
+      ],
+      "tags": [
+        "mallet"
+      ]
+    },
+    {
+      "id": "b0ec95f00ee8",
+      "name": "2PaneTopOpen",
+      "category": "Architecture",
+      "formats": [
+        "FCSTD",
+        "STL",
+        "STP"
+      ],
+      "files": [
+        {
+          "format": "FCSTD",
+          "path": "Architecture/Architectural Parts/Windows/Casement/2PaneTopOpen.FCStd"
+        },
+        {
+          "format": "STL",
+          "path": "Architecture/Architectural Parts/Windows/Casement/2PaneTopOpen.stl"
+        },
+        {
+          "format": "STP",
+          "path": "Architecture/Architectural Parts/Windows/Casement/2PaneTopOpen.stp"
+        }
+      ],
+      "tags": [
+        "2panetopopen"
+      ]
+    },
+    {
+      "id": "d16c943cee0e",
+      "name": "Window casement model 01 image 01",
+      "category": "Architecture",
+      "formats": [
+        "JPG"
+      ],
+      "files": [
+        {
+          "format": "JPG",
+          "path": "Architecture/Architectural Parts/Windows/Casement/Images/Window_casement_model_01_image_01.jpg"
+        }
+      ],
+      "tags": [
+        "01",
+        "casement",
+        "image",
+        "model",
+        "window"
+      ]
+    },
+    {
+      "id": "2ed657de615f",
+      "name": "Window casement model 01 image 02",
+      "category": "Architecture",
+      "formats": [
+        "JPG"
+      ],
+      "files": [
+        {
+          "format": "JPG",
+          "path": "Architecture/Architectural Parts/Windows/Casement/Images/Window_casement_model_01_image_02.jpg"
+        }
+      ],
+      "tags": [
+        "01",
+        "02",
+        "casement",
+        "image",
+        "model",
+        "window"
+      ]
+    },
+    {
+      "id": "3cc3016fccf1",
+      "name": "Window casement model 02 image 01",
+      "category": "Architecture",
+      "formats": [
+        "JPG"
+      ],
+      "files": [
+        {
+          "format": "JPG",
+          "path": "Architecture/Architectural Parts/Windows/Casement/Images/Window_casement_model_02_image_01.jpg"
+        }
+      ],
+      "tags": [
+        "01",
+        "02",
+        "casement",
+        "image",
+        "model",
+        "window"
+      ]
+    },
+    {
+      "id": "a22a22134dc7",
+      "name": "Window casement model 03 image 01",
+      "category": "Architecture",
+      "formats": [
+        "JPG"
+      ],
+      "files": [
+        {
+          "format": "JPG",
+          "path": "Architecture/Architectural Parts/Windows/Casement/Images/Window_casement_model_03_image_01.jpg"
+        }
+      ],
+      "tags": [
+        "01",
+        "03",
+        "casement",
+        "image",
+        "model",
+        "window"
+      ]
+    },
+    {
+      "id": "0816a57d61d5",
+      "name": "Window casement model 04 image 01",
+      "category": "Architecture",
+      "formats": [
+        "JPG"
+      ],
+      "files": [
+        {
+          "format": "JPG",
+          "path": "Architecture/Architectural Parts/Windows/Casement/Images/Window_casement_model_04_image_01.jpg"
+        }
+      ],
+      "tags": [
+        "01",
+        "04",
+        "casement",
+        "image",
+        "model",
+        "window"
+      ]
+    },
+    {
+      "id": "c4bc0697820c",
+      "name": "Simple 2 panes window",
+      "category": "Architecture",
+      "formats": [
+        "FCSTD",
+        "STEP",
+        "STL"
+      ],
+      "files": [
+        {
+          "format": "FCSTD",
+          "path": "Architecture/Architectural Parts/Windows/Casement/Simple 2-panes window.fcstd"
+        },
+        {
+          "format": "STEP",
+          "path": "Architecture/Architectural Parts/Windows/Casement/Simple 2-panes window.step"
+        },
+        {
+          "format": "STL",
+          "path": "Architecture/Architectural Parts/Windows/Casement/Simple 2-panes window.stl"
+        }
+      ],
+      "tags": [
+        "2",
+        "panes",
+        "simple",
+        "window"
+      ]
+    },
+    {
+      "id": "56acf965ae37",
+      "name": "ThreePartLeft",
+      "category": "Architecture",
+      "formats": [
+        "FCSTD",
+        "STL",
+        "STP"
+      ],
+      "files": [
+        {
+          "format": "FCSTD",
+          "path": "Architecture/Architectural Parts/Windows/Casement/ThreePartLeft.FCStd"
+        },
+        {
+          "format": "STL",
+          "path": "Architecture/Architectural Parts/Windows/Casement/ThreePartLeft.stl"
+        },
+        {
+          "format": "STP",
+          "path": "Architecture/Architectural Parts/Windows/Casement/ThreePartLeft.stp"
+        }
+      ],
+      "tags": [
+        "threepartleft"
+      ]
+    },
+    {
+      "id": "e00eec0afa8d",
+      "name": "ThreePartRight",
+      "category": "Architecture",
+      "formats": [
+        "FCSTD",
+        "STL",
+        "STP"
+      ],
+      "files": [
+        {
+          "format": "FCSTD",
+          "path": "Architecture/Architectural Parts/Windows/Casement/ThreePartRight.FCStd"
+        },
+        {
+          "format": "STL",
+          "path": "Architecture/Architectural Parts/Windows/Casement/ThreePartRight.stl"
+        },
+        {
+          "format": "STP",
+          "path": "Architecture/Architectural Parts/Windows/Casement/ThreePartRight.stp"
+        }
+      ],
+      "tags": [
+        "threepartright"
+      ]
+    },
+    {
+      "id": "71071a8c43a6",
+      "name": "ThreeSectionTopSidesOpen",
+      "category": "Architecture",
+      "formats": [
+        "FCSTD",
+        "STL",
+        "STP"
+      ],
+      "files": [
+        {
+          "format": "FCSTD",
+          "path": "Architecture/Architectural Parts/Windows/Casement/ThreeSectionTopSidesOpen.FCStd"
+        },
+        {
+          "format": "STL",
+          "path": "Architecture/Architectural Parts/Windows/Casement/ThreeSectionTopSidesOpen.stl"
+        },
+        {
+          "format": "STP",
+          "path": "Architecture/Architectural Parts/Windows/Casement/ThreeSectionTopSidesOpen.stp"
+        }
+      ],
+      "tags": [
+        "threesectiontopsidesopen"
+      ]
+    },
+    {
+      "id": "6fe1219a43eb",
+      "name": "Window casement parametric",
+      "category": "Architecture",
+      "formats": [
+        "FCSTD"
+      ],
+      "files": [
+        {
+          "format": "FCSTD",
+          "path": "Architecture/Architectural Parts/Windows/Casement/Window_casement_parametric.FCStd"
+        }
+      ],
+      "tags": [
+        "casement",
+        "parametric",
+        "window"
+      ]
+    },
+    {
+      "id": "c802ceb7e24c",
+      "name": "Double glazed window with shutters and simple",
+      "category": "Architecture",
+      "formats": [
+        "FCSTD",
+        "STEP",
+        "STL"
+      ],
+      "files": [
+        {
+          "format": "FCSTD",
+          "path": "Architecture/Architectural Parts/Windows/Fixed/Double glazed window with shutters and simple.FCStd"
+        },
+        {
+          "format": "STEP",
+          "path": "Architecture/Architectural Parts/Windows/Fixed/Double glazed window with shutters and simple.step"
+        },
+        {
+          "format": "STL",
+          "path": "Architecture/Architectural Parts/Windows/Fixed/Double glazed window with shutters and simple.stl"
+        }
+      ],
+      "tags": [
+        "and",
+        "double",
+        "glazed",
+        "shutters",
+        "simple",
+        "window",
+        "with"
+      ]
+    },
+    {
+      "id": "034313d54bcf",
+      "name": "fixed 2 vertical panes window",
+      "category": "Architecture",
+      "formats": [
+        "FCSTD",
+        "STEP",
+        "STL"
+      ],
+      "files": [
+        {
+          "format": "FCSTD",
+          "path": "Architecture/Architectural Parts/Windows/Fixed/fixed 2 vertical-panes window.fcstd"
+        },
+        {
+          "format": "STEP",
+          "path": "Architecture/Architectural Parts/Windows/Fixed/fixed 2 vertical-panes window.step"
+        },
+        {
+          "format": "STL",
+          "path": "Architecture/Architectural Parts/Windows/Fixed/fixed 2 vertical-panes window.stl"
+        }
+      ],
+      "tags": [
+        "2",
+        "fixed",
+        "panes",
+        "vertical",
+        "window"
+      ]
+    },
+    {
+      "id": "e38cd5f6bcb6",
+      "name": "Shutter",
+      "category": "Architecture",
+      "formats": [
+        "FCSTD",
+        "STEP",
+        "STL"
+      ],
+      "files": [
+        {
+          "format": "FCSTD",
+          "path": "Architecture/Architectural Parts/Windows/Fixed/Shutter.FCStd"
+        },
+        {
+          "format": "STEP",
+          "path": "Architecture/Architectural Parts/Windows/Fixed/Shutter.step"
+        },
+        {
+          "format": "STL",
+          "path": "Architecture/Architectural Parts/Windows/Fixed/Shutter.stl"
+        }
+      ],
+      "tags": [
+        "shutter"
+      ]
+    },
+    {
+      "id": "4329dcd22e02",
+      "name": "Simple window fixed",
+      "category": "Architecture",
+      "formats": [
+        "FCSTD",
+        "STEP",
+        "STL"
+      ],
+      "files": [
+        {
+          "format": "FCSTD",
+          "path": "Architecture/Architectural Parts/Windows/Fixed/Simple window fixed.FCStd"
+        },
+        {
+          "format": "STEP",
+          "path": "Architecture/Architectural Parts/Windows/Fixed/Simple window fixed.step"
+        },
+        {
+          "format": "STL",
+          "path": "Architecture/Architectural Parts/Windows/Fixed/Simple window fixed.stl"
+        }
+      ],
+      "tags": [
+        "fixed",
+        "simple",
+        "window"
+      ]
+    },
+    {
+      "id": "49521ea89a3c",
+      "name": "Window fixed double glazed windows with blind",
+      "category": "Architecture",
+      "formats": [
+        "FCSTD",
+        "STEP",
+        "STL"
+      ],
+      "files": [
+        {
+          "format": "FCSTD",
+          "path": "Architecture/Architectural Parts/Windows/Fixed/Window fixed double glazed windows with blind.FCStd"
+        },
+        {
+          "format": "STEP",
+          "path": "Architecture/Architectural Parts/Windows/Fixed/Window fixed double glazed windows with blind.step"
+        },
+        {
+          "format": "STL",
+          "path": "Architecture/Architectural Parts/Windows/Fixed/Window fixed double glazed windows with blind.stl"
+        }
+      ],
+      "tags": [
+        "blind",
+        "double",
+        "fixed",
+        "glazed",
+        "window",
+        "windows",
+        "with"
+      ]
+    },
+    {
+      "id": "15c5f15537b4",
+      "name": "Window with 2 vertical fixed glass",
+      "category": "Architecture",
+      "formats": [
+        "FCSTD",
+        "STEP",
+        "STL"
+      ],
+      "files": [
+        {
+          "format": "FCSTD",
+          "path": "Architecture/Architectural Parts/Windows/Fixed/Window with 2 vertical fixed glass.FCStd"
+        },
+        {
+          "format": "STEP",
+          "path": "Architecture/Architectural Parts/Windows/Fixed/Window with 2 vertical fixed glass.step"
+        },
+        {
+          "format": "STL",
+          "path": "Architecture/Architectural Parts/Windows/Fixed/Window with 2 vertical fixed glass.stl"
+        }
+      ],
+      "tags": [
+        "2",
+        "fixed",
+        "glass",
+        "vertical",
+        "window",
+        "with"
+      ]
+    },
+    {
+      "id": "ac15912d6122",
+      "name": "Window with 3 vertical fixed glass",
+      "category": "Architecture",
+      "formats": [
+        "FCSTD",
+        "STEP",
+        "STL"
+      ],
+      "files": [
+        {
+          "format": "FCSTD",
+          "path": "Architecture/Architectural Parts/Windows/Fixed/Window with 3 vertical fixed glass.FCStd"
+        },
+        {
+          "format": "STEP",
+          "path": "Architecture/Architectural Parts/Windows/Fixed/Window with 3 vertical fixed glass.step"
+        },
+        {
+          "format": "STL",
+          "path": "Architecture/Architectural Parts/Windows/Fixed/Window with 3 vertical fixed glass.stl"
+        }
+      ],
+      "tags": [
+        "3",
+        "fixed",
+        "glass",
+        "vertical",
+        "window",
+        "with"
+      ]
+    },
+    {
+      "id": "afd2ece0c713",
+      "name": "6 frame modules with doors",
+      "category": "Architecture",
+      "formats": [
+        "FCSTD",
+        "STEP",
+        "STL"
+      ],
+      "files": [
+        {
+          "format": "FCSTD",
+          "path": "Architecture/Architectural Parts/Windows/Glass-skin/6 frame modules with doors.FCStd"
+        },
+        {
+          "format": "STEP",
+          "path": "Architecture/Architectural Parts/Windows/Glass-skin/6 frame modules with doors.step"
+        },
+        {
+          "format": "STL",
+          "path": "Architecture/Architectural Parts/Windows/Glass-skin/6 frame modules with doors.stl"
+        }
+      ],
+      "tags": [
+        "6",
+        "doors",
+        "frame",
+        "modules",
+        "with"
+      ]
+    },
+    {
+      "id": "0d1b563adf7e",
+      "name": "6 frame modules",
+      "category": "Architecture",
+      "formats": [
+        "FCSTD",
+        "STEP",
+        "STL"
+      ],
+      "files": [
+        {
+          "format": "FCSTD",
+          "path": "Architecture/Architectural Parts/Windows/Glass-skin/6 frame modules.FCStd"
+        },
+        {
+          "format": "STEP",
+          "path": "Architecture/Architectural Parts/Windows/Glass-skin/6 frame modules.step"
+        },
+        {
+          "format": "STL",
+          "path": "Architecture/Architectural Parts/Windows/Glass-skin/6 frame modules.stl"
+        }
+      ],
+      "tags": [
+        "6",
+        "frame",
+        "modules"
+      ]
+    },
+    {
+      "id": "0a0455aa7d91",
+      "name": "Editable structural glazing",
+      "category": "Architecture",
+      "formats": [
+        "FCSTD"
+      ],
+      "files": [
+        {
+          "format": "FCSTD",
+          "path": "Architecture/Architectural Parts/Windows/Glass-skin/Editable_structural_glazing.FCStd"
+        }
+      ],
+      "tags": [
+        "editable",
+        "glazing",
+        "structural"
+      ]
+    },
+    {
+      "id": "8c07b5aa60f3",
+      "name": "Glass skin 6 fixed modules",
+      "category": "Architecture",
+      "formats": [
+        "FCSTD",
+        "STEP",
+        "STL"
+      ],
+      "files": [
+        {
+          "format": "FCSTD",
+          "path": "Architecture/Architectural Parts/Windows/Glass-skin/Glass skin 6 fixed modules.FCStd"
+        },
+        {
+          "format": "STEP",
+          "path": "Architecture/Architectural Parts/Windows/Glass-skin/Glass skin 6 fixed modules.step"
+        },
+        {
+          "format": "STL",
+          "path": "Architecture/Architectural Parts/Windows/Glass-skin/Glass skin 6 fixed modules.stl"
+        }
+      ],
+      "tags": [
+        "6",
+        "fixed",
+        "glass",
+        "modules",
+        "skin"
+      ]
+    },
+    {
+      "id": "5595273b7dee",
+      "name": "Glass skin 6 modules and doors",
+      "category": "Architecture",
+      "formats": [
+        "FCSTD",
+        "STEP",
+        "STL"
+      ],
+      "files": [
+        {
+          "format": "FCSTD",
+          "path": "Architecture/Architectural Parts/Windows/Glass-skin/Glass skin 6 modules and doors.FCStd"
+        },
+        {
+          "format": "STEP",
+          "path": "Architecture/Architectural Parts/Windows/Glass-skin/Glass skin 6 modules and doors.step"
+        },
+        {
+          "format": "STL",
+          "path": "Architecture/Architectural Parts/Windows/Glass-skin/Glass skin 6 modules and doors.stl"
+        }
+      ],
+      "tags": [
+        "6",
+        "and",
+        "doors",
+        "glass",
+        "modules",
+        "skin"
+      ]
+    },
+    {
+      "id": "b77c5dc71316",
+      "name": "Glass skin 6 modules and sliding doors",
+      "category": "Architecture",
+      "formats": [
+        "FCSTD",
+        "STEP",
+        "STL"
+      ],
+      "files": [
+        {
+          "format": "FCSTD",
+          "path": "Architecture/Architectural Parts/Windows/Glass-skin/Glass skin 6 modules and sliding doors.FCStd"
+        },
+        {
+          "format": "STEP",
+          "path": "Architecture/Architectural Parts/Windows/Glass-skin/Glass skin 6 modules and sliding doors.step"
+        },
+        {
+          "format": "STL",
+          "path": "Architecture/Architectural Parts/Windows/Glass-skin/Glass skin 6 modules and sliding doors.stl"
+        }
+      ],
+      "tags": [
+        "6",
+        "and",
+        "doors",
+        "glass",
+        "modules",
+        "skin",
+        "sliding"
+      ]
+    },
+    {
+      "id": "ba509590f4c4",
+      "name": "Structural glazing",
+      "category": "Architecture",
+      "formats": [
+        "STEP",
+        "STL"
+      ],
+      "files": [
+        {
+          "format": "STEP",
+          "path": "Architecture/Architectural Parts/Windows/Glass-skin/Structural glazing.step"
+        },
+        {
+          "format": "STL",
+          "path": "Architecture/Architectural Parts/Windows/Glass-skin/Structural glazing.stl"
+        }
+      ],
+      "tags": [
+        "glazing",
+        "structural"
+      ]
+    },
+    {
+      "id": "950a946269da",
+      "name": "Maxim Air and fixed glass",
+      "category": "Architecture",
+      "formats": [
+        "FCSTD",
+        "STEP",
+        "STL"
+      ],
+      "files": [
+        {
+          "format": "FCSTD",
+          "path": "Architecture/Architectural Parts/Windows/Maxim-Air/Maxim Air and fixed glass.FCStd"
+        },
+        {
+          "format": "STEP",
+          "path": "Architecture/Architectural Parts/Windows/Maxim-Air/Maxim Air and fixed glass.step"
+        },
+        {
+          "format": "STL",
+          "path": "Architecture/Architectural Parts/Windows/Maxim-Air/Maxim Air and fixed glass.stl"
+        }
+      ],
+      "tags": [
+        "air",
+        "and",
+        "fixed",
+        "glass",
+        "maxim"
+      ]
+    },
+    {
+      "id": "c682bc5db871",
+      "name": "Maxim Air double fixed glass and bind",
+      "category": "Architecture",
+      "formats": [
+        "FCSTD",
+        "STEP",
+        "STL"
+      ],
+      "files": [
+        {
+          "format": "FCSTD",
+          "path": "Architecture/Architectural Parts/Windows/Maxim-Air/Maxim Air double fixed glass and bind.FCStd"
+        },
+        {
+          "format": "STEP",
+          "path": "Architecture/Architectural Parts/Windows/Maxim-Air/Maxim Air double fixed glass and bind.step"
+        },
+        {
+          "format": "STL",
+          "path": "Architecture/Architectural Parts/Windows/Maxim-Air/Maxim Air double fixed glass and bind.stl"
+        }
+      ],
+      "tags": [
+        "air",
+        "and",
+        "bind",
+        "double",
+        "fixed",
+        "glass",
+        "maxim"
+      ]
+    },
+    {
+      "id": "f6dba7c807ab",
+      "name": "Maxim Air with double glazing and blind",
+      "category": "Architecture",
+      "formats": [
+        "FCSTD",
+        "STEP",
+        "STL"
+      ],
+      "files": [
+        {
+          "format": "FCSTD",
+          "path": "Architecture/Architectural Parts/Windows/Maxim-Air/Maxim Air with double glazing and blind.FCStd"
+        },
+        {
+          "format": "STEP",
+          "path": "Architecture/Architectural Parts/Windows/Maxim-Air/Maxim Air with double glazing and blind.step"
+        },
+        {
+          "format": "STL",
+          "path": "Architecture/Architectural Parts/Windows/Maxim-Air/Maxim Air with double glazing and blind.stl"
+        }
+      ],
+      "tags": [
+        "air",
+        "and",
+        "blind",
+        "double",
+        "glazing",
+        "maxim",
+        "with"
+      ]
+    },
+    {
+      "id": "5b22a73035d4",
+      "name": "Maxim Air with fixed glass",
+      "category": "Architecture",
+      "formats": [
+        "FCSTD",
+        "STEP",
+        "STL"
+      ],
+      "files": [
+        {
+          "format": "FCSTD",
+          "path": "Architecture/Architectural Parts/Windows/Maxim-Air/Maxim Air with fixed glass.FCStd"
+        },
+        {
+          "format": "STEP",
+          "path": "Architecture/Architectural Parts/Windows/Maxim-Air/Maxim Air with fixed glass.step"
+        },
+        {
+          "format": "STL",
+          "path": "Architecture/Architectural Parts/Windows/Maxim-Air/Maxim Air with fixed glass.stl"
+        }
+      ],
+      "tags": [
+        "air",
+        "fixed",
+        "glass",
+        "maxim",
+        "with"
+      ]
+    },
+    {
+      "id": "c740b356bf55",
+      "name": "Sash window",
+      "category": "Architecture",
+      "formats": [
+        "FCSTD",
+        "STEP",
+        "STL"
+      ],
+      "files": [
+        {
+          "format": "FCSTD",
+          "path": "Architecture/Architectural Parts/Windows/Sash/Sash window.FCStd"
+        },
+        {
+          "format": "STEP",
+          "path": "Architecture/Architectural Parts/Windows/Sash/Sash window.step"
+        },
+        {
+          "format": "STL",
+          "path": "Architecture/Architectural Parts/Windows/Sash/Sash window.stl"
+        }
+      ],
+      "tags": [
+        "sash",
+        "window"
+      ]
+    },
+    {
+      "id": "556798f7388a",
+      "name": "Sliding 2 panes window",
+      "category": "Architecture",
+      "formats": [
+        "FCSTD",
+        "STEP",
+        "STL"
+      ],
+      "files": [
+        {
+          "format": "FCSTD",
+          "path": "Architecture/Architectural Parts/Windows/Sliding/Sliding 2-panes window.fcstd"
+        },
+        {
+          "format": "STEP",
+          "path": "Architecture/Architectural Parts/Windows/Sliding/Sliding 2-panes window.step"
+        },
+        {
+          "format": "STL",
+          "path": "Architecture/Architectural Parts/Windows/Sliding/Sliding 2-panes window.stl"
+        }
+      ],
+      "tags": [
+        "2",
+        "panes",
+        "sliding",
+        "window"
+      ]
+    },
+    {
+      "id": "7257383244dd",
+      "name": "Sliding window and two fixed vertical sheets",
+      "category": "Architecture",
+      "formats": [
+        "FCSTD",
+        "STEP",
+        "STL"
+      ],
+      "files": [
+        {
+          "format": "FCSTD",
+          "path": "Architecture/Architectural Parts/Windows/Sliding/Sliding window and two fixed vertical sheets.FCStd"
+        },
+        {
+          "format": "STEP",
+          "path": "Architecture/Architectural Parts/Windows/Sliding/Sliding window and two fixed vertical sheets.step"
+        },
+        {
+          "format": "STL",
+          "path": "Architecture/Architectural Parts/Windows/Sliding/Sliding window and two fixed vertical sheets.stl"
+        }
+      ],
+      "tags": [
+        "and",
+        "fixed",
+        "sheets",
+        "sliding",
+        "two",
+        "vertical",
+        "window"
+      ]
+    },
+    {
+      "id": "6cc6acc1c57a",
+      "name": "Sliding window",
+      "category": "Architecture",
+      "formats": [
+        "FCSTD",
+        "STEP",
+        "STL"
+      ],
+      "files": [
+        {
+          "format": "FCSTD",
+          "path": "Architecture/Architectural Parts/Windows/Sliding/Sliding_window.fcstd"
+        },
+        {
+          "format": "STEP",
+          "path": "Architecture/Architectural Parts/Windows/Sliding/Sliding_window.step"
+        },
+        {
+          "format": "STL",
+          "path": "Architecture/Architectural Parts/Windows/Sliding/Sliding_window.stl"
+        }
+      ],
+      "tags": [
+        "sliding",
+        "window"
+      ]
+    },
+    {
+      "id": "95091c80ba71",
+      "name": "Tilting window 5 modules",
+      "category": "Architecture",
+      "formats": [
+        "FCSTD",
+        "STEP",
+        "STL"
+      ],
+      "files": [
+        {
+          "format": "FCSTD",
+          "path": "Architecture/Architectural Parts/Windows/Tilting/Tilting window 5 modules.FCStd"
+        },
+        {
+          "format": "STEP",
+          "path": "Architecture/Architectural Parts/Windows/Tilting/Tilting window 5 modules.step"
+        },
+        {
+          "format": "STL",
+          "path": "Architecture/Architectural Parts/Windows/Tilting/Tilting window 5 modules.stl"
+        }
+      ],
+      "tags": [
+        "5",
+        "modules",
+        "tilting",
+        "window"
+      ]
+    },
+    {
+      "id": "c39d47ad4951",
+      "name": "battery AA",
+      "category": "Electrical",
+      "formats": [
+        "FCSTD",
+        "STEP",
+        "STL"
+      ],
+      "files": [
+        {
+          "format": "FCSTD",
+          "path": "Electrical/Electrical Parts/Batteries/battery-AA.FCStd"
+        },
+        {
+          "format": "STEP",
+          "path": "Electrical/Electrical Parts/Batteries/battery-AA.step"
+        },
+        {
+          "format": "STL",
+          "path": "Electrical/Electrical Parts/Batteries/battery-AA.stl"
+        }
+      ],
+      "tags": [
+        "aa",
+        "battery"
+      ]
+    },
+    {
+      "id": "71faee8f37e5",
+      "name": "battery AAA",
+      "category": "Electrical",
+      "formats": [
+        "FCSTD",
+        "STEP",
+        "STL"
+      ],
+      "files": [
+        {
+          "format": "FCSTD",
+          "path": "Electrical/Electrical Parts/Batteries/battery-AAA.fcstd"
+        },
+        {
+          "format": "STEP",
+          "path": "Electrical/Electrical Parts/Batteries/battery-AAA.step"
+        },
+        {
+          "format": "STL",
+          "path": "Electrical/Electrical Parts/Batteries/battery-AAA.stl"
+        }
+      ],
+      "tags": [
+        "aaa",
+        "battery"
+      ]
+    },
+    {
+      "id": "abfed42b376e",
+      "name": "battery holder 4 AAA",
+      "category": "Electrical",
+      "formats": [
+        "FCSTD",
+        "STEP",
+        "STL"
+      ],
+      "files": [
+        {
+          "format": "FCSTD",
+          "path": "Electrical/Electrical Parts/Batteries/battery-holder-4-AAA.fcstd"
+        },
+        {
+          "format": "STEP",
+          "path": "Electrical/Electrical Parts/Batteries/battery-holder-4-AAA.step"
+        },
+        {
+          "format": "STL",
+          "path": "Electrical/Electrical Parts/Batteries/battery-holder-4-AAA.stl"
+        }
+      ],
+      "tags": [
+        "4",
+        "aaa",
+        "battery",
+        "holder"
+      ]
+    },
+    {
+      "id": "15154e393fe9",
+      "name": "battery holder 6F22",
+      "category": "Electrical",
+      "formats": [
+        "FCSTD"
+      ],
+      "files": [
+        {
+          "format": "FCSTD",
+          "path": "Electrical/Electrical Parts/Batteries/battery-holder-6F22.fcstd"
+        }
+      ],
+      "tags": [
+        "6f22",
+        "battery",
+        "holder"
+      ]
+    },
+    {
+      "id": "f3dc1a3f1ede",
+      "name": "battery holder 8 AAA",
+      "category": "Electrical",
+      "formats": [
+        "FCSTD",
+        "STEP",
+        "STL"
+      ],
+      "files": [
+        {
+          "format": "FCSTD",
+          "path": "Electrical/Electrical Parts/Batteries/battery-holder-8-AAA.fcstd"
+        },
+        {
+          "format": "STEP",
+          "path": "Electrical/Electrical Parts/Batteries/battery-holder-8-AAA.step"
+        },
+        {
+          "format": "STL",
+          "path": "Electrical/Electrical Parts/Batteries/battery-holder-8-AAA.stl"
+        }
+      ],
+      "tags": [
+        "8",
+        "aaa",
+        "battery",
+        "holder"
+      ]
+    },
+    {
+      "id": "cf5fbc92d3ea",
+      "name": "battery lipo 3 7v 240mah",
+      "category": "Electrical",
+      "formats": [
+        "FCSTD",
+        "STEP"
+      ],
+      "files": [
+        {
+          "format": "FCSTD",
+          "path": "Electrical/Electrical Parts/Batteries/battery_lipo_3_7v_240mah.fcstd"
+        },
+        {
+          "format": "STEP",
+          "path": "Electrical/Electrical Parts/Batteries/battery_lipo_3_7v_240mAh.step"
+        }
+      ],
+      "tags": [
+        "240mah",
+        "3",
+        "7v",
+        "battery",
+        "lipo"
+      ]
+    },
+    {
+      "id": "1949312e6d4f",
+      "name": "R6 bat",
+      "category": "Electrical",
+      "formats": [
+        "FCSTD",
+        "STL"
+      ],
+      "files": [
+        {
+          "format": "FCSTD",
+          "path": "Electrical/Electrical Parts/Batteries/R6_bat.FCStd"
+        },
+        {
+          "format": "STL",
+          "path": "Electrical/Electrical Parts/Batteries/R6_bat.stl"
+        }
+      ],
+      "tags": [
+        "bat",
+        "r6"
+      ]
+    },
+    {
+      "id": "4bb0be35352c",
+      "name": "EmergencyButton Disk LAY37",
+      "category": "Electrical",
+      "formats": [
+        "PNG",
+        "STEP",
+        "STL"
+      ],
+      "files": [
+        {
+          "format": "PNG",
+          "path": "Electrical/Electrical Parts/Electrical Switches/EmergencyButton-Disk_LAY37.png"
+        },
+        {
+          "format": "STEP",
+          "path": "Electrical/Electrical Parts/Electrical Switches/EmergencyButton-Disk_LAY37.step"
+        },
+        {
+          "format": "STL",
+          "path": "Electrical/Electrical Parts/Electrical Switches/EmergencyButton-Disk_LAY37.stl"
+        }
+      ],
+      "tags": [
+        "disk",
+        "emergencybutton",
+        "lay37"
+      ]
+    },
+    {
+      "id": "b7f9b254c4a8",
+      "name": "EmergencyButton noDisk LAY37",
+      "category": "Electrical",
+      "formats": [
+        "PNG",
+        "STEP",
+        "STL"
+      ],
+      "files": [
+        {
+          "format": "PNG",
+          "path": "Electrical/Electrical Parts/Electrical Switches/EmergencyButton-noDisk_LAY37.png"
+        },
+        {
+          "format": "STEP",
+          "path": "Electrical/Electrical Parts/Electrical Switches/EmergencyButton-noDisk_LAY37.step"
+        },
+        {
+          "format": "STL",
+          "path": "Electrical/Electrical Parts/Electrical Switches/EmergencyButton-noDisk_LAY37.stl"
+        }
+      ],
+      "tags": [
+        "emergencybutton",
+        "lay37",
+        "nodisk"
+      ]
+    },
+    {
+      "id": "23848aa5652f",
+      "name": "EmergencyButton LAY37",
+      "category": "Electrical",
+      "formats": [
+        "FCSTD"
+      ],
+      "files": [
+        {
+          "format": "FCSTD",
+          "path": "Electrical/Electrical Parts/Electrical Switches/EmergencyButton_LAY37.fcstd"
+        }
+      ],
+      "tags": [
+        "emergencybutton",
+        "lay37"
+      ]
+    },
+    {
+      "id": "c2ae0c7417bd",
+      "name": "Metal Box Aliexpress 170x130x80",
+      "category": "Electrical",
+      "formats": [
+        "FCSTD"
+      ],
+      "files": [
+        {
+          "format": "FCSTD",
+          "path": "Electrical/Electrical Parts/Enclosures/Metal_Box_Aliexpress_170x130x80.fcstd"
+        }
+      ],
+      "tags": [
+        "170x130x80",
+        "aliexpress",
+        "box",
+        "metal"
+      ]
+    },
+    {
+      "id": "44f1509a70d3",
+      "name": "RND 455 00135",
+      "category": "Electrical",
+      "formats": [
+        "FCSTD"
+      ],
+      "files": [
+        {
+          "format": "FCSTD",
+          "path": "Electrical/Electrical Parts/Enclosures/RND_455_00135.fcstd"
+        }
+      ],
+      "tags": [
+        "00135",
+        "455",
+        "rnd"
+      ]
+    },
+    {
+      "id": "54c962e35a97",
+      "name": "RND 455 00194",
+      "category": "Electrical",
+      "formats": [
+        "FCSTD"
+      ],
+      "files": [
+        {
+          "format": "FCSTD",
+          "path": "Electrical/Electrical Parts/Enclosures/RND_455_00194.fcstd"
+        }
+      ],
+      "tags": [
+        "00194",
+        "455",
+        "rnd"
+      ]
+    },
+    {
+      "id": "2ccf0c24da3f",
+      "name": "endstop v1 2 makerbot",
+      "category": "Electrical",
+      "formats": [
+        "FCSTD",
+        "STEP",
+        "STL"
+      ],
+      "files": [
+        {
+          "format": "FCSTD",
+          "path": "Electrical/Electrical Parts/Endstop/endstop-v1-2-makerbot.fcstd"
+        },
+        {
+          "format": "STEP",
+          "path": "Electrical/Electrical Parts/Endstop/endstop-v1-2-makerbot.step"
+        },
+        {
+          "format": "STL",
+          "path": "Electrical/Electrical Parts/Endstop/endstop-v1-2-makerbot.stl"
+        }
+      ],
+      "tags": [
+        "2",
+        "endstop",
+        "makerbot",
+        "v1"
+      ]
+    },
+    {
+      "id": "0bca49df4579",
+      "name": "endstop",
+      "category": "Electrical",
+      "formats": [
+        "FCSTD",
+        "PNG",
+        "STL",
+        "STP"
+      ],
+      "files": [
+        {
+          "format": "FCSTD",
+          "path": "Electrical/Electrical Parts/Endstop/endstop.fcstd"
+        },
+        {
+          "format": "PNG",
+          "path": "Electrical/Electrical Parts/Endstop/endstop.png"
+        },
+        {
+          "format": "STL",
+          "path": "Electrical/Electrical Parts/Endstop/endstop.stl"
+        },
+        {
+          "format": "STP",
+          "path": "Electrical/Electrical Parts/Endstop/endstop.stp"
+        }
+      ],
+      "tags": [
+        "endstop"
+      ]
+    },
+    {
+      "id": "9bc200955972",
+      "name": "endstopsmall",
+      "category": "Electrical",
+      "formats": [
+        "FCSTD",
+        "PNG",
+        "STL",
+        "STP"
+      ],
+      "files": [
+        {
+          "format": "FCSTD",
+          "path": "Electrical/Electrical Parts/Endstop/endstopsmall.fcstd"
+        },
+        {
+          "format": "PNG",
+          "path": "Electrical/Electrical Parts/Endstop/endstopsmall.png"
+        },
+        {
+          "format": "STL",
+          "path": "Electrical/Electrical Parts/Endstop/endstopsmall.stl"
+        },
+        {
+          "format": "STP",
+          "path": "Electrical/Electrical Parts/Endstop/endstopsmall.stp"
+        }
+      ],
+      "tags": [
+        "endstopsmall"
+      ]
+    },
+    {
+      "id": "f6626ba43d37",
+      "name": "microswitch ESS05 EGE",
+      "category": "Electrical",
+      "formats": [
+        "FCSTD",
+        "STEP",
+        "STL"
+      ],
+      "files": [
+        {
+          "format": "FCSTD",
+          "path": "Electrical/Electrical Parts/Endstop/microswitch-ESS05-EGE.fcstd"
+        },
+        {
+          "format": "STEP",
+          "path": "Electrical/Electrical Parts/Endstop/microswitch-ESS05-EGE.step"
+        },
+        {
+          "format": "STL",
+          "path": "Electrical/Electrical Parts/Endstop/microswitch-ESS05-EGE.stl"
+        }
+      ],
+      "tags": [
+        "ege",
+        "ess05",
+        "microswitch"
+      ]
+    },
+    {
+      "id": "02f9761c7c16",
+      "name": "blower 50x50mm",
+      "category": "Electrical",
+      "formats": [
+        "FCSTD",
+        "STEP",
+        "STL"
+      ],
+      "files": [
+        {
+          "format": "FCSTD",
+          "path": "Electrical/Electrical Parts/fans/blower-50x50mm.fcstd"
+        },
+        {
+          "format": "STEP",
+          "path": "Electrical/Electrical Parts/fans/blower-50x50mm.step"
+        },
+        {
+          "format": "STL",
+          "path": "Electrical/Electrical Parts/fans/blower-50x50mm.stl"
+        }
+      ],
+      "tags": [
+        "50x50mm",
+        "blower"
+      ]
+    },
+    {
+      "id": "7a308de0865d",
+      "name": "fan 40x40mm",
+      "category": "Electrical",
+      "formats": [
+        "FCSTD",
+        "STEP",
+        "STL"
+      ],
+      "files": [
+        {
+          "format": "FCSTD",
+          "path": "Electrical/Electrical Parts/fans/fan-40x40mm.fcstd"
+        },
+        {
+          "format": "STEP",
+          "path": "Electrical/Electrical Parts/fans/fan-40x40mm.step"
+        },
+        {
+          "format": "STL",
+          "path": "Electrical/Electrical Parts/fans/fan-40x40mm.stl"
+        }
+      ],
+      "tags": [
+        "40x40mm",
+        "fan"
+      ]
+    },
+    {
+      "id": "278dfe197925",
+      "name": "fan 50x50mm",
+      "category": "Electrical",
+      "formats": [
+        "FCSTD",
+        "STEP",
+        "STL"
+      ],
+      "files": [
+        {
+          "format": "FCSTD",
+          "path": "Electrical/Electrical Parts/fans/fan-50x50mm.fcstd"
+        },
+        {
+          "format": "STEP",
+          "path": "Electrical/Electrical Parts/fans/fan-50x50mm.step"
+        },
+        {
+          "format": "STL",
+          "path": "Electrical/Electrical Parts/fans/fan-50x50mm.stl"
+        }
+      ],
+      "tags": [
+        "50x50mm",
+        "fan"
+      ]
+    },
+    {
+      "id": "8f224d255034",
+      "name": "Fan Parametric",
+      "category": "Electrical",
+      "formats": [
+        "FCSTD"
+      ],
+      "files": [
+        {
+          "format": "FCSTD",
+          "path": "Electrical/Electrical Parts/fans/Fan_Parametric.fcstd"
+        }
+      ],
+      "tags": [
+        "fan",
+        "parametric"
+      ]
+    },
+    {
+      "id": "90e6f4b29b8c",
+      "name": "CatNozzle",
+      "category": "Electrical",
+      "formats": [
+        "FCSTD",
+        "STEP",
+        "STL"
+      ],
+      "files": [
+        {
+          "format": "FCSTD",
+          "path": "Electrical/Electrical Parts/Hotend/CatNozzle.fcstd"
+        },
+        {
+          "format": "STEP",
+          "path": "Electrical/Electrical Parts/Hotend/CatNozzle.step"
+        },
+        {
+          "format": "STL",
+          "path": "Electrical/Electrical Parts/Hotend/CatNozzle.stl"
+        }
+      ],
+      "tags": [
+        "catnozzle"
+      ]
+    },
+    {
+      "id": "74b207002553",
+      "name": "Hotend 3d printer",
+      "category": "Electrical",
+      "formats": [
+        "FCSTD",
+        "STEP",
+        "STL"
+      ],
+      "files": [
+        {
+          "format": "FCSTD",
+          "path": "Electrical/Electrical Parts/Hotend/Hotend-3d-printer.fcstd"
+        },
+        {
+          "format": "STEP",
+          "path": "Electrical/Electrical Parts/Hotend/hotend-3d-printer.step"
+        },
+        {
+          "format": "STL",
+          "path": "Electrical/Electrical Parts/Hotend/hotend-3d-printer.stl"
+        }
+      ],
+      "tags": [
+        "3d",
+        "hotend",
+        "printer"
+      ]
+    },
+    {
+      "id": "788ab9899727",
+      "name": "j head",
+      "category": "Electrical",
+      "formats": [
+        "FCSTD",
+        "STEP",
+        "STL"
+      ],
+      "files": [
+        {
+          "format": "FCSTD",
+          "path": "Electrical/Electrical Parts/Hotend/j-head.fcstd"
+        },
+        {
+          "format": "STEP",
+          "path": "Electrical/Electrical Parts/Hotend/j-head.step"
+        },
+        {
+          "format": "STL",
+          "path": "Electrical/Electrical Parts/Hotend/j-head.stl"
+        }
+      ],
+      "tags": [
+        "head",
+        "j"
+      ]
+    },
+    {
+      "id": "cc2f2eaec1c6",
+      "name": "Lerge V5 heatblock PartLerge V5 Heatblock",
+      "category": "Electrical",
+      "formats": [
+        "STEP",
+        "STL"
+      ],
+      "files": [
+        {
+          "format": "STEP",
+          "path": "Electrical/Electrical Parts/Hotend/Lerge_V5_heatblock-PartLerge_V5_Heatblock.step"
+        },
+        {
+          "format": "STL",
+          "path": "Electrical/Electrical Parts/Hotend/Lerge_V5_heatblock-PartLerge_V5_Heatblock.stl"
+        }
+      ],
+      "tags": [
+        "heatblock",
+        "lerge",
+        "partlerge",
+        "v5"
+      ]
+    },
+    {
+      "id": "e29ca858ca10",
+      "name": "Lerge V5 heatblock",
+      "category": "Electrical",
+      "formats": [
+        "FCSTD"
+      ],
+      "files": [
+        {
+          "format": "FCSTD",
+          "path": "Electrical/Electrical Parts/Hotend/Lerge_V5_heatblock.FCStd"
+        }
+      ],
+      "tags": [
+        "heatblock",
+        "lerge",
+        "v5"
+      ]
+    },
+    {
+      "id": "66b0ae3d53d7",
+      "name": "MK8",
+      "category": "Electrical",
+      "formats": [
+        "FCSTD",
+        "STEP",
+        "STL"
+      ],
+      "files": [
+        {
+          "format": "FCSTD",
+          "path": "Electrical/Electrical Parts/Hotend/MK8.FCStd"
+        },
+        {
+          "format": "STEP",
+          "path": "Electrical/Electrical Parts/Hotend/MK8.step"
+        },
+        {
+          "format": "STL",
+          "path": "Electrical/Electrical Parts/Hotend/MK8.stl"
+        }
+      ],
+      "tags": [
+        "mk8"
+      ]
+    },
+    {
+      "id": "4917bee47ad4",
+      "name": "motor dfrobot GB37Y3530 45.8EN",
+      "category": "Electrical",
+      "formats": [
+        "FCSTD"
+      ],
+      "files": [
+        {
+          "format": "FCSTD",
+          "path": "Electrical/Electrical Parts/Motors/motor-dfrobot-GB37Y3530-45.8EN.FCStd"
+        }
+      ],
+      "tags": [
+        "45",
+        "8en",
+        "dfrobot",
+        "gb37y3530",
+        "motor"
+      ]
+    },
+    {
+      "id": "c0998f34fadd",
+      "name": "IRM 60 ST power supply",
+      "category": "Electrical",
+      "formats": [
+        "FCSTD",
+        "STEP",
+        "STL"
+      ],
+      "files": [
+        {
+          "format": "FCSTD",
+          "path": "Electrical/Electrical Parts/Power Supplies/IRM-60 ST series power supply/IRM-60 ST power supply.FCStd"
+        },
+        {
+          "format": "STEP",
+          "path": "Electrical/Electrical Parts/Power Supplies/IRM-60 ST series power supply/IRM-60 ST power supply.step"
+        },
+        {
+          "format": "STL",
+          "path": "Electrical/Electrical Parts/Power Supplies/IRM-60 ST series power supply/IRM-60 ST power supply.stl"
+        }
+      ],
+      "tags": [
+        "60",
+        "irm",
+        "power",
+        "st",
+        "supply"
+      ]
+    },
+    {
+      "id": "e25e21150478",
+      "name": "Switching power supply",
+      "category": "Electrical",
+      "formats": [
+        "FCSTD",
+        "STEP",
+        "STL"
+      ],
+      "files": [
+        {
+          "format": "FCSTD",
+          "path": "Electrical/Electrical Parts/Power Supplies/Switching power supply/Switching power supply.FCStd"
+        },
+        {
+          "format": "STEP",
+          "path": "Electrical/Electrical Parts/Power Supplies/Switching power supply/Switching power supply.step"
+        },
+        {
+          "format": "STL",
+          "path": "Electrical/Electrical Parts/Power Supplies/Switching power supply/Switching power supply.stl"
+        }
+      ],
+      "tags": [
+        "power",
+        "supply",
+        "switching"
+      ]
+    },
+    {
+      "id": "1441d088fc69",
+      "name": "Black mushroom head push button   22 mm",
+      "category": "Electrical",
+      "formats": [
+        "FCSTD",
+        "STEP",
+        "STL"
+      ],
+      "files": [
+        {
+          "format": "FCSTD",
+          "path": "Electrical/Electrical Parts/Push buttons/Black mushroom head push button - 22 mm.FCStd"
+        },
+        {
+          "format": "STEP",
+          "path": "Electrical/Electrical Parts/Push buttons/Black mushroom head push button - 22 mm.step"
+        },
+        {
+          "format": "STL",
+          "path": "Electrical/Electrical Parts/Push buttons/Black mushroom head push button - 22 mm.stl"
+        }
+      ],
+      "tags": [
+        "22",
+        "black",
+        "button",
+        "head",
+        "mm",
+        "mushroom",
+        "push"
+      ]
+    },
+    {
+      "id": "2e2ea37b455f",
+      "name": "Blue Push button   22 mm",
+      "category": "Electrical",
+      "formats": [
+        "FCSTD",
+        "STEP",
+        "STL"
+      ],
+      "files": [
+        {
+          "format": "FCSTD",
+          "path": "Electrical/Electrical Parts/Push buttons/Blue Push-button - 22 mm.FCStd"
+        },
+        {
+          "format": "STEP",
+          "path": "Electrical/Electrical Parts/Push buttons/Blue Push-button - 22 mm.step"
+        },
+        {
+          "format": "STL",
+          "path": "Electrical/Electrical Parts/Push buttons/Blue Push-button - 22 mm.stl"
+        }
+      ],
+      "tags": [
+        "22",
+        "blue",
+        "button",
+        "mm",
+        "push"
+      ]
+    },
+    {
+      "id": "0ae9b93d0bdd",
+      "name": "Emergency stop mushroom head push button   22 mm",
+      "category": "Electrical",
+      "formats": [
+        "FCSTD",
+        "STEP",
+        "STL"
+      ],
+      "files": [
+        {
+          "format": "FCSTD",
+          "path": "Electrical/Electrical Parts/Push buttons/Emergency stop mushroom head push-button - 22 mm.FCStd"
+        },
+        {
+          "format": "STEP",
+          "path": "Electrical/Electrical Parts/Push buttons/Emergency stop mushroom head push-button - 22 mm.step"
+        },
+        {
+          "format": "STL",
+          "path": "Electrical/Electrical Parts/Push buttons/Emergency stop mushroom head push-button - 22 mm.stl"
+        }
+      ],
+      "tags": [
+        "22",
+        "button",
+        "emergency",
+        "head",
+        "mm",
+        "mushroom",
+        "push",
+        "stop"
+      ]
+    },
+    {
+      "id": "df2805f3607e",
+      "name": "Green mushroom head push button   22 mm",
+      "category": "Electrical",
+      "formats": [
+        "FCSTD",
+        "STEP",
+        "STL"
+      ],
+      "files": [
+        {
+          "format": "FCSTD",
+          "path": "Electrical/Electrical Parts/Push buttons/Green mushroom head push button - 22 mm.FCStd"
+        },
+        {
+          "format": "STEP",
+          "path": "Electrical/Electrical Parts/Push buttons/Green mushroom head push button - 22 mm.step"
+        },
+        {
+          "format": "STL",
+          "path": "Electrical/Electrical Parts/Push buttons/Green mushroom head push button - 22 mm.stl"
+        }
+      ],
+      "tags": [
+        "22",
+        "button",
+        "green",
+        "head",
+        "mm",
+        "mushroom",
+        "push"
+      ]
+    },
+    {
+      "id": "9ae0c1c12d0d",
+      "name": "Green Push button   22 mm",
+      "category": "Electrical",
+      "formats": [
+        "FCSTD",
+        "STEP",
+        "STL"
+      ],
+      "files": [
+        {
+          "format": "FCSTD",
+          "path": "Electrical/Electrical Parts/Push buttons/Green Push-button - 22 mm.FCStd"
+        },
+        {
+          "format": "STEP",
+          "path": "Electrical/Electrical Parts/Push buttons/Green Push-button - 22 mm.step"
+        },
+        {
+          "format": "STL",
+          "path": "Electrical/Electrical Parts/Push buttons/Green Push-button - 22 mm.stl"
+        }
+      ],
+      "tags": [
+        "22",
+        "button",
+        "green",
+        "mm",
+        "push"
+      ]
+    },
+    {
+      "id": "d624bbbfc2c4",
+      "name": "Red mushroom head push button   22 mm",
+      "category": "Electrical",
+      "formats": [
+        "FCSTD",
+        "STEP",
+        "STL"
+      ],
+      "files": [
+        {
+          "format": "FCSTD",
+          "path": "Electrical/Electrical Parts/Push buttons/Red mushroom head push button - 22 mm.FCStd"
+        },
+        {
+          "format": "STEP",
+          "path": "Electrical/Electrical Parts/Push buttons/Red mushroom head push button - 22 mm.step"
+        },
+        {
+          "format": "STL",
+          "path": "Electrical/Electrical Parts/Push buttons/Red mushroom head push button - 22 mm.stl"
+        }
+      ],
+      "tags": [
+        "22",
+        "button",
+        "head",
+        "mm",
+        "mushroom",
+        "push",
+        "red"
+      ]
+    },
+    {
+      "id": "54dbc25999d2",
+      "name": "Red Push button   22 mm",
+      "category": "Electrical",
+      "formats": [
+        "FCSTD",
+        "STEP",
+        "STL"
+      ],
+      "files": [
+        {
+          "format": "FCSTD",
+          "path": "Electrical/Electrical Parts/Push buttons/Red Push-button - 22 mm.FCStd"
+        },
+        {
+          "format": "STEP",
+          "path": "Electrical/Electrical Parts/Push buttons/Red Push-button - 22 mm.step"
+        },
+        {
+          "format": "STL",
+          "path": "Electrical/Electrical Parts/Push buttons/Red Push-button - 22 mm.stl"
+        }
+      ],
+      "tags": [
+        "22",
+        "button",
+        "mm",
+        "push",
+        "red"
+      ]
+    },
+    {
+      "id": "c7a7dd667985",
+      "name": "servo rod 100mm",
+      "category": "Electrical",
+      "formats": [
+        "FCSTD",
+        "STEP",
+        "STL"
+      ],
+      "files": [
+        {
+          "format": "FCSTD",
+          "path": "Electrical/Electrical Parts/Servos/Accesories/servo_rod_100mm.fcstd"
+        },
+        {
+          "format": "STEP",
+          "path": "Electrical/Electrical Parts/Servos/Accesories/servo_rod_100mm.step"
+        },
+        {
+          "format": "STL",
+          "path": "Electrical/Electrical Parts/Servos/Accesories/servo_rod_100mm.stl"
+        }
+      ],
+      "tags": [
+        "100mm",
+        "rod",
+        "servo"
+      ]
+    },
+    {
+      "id": "6c687606c68f",
+      "name": "Emax es08A",
+      "category": "Electrical",
+      "formats": [
+        "FCSTD",
+        "STEP",
+        "STL"
+      ],
+      "files": [
+        {
+          "format": "FCSTD",
+          "path": "Electrical/Electrical Parts/Servos/Emax-ES08A/Emax-es08A.fcstd"
+        },
+        {
+          "format": "STEP",
+          "path": "Electrical/Electrical Parts/Servos/Emax-ES08A/Emax-es08A.step"
+        },
+        {
+          "format": "STL",
+          "path": "Electrical/Electrical Parts/Servos/Emax-ES08A/Emax-es08A.stl"
+        }
+      ],
+      "tags": [
+        "emax",
+        "es08a"
+      ]
+    },
+    {
+      "id": "b1fb72bf7096",
+      "name": "servo rounded horn",
+      "category": "Electrical",
+      "formats": [
+        "FCSTD",
+        "STEP",
+        "STL"
+      ],
+      "files": [
+        {
+          "format": "FCSTD",
+          "path": "Electrical/Electrical Parts/Servos/Emax-ES08A/servo-rounded-horn.fcstd"
+        },
+        {
+          "format": "STEP",
+          "path": "Electrical/Electrical Parts/Servos/Emax-ES08A/servo-rounded-horn.step"
+        },
+        {
+          "format": "STL",
+          "path": "Electrical/Electrical Parts/Servos/Emax-ES08A/servo-rounded-horn.stl"
+        }
+      ],
+      "tags": [
+        "horn",
+        "rounded",
+        "servo"
+      ]
+    },
+    {
+      "id": "353b2274f016",
+      "name": "servo screw 1.7x6.2mm",
+      "category": "Electrical",
+      "formats": [
+        "FCSTD",
+        "STEP",
+        "STL"
+      ],
+      "files": [
+        {
+          "format": "FCSTD",
+          "path": "Electrical/Electrical Parts/Servos/Emax-ES08A/servo-screw-1.7x6.2mm.fcstd"
+        },
+        {
+          "format": "STEP",
+          "path": "Electrical/Electrical Parts/Servos/Emax-ES08A/servo-screw-1.7x6.2mm.step"
+        },
+        {
+          "format": "STL",
+          "path": "Electrical/Electrical Parts/Servos/Emax-ES08A/servo-screw-1.7x6.2mm.stl"
+        }
+      ],
+      "tags": [
+        "1",
+        "2mm",
+        "7x6",
+        "screw",
+        "servo"
+      ]
+    },
+    {
+      "id": "22de688ab3d5",
+      "name": "servo screw 2x7 5mm",
+      "category": "Electrical",
+      "formats": [
+        "FCSTD",
+        "STEP",
+        "STL"
+      ],
+      "files": [
+        {
+          "format": "FCSTD",
+          "path": "Electrical/Electrical Parts/Servos/Emax-ES08A/servo-screw-2x7_5mm.fcstd"
+        },
+        {
+          "format": "STEP",
+          "path": "Electrical/Electrical Parts/Servos/Emax-ES08A/servo-screw-2x7_5mm.step"
+        },
+        {
+          "format": "STL",
+          "path": "Electrical/Electrical Parts/Servos/Emax-ES08A/servo-screw-2x7_5mm.stl"
+        }
+      ],
+      "tags": [
+        "2x7",
+        "5mm",
+        "screw",
+        "servo"
+      ]
+    },
+    {
+      "id": "d55900e69ac4",
+      "name": "Futaba3003 4 arms horn",
+      "category": "Electrical",
+      "formats": [
+        "FCSTD",
+        "STEP",
+        "STL"
+      ],
+      "files": [
+        {
+          "format": "FCSTD",
+          "path": "Electrical/Electrical Parts/Servos/Futaba3003/Futaba3003-4-arms-horn.fcstd"
+        },
+        {
+          "format": "STEP",
+          "path": "Electrical/Electrical Parts/Servos/Futaba3003/Futaba3003-4-arms-horn.step"
+        },
+        {
+          "format": "STL",
+          "path": "Electrical/Electrical Parts/Servos/Futaba3003/Futaba3003-4-arms-horn.stl"
+        }
+      ],
+      "tags": [
+        "4",
+        "arms",
+        "futaba3003",
+        "horn"
+      ]
+    },
+    {
+      "id": "9f516debbdff",
+      "name": "Futaba3003 6 arms horn",
+      "category": "Electrical",
+      "formats": [
+        "FCSTD",
+        "STEP",
+        "STL"
+      ],
+      "files": [
+        {
+          "format": "FCSTD",
+          "path": "Electrical/Electrical Parts/Servos/Futaba3003/Futaba3003-6-arms-horn.fcstd"
+        },
+        {
+          "format": "STEP",
+          "path": "Electrical/Electrical Parts/Servos/Futaba3003/Futaba3003-6-arms-horn.step"
+        },
+        {
+          "format": "STL",
+          "path": "Electrical/Electrical Parts/Servos/Futaba3003/Futaba3003-6-arms-horn.stl"
+        }
+      ],
+      "tags": [
+        "6",
+        "arms",
+        "futaba3003",
+        "horn"
+      ]
+    },
+    {
+      "id": "b092e8e43269",
+      "name": "Futaba3003 big rounded horn",
+      "category": "Electrical",
+      "formats": [
+        "FCSTD",
+        "STL",
+        "STP"
+      ],
+      "files": [
+        {
+          "format": "FCSTD",
+          "path": "Electrical/Electrical Parts/Servos/Futaba3003/Futaba3003-big-rounded-horn.fcstd"
+        },
+        {
+          "format": "STL",
+          "path": "Electrical/Electrical Parts/Servos/Futaba3003/Futaba3003-big-rounded-horn.stl"
+        },
+        {
+          "format": "STP",
+          "path": "Electrical/Electrical Parts/Servos/Futaba3003/Futaba3003-big-rounded-horn.stp"
+        }
+      ],
+      "tags": [
+        "big",
+        "futaba3003",
+        "horn",
+        "rounded"
+      ]
+    },
+    {
+      "id": "c9f01b993ae0",
+      "name": "Futaba3003 bottom bolt",
+      "category": "Electrical",
+      "formats": [
+        "FCSTD"
+      ],
+      "files": [
+        {
+          "format": "FCSTD",
+          "path": "Electrical/Electrical Parts/Servos/Futaba3003/Futaba3003-bottom-bolt.fcstd"
+        }
+      ],
+      "tags": [
+        "bolt",
+        "bottom",
+        "futaba3003"
+      ]
+    },
+    {
+      "id": "b7b70888d39f",
+      "name": "Futaba3003 bottom screw",
+      "category": "Electrical",
+      "formats": [
+        "STL",
+        "STP"
+      ],
+      "files": [
+        {
+          "format": "STL",
+          "path": "Electrical/Electrical Parts/Servos/Futaba3003/Futaba3003-bottom-screw.stl"
+        },
+        {
+          "format": "STP",
+          "path": "Electrical/Electrical Parts/Servos/Futaba3003/Futaba3003-bottom-screw.stp"
+        }
+      ],
+      "tags": [
+        "bottom",
+        "futaba3003",
+        "screw"
+      ]
+    },
+    {
+      "id": "c06873d0acd1",
+      "name": "Futaba3003 horn bolt short version",
+      "category": "Electrical",
+      "formats": [
+        "FCSTD",
+        "STL",
+        "STP"
+      ],
+      "files": [
+        {
+          "format": "FCSTD",
+          "path": "Electrical/Electrical Parts/Servos/Futaba3003/Futaba3003-horn-bolt-short-version.fcstd"
+        },
+        {
+          "format": "STL",
+          "path": "Electrical/Electrical Parts/Servos/Futaba3003/Futaba3003-horn-bolt-short-version.stl"
+        },
+        {
+          "format": "STP",
+          "path": "Electrical/Electrical Parts/Servos/Futaba3003/Futaba3003-horn-bolt-short-version.stp"
+        }
+      ],
+      "tags": [
+        "bolt",
+        "futaba3003",
+        "horn",
+        "short",
+        "version"
+      ]
+    },
+    {
+      "id": "39e653eb5bb0",
+      "name": "Futaba3003 horn bolt",
+      "category": "Electrical",
+      "formats": [
+        "FCSTD",
+        "STL",
+        "STP"
+      ],
+      "files": [
+        {
+          "format": "FCSTD",
+          "path": "Electrical/Electrical Parts/Servos/Futaba3003/Futaba3003-horn-bolt.fcstd"
+        },
+        {
+          "format": "STL",
+          "path": "Electrical/Electrical Parts/Servos/Futaba3003/Futaba3003-horn-bolt.stl"
+        },
+        {
+          "format": "STP",
+          "path": "Electrical/Electrical Parts/Servos/Futaba3003/Futaba3003-horn-bolt.stp"
+        }
+      ],
+      "tags": [
+        "bolt",
+        "futaba3003",
+        "horn"
+      ]
+    },
+    {
+      "id": "368cbb470c68",
+      "name": "Futaba3003 rounded horn",
+      "category": "Electrical",
+      "formats": [
+        "FCSTD",
+        "STL",
+        "STP"
+      ],
+      "files": [
+        {
+          "format": "FCSTD",
+          "path": "Electrical/Electrical Parts/Servos/Futaba3003/Futaba3003-rounded-horn.fcstd"
+        },
+        {
+          "format": "STL",
+          "path": "Electrical/Electrical Parts/Servos/Futaba3003/Futaba3003-rounded-horn.stl"
+        },
+        {
+          "format": "STP",
+          "path": "Electrical/Electrical Parts/Servos/Futaba3003/Futaba3003-rounded-horn.stp"
+        }
+      ],
+      "tags": [
+        "futaba3003",
+        "horn",
+        "rounded"
+      ]
+    },
+    {
+      "id": "89cd8e468f03",
+      "name": "Futaba3003 shaft bolt",
+      "category": "Electrical",
+      "formats": [
+        "FCSTD",
+        "STL",
+        "STP"
+      ],
+      "files": [
+        {
+          "format": "FCSTD",
+          "path": "Electrical/Electrical Parts/Servos/Futaba3003/Futaba3003-shaft-bolt.fcstd"
+        },
+        {
+          "format": "STL",
+          "path": "Electrical/Electrical Parts/Servos/Futaba3003/Futaba3003-shaft-bolt.stl"
+        },
+        {
+          "format": "STP",
+          "path": "Electrical/Electrical Parts/Servos/Futaba3003/Futaba3003-shaft-bolt.stp"
+        }
+      ],
+      "tags": [
+        "bolt",
+        "futaba3003",
+        "shaft"
+      ]
+    },
+    {
+      "id": "4bff13143e52",
+      "name": "Futaba3003",
+      "category": "Electrical",
+      "formats": [
+        "FCSTD",
+        "STL",
+        "STP"
+      ],
+      "files": [
+        {
+          "format": "FCSTD",
+          "path": "Electrical/Electrical Parts/Servos/Futaba3003/Futaba3003.fcstd"
+        },
+        {
+          "format": "STL",
+          "path": "Electrical/Electrical Parts/Servos/Futaba3003/Futaba3003.stl"
+        },
+        {
+          "format": "STP",
+          "path": "Electrical/Electrical Parts/Servos/Futaba3003/Futaba3003.stp"
+        }
+      ],
+      "tags": [
+        "futaba3003"
+      ]
+    },
+    {
+      "id": "ada3dc8d3a5b",
+      "name": "Servo sg90",
+      "category": "Electrical",
+      "formats": [
+        "FCSTD",
+        "SVG",
+        "STEP",
+        "STL"
+      ],
+      "files": [
+        {
+          "format": "FCSTD",
+          "path": "Electrical/Electrical Parts/Servos/SG-90/Servo sg90.fcstd"
+        },
+        {
+          "format": "SVG",
+          "path": "Electrical/Electrical Parts/Servos/SG-90/Servo sg90.svg"
+        },
+        {
+          "format": "STEP",
+          "path": "Electrical/Electrical Parts/Servos/SG-90/Servo-sg90.step"
+        },
+        {
+          "format": "STL",
+          "path": "Electrical/Electrical Parts/Servos/SG-90/Servo-SG90.stl"
+        }
+      ],
+      "tags": [
+        "servo",
+        "sg90"
+      ]
+    },
+    {
+      "id": "bfa001f08852",
+      "name": "SG90 1 arm horn",
+      "category": "Electrical",
+      "formats": [
+        "FCSTD",
+        "STEP",
+        "STL"
+      ],
+      "files": [
+        {
+          "format": "FCSTD",
+          "path": "Electrical/Electrical Parts/Servos/SG-90/SG90-1-arm-horn.fcstd"
+        },
+        {
+          "format": "STEP",
+          "path": "Electrical/Electrical Parts/Servos/SG-90/SG90-1-arm-horn.step"
+        },
+        {
+          "format": "STL",
+          "path": "Electrical/Electrical Parts/Servos/SG-90/SG90-1-arm-horn.stl"
+        }
+      ],
+      "tags": [
+        "1",
+        "arm",
+        "horn",
+        "sg90"
+      ]
+    },
+    {
+      "id": "f06e68443e55",
+      "name": "SG90 2 arms horn",
+      "category": "Electrical",
+      "formats": [
+        "FCSTD",
+        "STEP",
+        "STL"
+      ],
+      "files": [
+        {
+          "format": "FCSTD",
+          "path": "Electrical/Electrical Parts/Servos/SG-90/SG90-2-arms-horn.fcstd"
+        },
+        {
+          "format": "STEP",
+          "path": "Electrical/Electrical Parts/Servos/SG-90/SG90-2-arms-horn.step"
+        },
+        {
+          "format": "STL",
+          "path": "Electrical/Electrical Parts/Servos/SG-90/SG90-2-arms-horn.stl"
+        }
+      ],
+      "tags": [
+        "2",
+        "arms",
+        "horn",
+        "sg90"
+      ]
+    },
+    {
+      "id": "695d93243a1d",
+      "name": "SG90 4 arms horn",
+      "category": "Electrical",
+      "formats": [
+        "FCSTD",
+        "STEP",
+        "STL"
+      ],
+      "files": [
+        {
+          "format": "FCSTD",
+          "path": "Electrical/Electrical Parts/Servos/SG-90/SG90-4-arms-horn.fcstd"
+        },
+        {
+          "format": "STEP",
+          "path": "Electrical/Electrical Parts/Servos/SG-90/SG90-4-arms-horn.step"
+        },
+        {
+          "format": "STL",
+          "path": "Electrical/Electrical Parts/Servos/SG-90/SG90-4-arms-horn.stl"
+        }
+      ],
+      "tags": [
+        "4",
+        "arms",
+        "horn",
+        "sg90"
+      ]
+    },
+    {
+      "id": "66f29e9129d3",
+      "name": "SM S4303R 2 arms big horn",
+      "category": "Electrical",
+      "formats": [
+        "FCSTD",
+        "STL",
+        "STP"
+      ],
+      "files": [
+        {
+          "format": "FCSTD",
+          "path": "Electrical/Electrical Parts/Servos/SpringRC-SM-S4303R/SM-S4303R-2-arms-big-horn.fcstd"
+        },
+        {
+          "format": "STL",
+          "path": "Electrical/Electrical Parts/Servos/SpringRC-SM-S4303R/SM-S4303R-2-arms-big-horn.stl"
+        },
+        {
+          "format": "STP",
+          "path": "Electrical/Electrical Parts/Servos/SpringRC-SM-S4303R/SM-S4303R-2-arms-big-horn.stp"
+        }
+      ],
+      "tags": [
+        "2",
+        "arms",
+        "big",
+        "horn",
+        "s4303r",
+        "sm"
+      ]
+    },
+    {
+      "id": "efdd57c65935",
+      "name": "SM S4303R 2 arms small horn",
+      "category": "Electrical",
+      "formats": [
+        "FCSTD",
+        "STL",
+        "STP"
+      ],
+      "files": [
+        {
+          "format": "FCSTD",
+          "path": "Electrical/Electrical Parts/Servos/SpringRC-SM-S4303R/SM-S4303R-2-arms-small-horn.fcstd"
+        },
+        {
+          "format": "STL",
+          "path": "Electrical/Electrical Parts/Servos/SpringRC-SM-S4303R/SM-S4303R-2-arms-small-horn.stl"
+        },
+        {
+          "format": "STP",
+          "path": "Electrical/Electrical Parts/Servos/SpringRC-SM-S4303R/SM-S4303R-2-arms-small-horn.stp"
+        }
+      ],
+      "tags": [
+        "2",
+        "arms",
+        "horn",
+        "s4303r",
+        "sm",
+        "small"
+      ]
+    },
+    {
+      "id": "067cf2ab3cc8",
+      "name": "SM S4303R 4 arm horn",
+      "category": "Electrical",
+      "formats": [
+        "FCSTD"
+      ],
+      "files": [
+        {
+          "format": "FCSTD",
+          "path": "Electrical/Electrical Parts/Servos/SpringRC-SM-S4303R/SM-S4303R-4-arm-horn.fcstd"
+        }
+      ],
+      "tags": [
+        "4",
+        "arm",
+        "horn",
+        "s4303r",
+        "sm"
+      ]
+    },
+    {
+      "id": "08fafa5200e0",
+      "name": "SM S4303R 4 arms horn",
+      "category": "Electrical",
+      "formats": [
+        "STL",
+        "STP"
+      ],
+      "files": [
+        {
+          "format": "STL",
+          "path": "Electrical/Electrical Parts/Servos/SpringRC-SM-S4303R/SM-S4303R-4-arms-horn.stl"
+        },
+        {
+          "format": "STP",
+          "path": "Electrical/Electrical Parts/Servos/SpringRC-SM-S4303R/SM-S4303R-4-arms-horn.stp"
+        }
+      ],
+      "tags": [
+        "4",
+        "arms",
+        "horn",
+        "s4303r",
+        "sm"
+      ]
+    },
+    {
+      "id": "17f739730f28",
+      "name": "SM S4303R 6 arm horn",
+      "category": "Electrical",
+      "formats": [
+        "FCSTD"
+      ],
+      "files": [
+        {
+          "format": "FCSTD",
+          "path": "Electrical/Electrical Parts/Servos/SpringRC-SM-S4303R/SM-S4303R-6-arm-horn.fcstd"
+        }
+      ],
+      "tags": [
+        "6",
+        "arm",
+        "horn",
+        "s4303r",
+        "sm"
+      ]
+    },
+    {
+      "id": "a21cac766637",
+      "name": "SM S4303R 6 arms horn",
+      "category": "Electrical",
+      "formats": [
+        "STL",
+        "STP"
+      ],
+      "files": [
+        {
+          "format": "STL",
+          "path": "Electrical/Electrical Parts/Servos/SpringRC-SM-S4303R/SM-S4303R-6-arms-horn.stl"
+        },
+        {
+          "format": "STP",
+          "path": "Electrical/Electrical Parts/Servos/SpringRC-SM-S4303R/SM-S4303R-6-arms-horn.stp"
+        }
+      ],
+      "tags": [
+        "6",
+        "arms",
+        "horn",
+        "s4303r",
+        "sm"
+      ]
+    },
+    {
+      "id": "5f35392cb451",
+      "name": "SM S4303R big rounded horn",
+      "category": "Electrical",
+      "formats": [
+        "FCSTD",
+        "STEP",
+        "STL"
+      ],
+      "files": [
+        {
+          "format": "FCSTD",
+          "path": "Electrical/Electrical Parts/Servos/SpringRC-SM-S4303R/SM-S4303R-big-rounded-horn.fcstd"
+        },
+        {
+          "format": "STEP",
+          "path": "Electrical/Electrical Parts/Servos/SpringRC-SM-S4303R/SM-S4303R-big-rounded-horn.step"
+        },
+        {
+          "format": "STL",
+          "path": "Electrical/Electrical Parts/Servos/SpringRC-SM-S4303R/SM-S4303R-big-rounded-horn.stl"
+        }
+      ],
+      "tags": [
+        "big",
+        "horn",
+        "rounded",
+        "s4303r",
+        "sm"
+      ]
+    },
+    {
+      "id": "4caa41c63ed0",
+      "name": "SM S4303R bottom screws",
+      "category": "Electrical",
+      "formats": [
+        "FCSTD",
+        "STEP",
+        "STL"
+      ],
+      "files": [
+        {
+          "format": "FCSTD",
+          "path": "Electrical/Electrical Parts/Servos/SpringRC-SM-S4303R/SM-S4303R-bottom-screws.fcstd"
+        },
+        {
+          "format": "STEP",
+          "path": "Electrical/Electrical Parts/Servos/SpringRC-SM-S4303R/SM-S4303R-bottom-screws.step"
+        },
+        {
+          "format": "STL",
+          "path": "Electrical/Electrical Parts/Servos/SpringRC-SM-S4303R/SM-S4303R-bottom-screws.stl"
+        }
+      ],
+      "tags": [
+        "bottom",
+        "s4303r",
+        "screws",
+        "sm"
+      ]
+    },
+    {
+      "id": "b90aa314f61f",
+      "name": "SM S4303R horn screw",
+      "category": "Electrical",
+      "formats": [
+        "FCSTD",
+        "STEP",
+        "STL"
+      ],
+      "files": [
+        {
+          "format": "FCSTD",
+          "path": "Electrical/Electrical Parts/Servos/SpringRC-SM-S4303R/SM-S4303R-horn-screw.fcstd"
+        },
+        {
+          "format": "STEP",
+          "path": "Electrical/Electrical Parts/Servos/SpringRC-SM-S4303R/SM-S4303R-horn-screw.step"
+        },
+        {
+          "format": "STL",
+          "path": "Electrical/Electrical Parts/Servos/SpringRC-SM-S4303R/SM-S4303R-horn-screw.stl"
+        }
+      ],
+      "tags": [
+        "horn",
+        "s4303r",
+        "screw",
+        "sm"
+      ]
+    },
+    {
+      "id": "6c5bc3052b10",
+      "name": "SM S4303R shaft screw",
+      "category": "Electrical",
+      "formats": [
+        "FCSTD",
+        "STL",
+        "STP"
+      ],
+      "files": [
+        {
+          "format": "FCSTD",
+          "path": "Electrical/Electrical Parts/Servos/SpringRC-SM-S4303R/SM-S4303R-shaft-screw.fcstd"
+        },
+        {
+          "format": "STL",
+          "path": "Electrical/Electrical Parts/Servos/SpringRC-SM-S4303R/SM-S4303R-shaft-screw.stl"
+        },
+        {
+          "format": "STP",
+          "path": "Electrical/Electrical Parts/Servos/SpringRC-SM-S4303R/SM-S4303R-shaft-screw.stp"
+        }
+      ],
+      "tags": [
+        "s4303r",
+        "screw",
+        "shaft",
+        "sm"
+      ]
+    },
+    {
+      "id": "5d9ce891ad81",
+      "name": "SM S4303R small rounded horn",
+      "category": "Electrical",
+      "formats": [
+        "FCSTD",
+        "STEP",
+        "STL"
+      ],
+      "files": [
+        {
+          "format": "FCSTD",
+          "path": "Electrical/Electrical Parts/Servos/SpringRC-SM-S4303R/SM-S4303R-small-rounded-horn.fcstd"
+        },
+        {
+          "format": "STEP",
+          "path": "Electrical/Electrical Parts/Servos/SpringRC-SM-S4303R/SM-S4303R-small-rounded-horn.step"
+        },
+        {
+          "format": "STL",
+          "path": "Electrical/Electrical Parts/Servos/SpringRC-SM-S4303R/SM-S4303R-small-rounded-horn.stl"
+        }
+      ],
+      "tags": [
+        "horn",
+        "rounded",
+        "s4303r",
+        "sm",
+        "small"
+      ]
+    },
+    {
+      "id": "101745750dea",
+      "name": "SM S4303R",
+      "category": "Electrical",
+      "formats": [
+        "FCSTD",
+        "STEP",
+        "STL"
+      ],
+      "files": [
+        {
+          "format": "FCSTD",
+          "path": "Electrical/Electrical Parts/Servos/SpringRC-SM-S4303R/SM-S4303R.fcstd"
+        },
+        {
+          "format": "STEP",
+          "path": "Electrical/Electrical Parts/Servos/SpringRC-SM-S4303R/SM-S4303R.step"
+        },
+        {
+          "format": "STL",
+          "path": "Electrical/Electrical Parts/Servos/SpringRC-SM-S4303R/SM-S4303R.stl"
+        }
+      ],
+      "tags": [
+        "s4303r",
+        "sm"
+      ]
+    },
+    {
+      "id": "88c2dd446c40",
+      "name": "Winch Model1 Assembly",
+      "category": "Electrical",
+      "formats": [
+        "FCSTD",
+        "PNG",
+        "STL"
+      ],
+      "files": [
+        {
+          "format": "FCSTD",
+          "path": "Electrical/Electrical Parts/Winch/Winch-Model1-Assembly.fcstd"
+        },
+        {
+          "format": "PNG",
+          "path": "Electrical/Electrical Parts/Winch/Winch-Model1-Assembly.png"
+        },
+        {
+          "format": "STL",
+          "path": "Electrical/Electrical Parts/Winch/Winch-Model1-Assembly.stl"
+        }
+      ],
+      "tags": [
+        "assembly",
+        "model1",
+        "winch"
+      ]
+    },
+    {
+      "id": "f2cfa80f48ee",
+      "name": "Winch Model1 Assembly Cable Guide",
+      "category": "Electrical",
+      "formats": [
+        "FCSTD",
+        "PNG",
+        "STL"
+      ],
+      "files": [
+        {
+          "format": "FCSTD",
+          "path": "Electrical/Electrical Parts/Winch/Winch-Model1-Parts/Winch-Model1-Assembly-Cable-Guide.fcstd"
+        },
+        {
+          "format": "PNG",
+          "path": "Electrical/Electrical Parts/Winch/Winch-Model1-Parts/Winch-Model1-Assembly-Cable-Guide.png"
+        },
+        {
+          "format": "STL",
+          "path": "Electrical/Electrical Parts/Winch/Winch-Model1-Parts/Winch-Model1-Assembly-Cable-Guide.stl"
+        }
+      ],
+      "tags": [
+        "assembly",
+        "cable",
+        "guide",
+        "model1",
+        "winch"
+      ]
+    },
+    {
+      "id": "ef8a1cee7071",
+      "name": "Winch Model1 Cable Guide",
+      "category": "Electrical",
+      "formats": [
+        "FCSTD",
+        "PNG",
+        "STL"
+      ],
+      "files": [
+        {
+          "format": "FCSTD",
+          "path": "Electrical/Electrical Parts/Winch/Winch-Model1-Parts/Winch-Model1-Cable-Guide.fcstd"
+        },
+        {
+          "format": "PNG",
+          "path": "Electrical/Electrical Parts/Winch/Winch-Model1-Parts/Winch-Model1-Cable-Guide.png"
+        },
+        {
+          "format": "STL",
+          "path": "Electrical/Electrical Parts/Winch/Winch-Model1-Parts/Winch-Model1-Cable-Guide.stl"
+        }
+      ],
+      "tags": [
+        "cable",
+        "guide",
+        "model1",
+        "winch"
+      ]
+    },
+    {
+      "id": "a914e8fd9233",
+      "name": "Winch Model1 Horizontal roll",
+      "category": "Electrical",
+      "formats": [
+        "FCSTD",
+        "PNG",
+        "STL"
+      ],
+      "files": [
+        {
+          "format": "FCSTD",
+          "path": "Electrical/Electrical Parts/Winch/Winch-Model1-Parts/Winch-Model1-Horizontal-roll.fcstd"
+        },
+        {
+          "format": "PNG",
+          "path": "Electrical/Electrical Parts/Winch/Winch-Model1-Parts/Winch-Model1-Horizontal-Roll.png"
+        },
+        {
+          "format": "STL",
+          "path": "Electrical/Electrical Parts/Winch/Winch-Model1-Parts/Winch-Model1-Horizontal-Roll.stl"
+        }
+      ],
+      "tags": [
+        "horizontal",
+        "model1",
+        "roll",
+        "winch"
+      ]
+    },
+    {
+      "id": "dde9c67cd8fe",
+      "name": "Winch Model1 Motor Cable Coil",
+      "category": "Electrical",
+      "formats": [
+        "FCSTD",
+        "PNG",
+        "STL"
+      ],
+      "files": [
+        {
+          "format": "FCSTD",
+          "path": "Electrical/Electrical Parts/Winch/Winch-Model1-Parts/Winch-Model1-Motor-Cable-Coil.fcstd"
+        },
+        {
+          "format": "PNG",
+          "path": "Electrical/Electrical Parts/Winch/Winch-Model1-Parts/Winch-Model1-Motor-Cable-Coil.png"
+        },
+        {
+          "format": "STL",
+          "path": "Electrical/Electrical Parts/Winch/Winch-Model1-Parts/Winch-Model1-Motor-Cable-Coil.stl"
+        }
+      ],
+      "tags": [
+        "cable",
+        "coil",
+        "model1",
+        "motor",
+        "winch"
+      ]
+    },
+    {
+      "id": "8c8ce16b1b6a",
+      "name": "Winch Model1 Mounting Plate",
+      "category": "Electrical",
+      "formats": [
+        "FCSTD",
+        "PNG",
+        "STL"
+      ],
+      "files": [
+        {
+          "format": "FCSTD",
+          "path": "Electrical/Electrical Parts/Winch/Winch-Model1-Parts/Winch-Model1-Mounting-Plate.fcstd"
+        },
+        {
+          "format": "PNG",
+          "path": "Electrical/Electrical Parts/Winch/Winch-Model1-Parts/Winch-Model1-Mounting-Plate.png"
+        },
+        {
+          "format": "STL",
+          "path": "Electrical/Electrical Parts/Winch/Winch-Model1-Parts/Winch-Model1-Mounting-Plate.stl"
+        }
+      ],
+      "tags": [
+        "model1",
+        "mounting",
+        "plate",
+        "winch"
+      ]
+    },
+    {
+      "id": "95b25c9c4e84",
+      "name": "Winch Model1 Roll Vertical",
+      "category": "Electrical",
+      "formats": [
+        "FCSTD"
+      ],
+      "files": [
+        {
+          "format": "FCSTD",
+          "path": "Electrical/Electrical Parts/Winch/Winch-Model1-Parts/Winch-Model1-Roll-Vertical.fcstd"
+        }
+      ],
+      "tags": [
+        "model1",
+        "roll",
+        "vertical",
+        "winch"
+      ]
+    },
+    {
+      "id": "a97e615e5397",
+      "name": "Winch Model1 Vertical Roll",
+      "category": "Electrical",
+      "formats": [
+        "PNG",
+        "STL"
+      ],
+      "files": [
+        {
+          "format": "PNG",
+          "path": "Electrical/Electrical Parts/Winch/Winch-Model1-Parts/Winch-Model1-Vertical-Roll.png"
+        },
+        {
+          "format": "STL",
+          "path": "Electrical/Electrical Parts/Winch/Winch-Model1-Parts/Winch-Model1-Vertical-Roll.stl"
+        }
+      ],
+      "tags": [
+        "model1",
+        "roll",
+        "vertical",
+        "winch"
+      ]
+    },
+    {
+      "id": "810cadcbac86",
+      "name": "Winch Roll Metal Cable",
+      "category": "Electrical",
+      "formats": [
+        "FCSTD",
+        "PNG",
+        "STL"
+      ],
+      "files": [
+        {
+          "format": "FCSTD",
+          "path": "Electrical/Electrical Parts/Winch/Winch-Model1-Parts/Winch-Roll-Metal-Cable.FCStd"
+        },
+        {
+          "format": "PNG",
+          "path": "Electrical/Electrical Parts/Winch/Winch-Model1-Parts/Winch-Roll-Metal-Cable.png"
+        },
+        {
+          "format": "STL",
+          "path": "Electrical/Electrical Parts/Winch/Winch-Model1-Parts/Winch-Roll-Metal-Cable.stl"
+        }
+      ],
+      "tags": [
+        "cable",
+        "metal",
+        "roll",
+        "winch"
+      ]
+    },
+    {
+      "id": "d98295013b2e",
+      "name": "vertical Pump",
+      "category": "Hydraulics",
+      "formats": [
+        "FCSTD"
+      ],
+      "files": [
+        {
+          "format": "FCSTD",
+          "path": "Hydraulics/Hydraulics/Pump/Vertical Pump/vertical Pump.FCStd"
+        }
+      ],
+      "tags": [
+        "pump",
+        "vertical"
+      ]
+    },
+    {
+      "id": "d614ad9eecb9",
+      "name": "DN15 FIG 130",
+      "category": "Pipes_and_Tubes",
+      "formats": [
+        "FCSTD",
+        "STEP",
+        "STL"
+      ],
+      "files": [
+        {
+          "format": "FCSTD",
+          "path": "Pipes_and_Tubes/Pipes and tubes/DN15_FIG_130.FCStd"
+        },
+        {
+          "format": "STEP",
+          "path": "Pipes_and_Tubes/Pipes and tubes/DN15_FIG_130.step"
+        },
+        {
+          "format": "STL",
+          "path": "Pipes_and_Tubes/Pipes and tubes/DN15_FIG_130.stl"
+        }
+      ],
+      "tags": [
+        "130",
+        "dn15",
+        "fig"
+      ]
+    },
+    {
+      "id": "20e395c065e2",
+      "name": "DN15 Stamped Flange",
+      "category": "Pipes_and_Tubes",
+      "formats": [
+        "FCSTD",
+        "STEP",
+        "STL"
+      ],
+      "files": [
+        {
+          "format": "FCSTD",
+          "path": "Pipes_and_Tubes/Pipes and tubes/DN15_Stamped_Flange.FCStd"
+        },
+        {
+          "format": "STEP",
+          "path": "Pipes_and_Tubes/Pipes and tubes/DN15_Stamped_Flange.step"
+        },
+        {
+          "format": "STL",
+          "path": "Pipes_and_Tubes/Pipes and tubes/DN15_Stamped_Flange.stl"
+        }
+      ],
+      "tags": [
+        "dn15",
+        "flange",
+        "stamped"
+      ]
+    },
+    {
+      "id": "fe3eb50c3dd2",
+      "name": "Generic siphon",
+      "category": "Pipes_and_Tubes",
+      "formats": [
+        "BREP",
+        "FCSTD",
+        "STL"
+      ],
+      "files": [
+        {
+          "format": "BREP",
+          "path": "Pipes_and_Tubes/Pipes and tubes/Generic siphon.brep"
+        },
+        {
+          "format": "FCSTD",
+          "path": "Pipes_and_Tubes/Pipes and tubes/Generic siphon.FCStd"
+        },
+        {
+          "format": "STL",
+          "path": "Pipes_and_Tubes/Pipes and tubes/Generic siphon.stl"
+        }
+      ],
+      "tags": [
+        "generic",
+        "siphon"
+      ]
+    },
+    {
+      "id": "11c8a621c376",
+      "name": "Generic siphoned box",
+      "category": "Pipes_and_Tubes",
+      "formats": [
+        "BREP",
+        "FCSTD",
+        "STL"
+      ],
+      "files": [
+        {
+          "format": "BREP",
+          "path": "Pipes_and_Tubes/Pipes and tubes/Generic siphoned box.brep"
+        },
+        {
+          "format": "FCSTD",
+          "path": "Pipes_and_Tubes/Pipes and tubes/Generic siphoned box.FCStd"
+        },
+        {
+          "format": "STL",
+          "path": "Pipes_and_Tubes/Pipes and tubes/Generic siphoned box.stl"
+        }
+      ],
+      "tags": [
+        "box",
+        "generic",
+        "siphoned"
+      ]
+    },
+    {
+      "id": "d9ca06d30425",
+      "name": "muestras",
+      "category": "Pipes_and_Tubes",
+      "formats": [
+        "PNG"
+      ],
+      "files": [
+        {
+          "format": "PNG",
+          "path": "Pipes_and_Tubes/Pipes and tubes/muestras.PNG"
+        }
+      ],
+      "tags": [
+        "muestras"
+      ]
+    },
+    {
+      "id": "ca615050d385",
+      "name": "PVC 90d Elbow 32mm",
+      "category": "Pipes_and_Tubes",
+      "formats": [
+        "FCSTD",
+        "STEP",
+        "STL"
+      ],
+      "files": [
+        {
+          "format": "FCSTD",
+          "path": "Pipes_and_Tubes/Pipes and tubes/PVC 90d Elbow 32mm.FCStd"
+        },
+        {
+          "format": "STEP",
+          "path": "Pipes_and_Tubes/Pipes and tubes/PVC 90d Elbow 32mm.step"
+        },
+        {
+          "format": "STL",
+          "path": "Pipes_and_Tubes/Pipes and tubes/PVC 90d Elbow 32mm.stl"
+        }
+      ],
+      "tags": [
+        "32mm",
+        "90d",
+        "elbow",
+        "pvc"
+      ]
+    },
+    {
+      "id": "4e3a020da4e7",
+      "name": "PVC Tee 32mm",
+      "category": "Pipes_and_Tubes",
+      "formats": [
+        "FCSTD",
+        "STEP",
+        "STL"
+      ],
+      "files": [
+        {
+          "format": "FCSTD",
+          "path": "Pipes_and_Tubes/Pipes and tubes/PVC Tee 32mm.FCStd"
+        },
+        {
+          "format": "STEP",
+          "path": "Pipes_and_Tubes/Pipes and tubes/PVC Tee 32mm.step"
+        },
+        {
+          "format": "STL",
+          "path": "Pipes_and_Tubes/Pipes and tubes/PVC Tee 32mm.stl"
+        }
+      ],
+      "tags": [
+        "32mm",
+        "pvc",
+        "tee"
+      ]
+    },
+    {
+      "id": "a185a361a73d",
+      "name": "Water tank 500L flat",
+      "category": "Pipes_and_Tubes",
+      "formats": [
+        "FCSTD",
+        "STEP",
+        "STL"
+      ],
+      "files": [
+        {
+          "format": "FCSTD",
+          "path": "Pipes_and_Tubes/Pipes and tubes/Water tank 500L flat.FCStd"
+        },
+        {
+          "format": "STEP",
+          "path": "Pipes_and_Tubes/Pipes and tubes/Water tank 500L flat.step"
+        },
+        {
+          "format": "STL",
+          "path": "Pipes_and_Tubes/Pipes and tubes/Water tank 500L flat.stl"
+        }
+      ],
+      "tags": [
+        "500l",
+        "flat",
+        "tank",
+        "water"
+      ]
+    },
+    {
+      "id": "f6e01d2b2e6e",
+      "name": "Water tank 500L",
+      "category": "Pipes_and_Tubes",
+      "formats": [
+        "FCSTD",
+        "STEP",
+        "STL"
+      ],
+      "files": [
+        {
+          "format": "FCSTD",
+          "path": "Pipes_and_Tubes/Pipes and tubes/Water tank 500L.FCStd"
+        },
+        {
+          "format": "STEP",
+          "path": "Pipes_and_Tubes/Pipes and tubes/Water tank 500L.step"
+        },
+        {
+          "format": "STL",
+          "path": "Pipes_and_Tubes/Pipes and tubes/Water tank 500L.stl"
+        }
+      ],
+      "tags": [
+        "500l",
+        "tank",
+        "water"
+      ]
+    },
+    {
+      "id": "f134d4cf8f13",
+      "name": "Parametric terrain",
+      "category": "Topography",
+      "formats": [
+        "FCSTD"
+      ],
+      "files": [
+        {
+          "format": "FCSTD",
+          "path": "Topography/Topography/Parametric_terrain.FCStd"
+        }
+      ],
+      "tags": [
+        "parametric",
+        "terrain"
+      ]
+    }
+  ],
+  "file_count": 595,
+  "family_count": 281
+}
